@@ -1,0 +1,3 @@
+PROCESSOR=ps7_cortexa9_0
+REPOSITORIES=-lp C:/Users/byim/Documents/ENSC_452/MILESTONE_6/led_ip/led_ip_1.0 -lp C:/Users/byim/Documents/ENSC_452/MILESTONE_6/rannum/managed_ip_project/randNum_1.0
+HWSPEC=../hw_platform_0/system.xml

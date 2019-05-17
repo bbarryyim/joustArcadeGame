@@ -1,0 +1,35 @@
+#-----------------------------------------------------------
+# Vivado v2013.3 (64-bit)
+# SW Build 329390 on Wed Oct 16 18:37:02 MDT 2013
+# IP Build 192953 on Wed Oct 16 08:44:02 MDT 2013
+# Start of session at: Thu Feb 27 15:40:44 2014
+# Process ID: 7668
+# Log file: C:/Users/byim/Documents/ENSC_452/Milestone2/rannum/managed_ip_project/vivado.log
+# Journal file: C:/Users/byim/Documents/ENSC_452/Milestone2/rannum/managed_ip_project\vivado.jou
+#-----------------------------------------------------------
+INFO: [Common 17-78] Attempting to get a license: Implementation
+INFO: [Common 17-81] Feature available: Implementation
+INFO: [Device 21-36] Loading parts and site information from C:/Xilinx/Vivado/2013.3/data/parts/arch.xml
+Parsing RTL primitives file [C:/Xilinx/Vivado/2013.3/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+Finished parsing RTL primitives file [C:/Xilinx/Vivado/2013.3/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+start_gui
+open_project {C:\Users\byim\Documents\ENSC_452\Milestone2\rannum\managed_ip_project\edit_randNum_v1_0.xpr}
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user repository 'c:/Users/byim/Documents/ENSC_452/Milestone2/rannum/managed_ip_project/randNum_1.0'.
+INFO: [IP_Flow 19-2313] Loaded Vivado repository 'C:/Xilinx/Vivado/2013.3/data/ip'.
+reset_run synth_1
+launch_runs synth_1
+[Thu Feb 27 15:45:16 2014] Launched synth_1...
+Run output will be captured here: C:/Users/byim/Documents/ENSC_452/Milestone2/rannum/managed_ip_project/edit_randNum_v1_0.runs/synth_1/runme.log
+ipx::open_core -upgrade true {C:/Users/byim/Documents/ENSC_452/Milestone2/rannum/managed_ip_project/randNum_1.0/component.xml}
+ipx::remove_all_port [ipx::current_core]
+ipx::add_ports_from_hdl [ipx::current_core] -top_level_hdl_file {C:/Users/byim/Documents/ENSC_452/Milestone2/rannum/managed_ip_project/randNum_1.0/hdl/randNum_v1_0.vhd} -top_module_name {randNum_v1_0}
+INFO: [IP_Flow 19-2418] Expression "((C_S_AXI_DATA_WIDTH / 8) - 1)": Will not convert operator '/' to XPATH 'div' to allow integer division if applicable.
+ipx::save_core [ipx::current_core]
+update_ip_catalog -rebuild -repo_path c:/Users/byim/Documents/ENSC_452/Milestone2/rannum/managed_ip_project/randNum_1.0
+INFO: [IP_Flow 19-725] Reloaded user repository 'c:/Users/byim/Documents/ENSC_452/Milestone2/rannum/managed_ip_project/randNum_1.0'
+ipx::unload_core {xilinx.com:user:randNum:1.0}
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Feb 27 16:20:40 2014...

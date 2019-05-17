@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# Vivado v2013.3 (64-bit)
+# SW Build 329390 on Wed Oct 16 18:37:02 MDT 2013
+# IP Build 192953 on Wed Oct 16 08:44:02 MDT 2013
+# Start of session at: Fri Jan 24 15:46:55 2014
+# Process ID: 6268
+# Log file: C:/Users/jcleong/Documents/EmbeddedSysDes/labsource/labs/led_ip/managed_ip_project/edit_led_ip_v1_0.runs/synth_1/led_ip_v1_0.rds
+# Journal file: C:/Users/jcleong/Documents/EmbeddedSysDes/labsource/labs/led_ip/managed_ip_project/edit_led_ip_v1_0.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source led_ip_v1_0.tcl

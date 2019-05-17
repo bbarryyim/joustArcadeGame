@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!--Product Version: Vivado v2013.3 (64-bit)-->
+<Project Version="6" Minor="13" Path="C:/Users/jcleong/Documents/EmbeddedSysDes/labsource/labs/led_ip/managed_ip_project/managed_ip_project.xpr">
+	<FileSet Dir="sources_1" File="fileset.xml"/>
+	<FileSet Dir="constrs_1" File="fileset.xml"/>
+	<FileSet Dir="sim_1" File="fileset.xml"/>
+	<DefaultLaunch Dir="$PRUNDIR"/>
+	<Config>
+		<Option Name="Id" Val="fe9d74acc6fd470592476ecd5ccfdf01"/>
+		<Option Name="Part" Val="xc7vx485tffg1157-1"/>
+		<Option Name="CompiledLibDir" Val="$PCACHEDIR/compile_simlib"/>
+		<Option Name="Board" Val=""/>
+		<Option Name="SourceMgmtMode" Val="None"/>
+		<Option Name="ActiveSimSet" Val="sim_1"/>
+		<Option Name="ManageIP" Val="TRUE"/>
+	</Config>
+</Project>
+

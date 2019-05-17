@@ -1,0 +1,2835 @@
+/*
+
+Vivado v2013.3 (64-bit)
+SW Build 329390 on Wed Oct 16 18:37:02 MDT 2013
+Process ID: 5540
+
+Current time: 	3/26/14 12:00:09 PM
+Time zone: 	Pacific Standard Time (America/Los_Angeles)
+
+OS: Windows 7
+Version: 6.1
+Architecture: amd64
+Available processors (cores): 8
+
+Screen size: 1600x900
+Screen resolution (DPI): 96
+Available screens: 1
+
+Java version: 	1.7.0_17 64-bit
+Java home: 	C:/Xilinx/Vivado/2013.3/tps/win64/jre
+
+User name: 	jcleong
+User directory: C:/Users/jcleong/Documents/MILESTONE_6/mainGame
+User country: 	CA
+User language: 	en
+User locale: 	en_CA
+
+GUI Allocated memory:	122 mb
+GUI Max memory:		3,066 mb
+Engine Allocated memory: 465 mb
+
+*/
+
+// TclEventType: START_GUI
+minimizeFrame (PAResourceItoP.PAViews_TCL_CONSOLE, "Tcl Console"); // af:DockableFrame (FrameContainer:JideTabbedPane, bR:JFrame)
+// TclEventType: START_PROGRESS_DIALOG
+// ca:I (bR:JFrame):  Opening project 'C:\Users\jcleong\Documents\MILESTONE_6\mainGame\mainGame.xpr' : addNotify
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_CURRENT
+// o:I (bR:JFrame): XilinxNotify - Available Updates: addNotify
+// TclEventType: PROJECT_NEW
+// HMemoryUtils.trashcanNow. Current time: 3/26/14 12:00:10 PM
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 37 mb (+35847kb) [00:00:07]
+// [Engine Memory]: 524 mb (+398285kb) [00:00:07]
+// [GUI Memory]: 68 mb (+32609kb) [00:00:08]
+// [Engine Memory]: 532 mb (+8503kb) [00:00:08]
+// [GUI Memory]: 75 mb (+7247kb) [00:00:08]
+// [Engine Memory]: 550 mb (+18333kb) [00:00:08]
+// [Engine Memory]: 636 mb (+90578kb) [00:00:10]
+// [GUI Memory]: 78 mb (+3101kb) [00:00:10]
+// [GUI Memory]: 84 mb (+6678kb) [00:00:10]
+// Tcl Message: open_project {C:\Users\jcleong\Documents\MILESTONE_6\mainGame\mainGame.xpr} 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1700] Loaded user repository 'c:/Users/jcleong/Documents/audio_test/labsource/sources/lab4/zed_audio_ctrl'. INFO: [IP_Flow 19-1700] Loaded user repository 'c:/Users/jcleong/Documents/MILESTONE_6/vga250'. INFO: [IP_Flow 19-1700] Loaded user repository 'c:/Users/jcleong/Documents/MILESTONE_6/led_ip'. INFO: [IP_Flow 19-2313] Loaded Vivado repository 'C:/Xilinx/Vivado/2013.3/data/ip'. 
+// [Engine Memory]: 644 mb (+8474kb) [00:00:12]
+// Tcl Message: open_project: Time (s): cpu = 00:00:18 ; elapsed = 00:00:09 . Memory (MB): peak = 914.496 ; gain = 148.535 
+selectButton (RDIResource.UpdateDialog_CLOSE, "Close"); // a:JButton (JPanel:JComponent, o:I)
+// TclEventType: STOP_PROGRESS_DIALOG
+dismissDialog ("XilinxNotify - Available Updates"); // o:I (bR:JFrame)
+// [Engine Memory]: 645 mb (+1007kb) [00:00:12]
+dismissDialog ("Opening project 'C:\\Users\\jcleong\\Documents\\MILESTONE_6\\mainGame\\mainGame.xpr'"); // ca:I (bR:JFrame)
+// TclEventType: STOP_PROGRESS_DIALOG
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// [Engine Memory]: 645 mb (+184kb) [00:00:14]
+// [Engine Memory]: 648 mb (+2867kb) [00:00:14]
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: FILE_SET_CHANGE
+// [GUI Memory]: 86 mb (+2539kb) [00:00:30]
+// [GUI Memory]: 88 mb (+2261kb) [00:00:40]
+// Elapsed time: 34 seconds
+selectTree (PAResourceAtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 23); // w:K (v:u, bR:JFrame)
+// af:bv (bR:JFrame): Synthesis is Out-of-date: addNotify
+selectButton (RDIResource.BaseDialog_YES, "Yes"); // a:JButton (JPanel:JComponent, af:bv)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+dismissDialog ("Synthesis is Out-of-date"); // af:bv (bR:JFrame)
+dismissDialog ("Synthesis is Out-of-date"); // af:bv (bR:JFrame)
+// Tcl Message: reset_run synth_1 
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// [GUI Memory]: 95 mb (+6585kb) [00:00:49]
+// [Engine Memory]: 656 mb (+8306kb) [00:00:49]
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream 
+// ca:I (bR:JFrame):  Generate Bitstream : addNotify
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// [Engine Memory]: 667 mb (+11071kb) [00:00:50]
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Wed Mar 26 12:00:53 2014] Launched synth_1... Run output will be captured here: C:/Users/jcleong/Documents/MILESTONE_6/mainGame/mainGame.runs/synth_1/runme.log [Wed Mar 26 12:00:53 2014] Launched impl_1... Run output will be captured here: C:/Users/jcleong/Documents/MILESTONE_6/mainGame/mainGame.runs/impl_1/runme.log 
+// [GUI Memory]: 99 mb (+4392kb) [00:00:50]
+dismissDialog ("Generate Bitstream"); // ca:I (bR:JFrame)
+// HMemoryUtils.trashcanNow. Current time: 3/26/14 12:00:55 PM
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// O:af (bR:JFrame): Bitstream Generation Completed: addNotify
+// Elapsed time: 316 seconds
+selectButton (RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, O:af)
+// ca:I (bR:JFrame):  Open Implemented Design : addNotify
+// Tcl Message: open_run impl_1 
+// HMemoryUtils.trashcanNow. Current time: 3/26/14 12:06:15 PM
+// [Engine Memory]: 1,071 mb (+424075kb) [00:06:25]
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: DESIGN_NEW
+// [Engine Memory]: 1,181 mb (+114921kb) [00:06:31]
+// [Engine Memory]: 1,208 mb (+28786kb) [00:06:31]
+// HMemoryUtils.trashcanNow. Current time: 3/26/14 12:06:34 PM
+// TclEventType: DESIGN_NEW
+// [Engine Memory]: 1,213 mb (+4812kb) [00:06:31]
+// [Engine Memory]: 1,235 mb (+23502kb) [00:06:31]
+// [Engine Memory]: 1,268 mb (+33882kb) [00:06:31]
+// [Engine Memory]: 1,345 mb (+81698kb) [00:06:32]
+// [Engine Memory]: 1,347 mb (+1200kb) [00:06:32]
+// [Engine Memory]: 1,347 mb (+778kb) [00:06:32]
+// [Engine Memory]: 1,349 mb (+1396kb) [00:06:32]
+// [Engine Memory]: 1,350 mb (+991kb) [00:06:32]
+// [Engine Memory]: 1,350 mb (+294kb) [00:06:32]
+// [Engine Memory]: 1,361 mb (+11714kb) [00:06:32]
+// [Engine Memory]: 1,384 mb (+24502kb) [00:06:32]
+// [Engine Memory]: 1,385 mb (+1056kb) [00:06:32]
+// [Engine Memory]: 1,398 mb (+12693kb) [00:06:32]
+// [Engine Memory]: 1,398 mb (+622kb) [00:06:32]
+// [GUI Memory]: 100 mb (+1194kb) [00:06:32]
+// [GUI Memory]: 101 mb (+1404kb) [00:06:33]
+// [GUI Memory]: 103 mb (+1404kb) [00:06:33]
+// [Engine Memory]: 1,398 mb (+12kb) [00:06:33]
+// [Engine Memory]: 1,398 mb (+163kb) [00:06:33]
+// [Engine Memory]: 1,398 mb (+114kb) [00:06:33]
+// [GUI Memory]: 104 mb (+1176kb) [00:06:33]
+// [Engine Memory]: 1,406 mb (+8454kb) [00:06:33]
+// Device: addNotify
+// [Engine Memory]: 1,407 mb (+618kb) [00:06:33]
+// [GUI Memory]: 111 mb (+7428kb) [00:06:34]
+// [Engine Memory]: 1,409 mb (+1998kb) [00:06:34]
+// [Engine Memory]: 1,411 mb (+1847kb) [00:06:34]
+// TclEventType: CURR_DESIGN_SET
+// Tcl Message: INFO: [Netlist 29-17] Analyzing 19 Unisim elements for replacement INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds INFO: [Project 1-479] Netlist was created with Vivado 2013.3 
+// Tcl Message: INFO: [Opt 31-138] Pushed 0 inverter(s). INFO: [Common 17-78] Attempting to get a license: Internal_bitstream 
+// Tcl Message: Parsing XDC File [C:/Users/jcleong/Documents/MILESTONE_6/mainGame/.Xil/Vivado-5540-lab715/dcp/system_wrapper.xdc] Finished Parsing XDC File [C:/Users/jcleong/Documents/MILESTONE_6/mainGame/.Xil/Vivado-5540-lab715/dcp/system_wrapper.xdc] Reading XDEF placement. Reading XDEF routing. 
+// Tcl Message: Read XDEF File: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.160 . Memory (MB): peak = 1391.348 ; gain = 2.809 
+// Tcl Message: Restoring placement. Restored 891 out of 891 XDEF sites from archive | CPU: 1.000000 secs | Memory: 0.000000 MB | 
+// Tcl Message: INFO: [Memdata 28-143] Successfully populated the BRAM INIT strings from the following elf files:  INFO: [Project 1-111] Unisim Transformation Summary:   A total of 17 instances were transformed.   IOBUF => IOBUF (OBUFT, IBUF): 17 instances  
+// [GUI Memory]: 116 mb (+5106kb) [00:06:34]
+// [Engine Memory]: 1,425 mb (+14499kb) [00:06:34]
+// TclEventType: CURR_DESIGN_SET
+// [Engine Memory]: 1,427 mb (+2146kb) [00:06:35]
+// [Engine Memory]: 1,427 mb (+593kb) [00:06:35]
+// Tcl Message: open_run: Time (s): cpu = 00:00:40 ; elapsed = 00:00:27 . Memory (MB): peak = 1675.949 ; gain = 758.355 
+// [Engine Memory]: 1,442 mb (+15364kb) [00:06:35]
+// 'de' command handler elapsed time: 27 seconds
+// [Engine Memory]: 1,442 mb (+241kb) [00:06:35]
+// [GUI Memory]: 117 mb (+1245kb) [00:06:35]
+// [Engine Memory]: 1,443 mb (+659kb) [00:06:35]
+// [GUI Memory]: 137 mb (+20770kb) [00:06:35]
+// [Engine Memory]: 1,444 mb (+1294kb) [00:06:35]
+// [GUI Memory]: 138 mb (+1549kb) [00:06:35]
+// [Engine Memory]: 1,445 mb (+1200kb) [00:06:35]
+// [Engine Memory]: 1,445 mb (+81kb) [00:06:35]
+// [Engine Memory]: 1,445 mb (+380kb) [00:06:35]
+// Elapsed time: 28 seconds
+dismissDialog ("Open Implemented Design"); // ca:I (bR:JFrame)
+selectMenu (PAResourceItoP.MainMenuMgr_FILE, "File"); // ac:JideMenu (CommandMenuBar:CommandBar, bR:JFrame)
+// [GUI Memory]: 138 mb (+205kb) [00:06:38]
+// [Engine Memory]: 1,449 mb (+3616kb) [00:06:38]
+selectMenu (PAResourceItoP.MainMenuMgr_OPEN_EXAMPLE_PROJECT, "Open Example Project"); // af:JMenu (JPopupMenu:JComponent, bR:JFrame)
+selectMenu (PAResourceItoP.MainMenuMgr_OPEN_RECENT_FILE, "Open Recent File"); // af:JMenu (JPopupMenu:JComponent, bR:JFrame)
+selectMenu (PAResourceItoP.MainMenuMgr_IMPORT, "Import"); // af:JMenu (JPopupMenu:JComponent, bR:JFrame)
+selectMenu (PAResourceItoP.MainMenuMgr_EXPORT, "Export"); // af:JMenu (JPopupMenu:JComponent, bR:JFrame)
+selectMenuItem (PAResourceCommand.PACommandNames_EXPORT_HARDWARE, "Export Hardware for SDK..."); // ai:JMenuItem (JPopupMenu:JComponent, bR:JFrame)
+dismissMenu (PAResourceItoP.MainMenuMgr_FILE, "File"); // ac:JideMenu (CommandMenuBar:CommandBar, bR:JFrame)
+// s:X (bR:JFrame): Export Hardware for SDK: addNotify
+selectCheckBox (PAResourceAtoH.ExportHardwareDialog_LAUNCH_SDK, "Launch SDK", false, true); // c:JCheckBox (JPanel:JComponent, s:X): FALSE
+selectButton (RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, s:X)
+selectButton ((HResource) null, "Yes"); // BasicOptionPaneUI$ButtonFactory:JButton (JPanel:JComponent, D:JDialog)
+dismissDialog ("Export Hardware for SDK"); // s:X (bR:JFrame)
+// Tcl Message: export_hardware [get_files C:/Users/jcleong/Documents/MILESTONE_6/mainGame/mainGame.srcs/sources_1/bd/system/system.bd] [get_runs impl_1] -bitstream 
+// Tcl Message: ERROR: [BD 41-435] Failed to run "export_hardware" for "system". This diagram is not currently open. "export_hardware" works only for active block diagrams. 
+// Tcl Message: ERROR: [Common 17-39] 'export_hardware' failed due to earlier errors. 
+// HOptionPane Error: 'ERROR: [Common 17-39] 'export_hardware' failed due to earlier errors.  (Export Hardware for SDK)'
+// [Engine Memory]: 1,459 mb (+10883kb) [00:06:45]
+selectButton ((HResource) null, "OK"); // BasicOptionPaneUI$ButtonFactory:JButton (JPanel:JComponent, C:JDialog)
+// [GUI Memory]: 139 mb (+578kb) [00:06:45]
+// [GUI Memory]: 140 mb (+742kb) [00:06:45]
+// [GUI Memory]: 142 mb (+2228kb) [00:06:45]
+selectTree (PAResourceAtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, IP Integrator, Open Block Design]", 6); // w:K (v:u, bR:JFrame)
+// [GUI Memory]: 146 mb (+4549kb) [00:06:47]
+// [GUI Memory]: 146 mb (+48kb) [00:06:47]
+// [GUI Memory]: 147 mb (+841kb) [00:06:47]
+// [GUI Memory]: 148 mb (+841kb) [00:06:47]
+// [GUI Memory]: 149 mb (+841kb) [00:06:47]
+// [GUI Memory]: 149 mb (+585kb) [00:06:47]
+// HMemoryUtils.trashcanNow. Current time: 3/26/14 12:06:50 PM
+selectMenuItem ((HResource) null, "system.bd"); // ai:JMenuItem (am:JPopupMenu, bR:JFrame)
+// ca:I (bR:JFrame):  Open Block Design : addNotify
+// TclEventType: LOAD_FEATURE
+// Tcl Message: open_bd_design {C:/Users/jcleong/Documents/MILESTONE_6/mainGame/mainGame.srcs/sources_1/bd/system/system.bd} 
+// Tcl Message: Adding component instance block -- xilinx.com:ip:processing_system7:5.3 - processing_system7_0 
+// TclEventType: LOAD_FEATURE
+// TclEventType: PARAM_UPDATED
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: PARAM_UPDATED
+// [Engine Memory]: 1,499 mb (+41619kb) [00:06:50]
+// TclEventType: PARAM_UPDATED
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: PARAM_UPDATED
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: PARAM_UPDATED
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: PARAM_UPDATED
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: PARAM_UPDATED
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: PARAM_UPDATED
+// Tcl Message: Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc Adding component instance block -- xilinx.com:ip:axi_crossbar:2.1 - xbar 
+// TclEventType: RSB_PROPERTY_CHANGE
+// [GUI Memory]: 153 mb (+3820kb) [00:06:52]
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: RSB_OPEN_DIAGRAM
+// [Engine Memory]: 1,501 mb (+1884kb) [00:06:54]
+// [Engine Memory]: 1,501 mb (+20kb) [00:06:54]
+// [Engine Memory]: 1,501 mb (+57kb) [00:06:54]
+// [GUI Memory]: 157 mb (+3945kb) [00:06:54]
+// [Engine Memory]: 1,501 mb (+249kb) [00:06:54]
+// TclEventType: RSB_CONNECTION_CHANGE
+// Tcl Message: Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc Successfully read diagram <system> from BD file <C:/Users/jcleong/Documents/MILESTONE_6/mainGame/mainGame.srcs/sources_1/bd/system/system.bd> 
+// TclEventType: RSB_CONNECTION_CHANGE
+// Tcl Message: open_bd_design: Time (s): cpu = 00:00:12 ; elapsed = 00:00:08 . Memory (MB): peak = 1758.992 ; gain = 39.949 
+dismissDialog ("Open Block Design"); // ca:I (bR:JFrame)
+selectMenu (PAResourceItoP.MainMenuMgr_FILE, "File"); // ac:JideMenu (CommandMenuBar:CommandBar, bR:JFrame)
+selectMenu (PAResourceItoP.MainMenuMgr_OPEN_EXAMPLE_PROJECT, "Open Example Project"); // af:JMenu (JPopupMenu:JComponent, bR:JFrame)
+selectMenu (PAResourceItoP.MainMenuMgr_OPEN_RECENT_CHECKPOINT, "Open Recent Checkpoint"); // af:JMenu (JPopupMenu:JComponent, bR:JFrame)
+selectMenu (PAResourceItoP.MainMenuMgr_OPEN_RECENT_FILE, "Open Recent File"); // af:JMenu (JPopupMenu:JComponent, bR:JFrame)
+selectMenu (PAResourceItoP.MainMenuMgr_EXPORT, "Export"); // af:JMenu (JPopupMenu:JComponent, bR:JFrame)
+selectMenuItem (PAResourceCommand.PACommandNames_EXPORT_HARDWARE, "Export Hardware for SDK..."); // ai:JMenuItem (JPopupMenu:JComponent, bR:JFrame)
+dismissMenu (PAResourceItoP.MainMenuMgr_FILE, "File"); // ac:JideMenu (CommandMenuBar:CommandBar, bR:JFrame)
+// s:X (bR:JFrame): Export Hardware for SDK: addNotify
+selectCheckBox (PAResourceAtoH.ExportHardwareDialog_LAUNCH_SDK, "Launch SDK", false, true); // c:JCheckBox (JPanel:JComponent, s:X): FALSE
+selectButton (RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, s:X)
+selectButton ((HResource) null, "Yes"); // BasicOptionPaneUI$ButtonFactory:JButton (JPanel:JComponent, D:JDialog)
+dismissDialog ("Export Hardware for SDK"); // s:X (bR:JFrame)
+// [GUI Memory]: 162 mb (+5395kb) [00:07:05]
+// ca:I (bR:JFrame):  Export Hardware for SDK : addNotify
+// Tcl Message: export_hardware [get_files C:/Users/jcleong/Documents/MILESTONE_6/mainGame/mainGame.srcs/sources_1/bd/system/system.bd] [get_runs impl_1] -bitstream 
+// HMemoryUtils.trashcanNow. Current time: 3/26/14 12:07:16 PM
+// [Engine Memory]: 1,522 mb (+21553kb) [00:07:15]
+// Tcl Message: Exporting to file C:/Users/jcleong/Documents/MILESTONE_6/mainGame/mainGame.sdk/SDK/SDK_Export/hw/system.xml 
+// Tcl Message: INFO: [BD 41-436] exporting bit file 'C:/Users/jcleong/Documents/MILESTONE_6/mainGame/mainGame.runs/impl_1/system_wrapper.bit'... 
+// Tcl Message: export_hardware: Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 1758.992 ; gain = 0.000 
+// Tcl Message: launch_sdk -bit C:/Users/jcleong/Documents/MILESTONE_6/mainGame/mainGame.sdk/SDK/SDK_Export/hw/system_wrapper.bit -workspace C:/Users/jcleong/Documents/MILESTONE_6/mainGame/mainGame.sdk/SDK/SDK_Export -hwspec C:/Users/jcleong/Documents/MILESTONE_6/mainGame/mainGame.sdk/SDK/SDK_Export/hw/system.xml 
+// Tcl Message: INFO: [Vivado 12-393] Launching SDK... INFO: [Vivado 12-417] Running xsdk -bit C:/Users/jcleong/Documents/MILESTONE_6/mainGame/mainGame.sdk/SDK/SDK_Export/hw/system_wrapper.bit -workspace C:/Users/jcleong/Documents/MILESTONE_6/mainGame/mainGame.sdk/SDK/SDK_Export -hwspec C:/Users/jcleong/Documents/MILESTONE_6/mainGame/mainGame.sdk/SDK/SDK_Export/hw/system.xml INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages. 
+// Elapsed time: 10 seconds
+dismissDialog ("Export Hardware for SDK"); // ca:I (bR:JFrame)
+// Elapsed time: 93 seconds
+selectMenu (PAResourceItoP.MainMenuMgr_FILE, "File"); // ac:JideMenu (CommandMenuBar:CommandBar, bR:JFrame)
+selectMenu (PAResourceItoP.MainMenuMgr_OPEN_RECENT_PROJECT, "Open Recent Project"); // af:JMenu (JPopupMenu:JComponent, bR:JFrame)
+selectMenu (PAResourceItoP.MainMenuMgr_OPEN_RECENT_FILE, "Open Recent File"); // af:JMenu (JPopupMenu:JComponent, bR:JFrame)
+selectMenu (PAResourceItoP.MainMenuMgr_EXPORT, "Export"); // af:JMenu (JPopupMenu:JComponent, bR:JFrame)
+selectMenu (PAResourceItoP.MainMenuMgr_EXPORT, "Export"); // af:JMenu (JPopupMenu:JComponent, bR:JFrame)
+selectMenuItem (PAResourceCommand.PACommandNames_EXPORT_HARDWARE, "Export Hardware for SDK..."); // ai:JMenuItem (JPopupMenu:JComponent, bR:JFrame)
+dismissMenu (PAResourceItoP.MainMenuMgr_FILE, "File"); // ac:JideMenu (CommandMenuBar:CommandBar, bR:JFrame)
+// s:X (bR:JFrame): Export Hardware for SDK: addNotify
+selectCheckBox (PAResourceAtoH.ExportHardwareDialog_LAUNCH_SDK, "Launch SDK", false, true); // c:JCheckBox (JPanel:JComponent, s:X): FALSE
+selectButton (RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, s:X)
+selectButton ((HResource) null, "Yes"); // BasicOptionPaneUI$ButtonFactory:JButton (JPanel:JComponent, D:JDialog)
+dismissDialog ("Export Hardware for SDK"); // s:X (bR:JFrame)
+// ca:I (bR:JFrame):  Export Hardware for SDK : addNotify
+// Tcl Message: export_hardware [get_files C:/Users/jcleong/Documents/MILESTONE_6/mainGame/mainGame.srcs/sources_1/bd/system/system.bd] [get_runs impl_1] -bitstream 
+// Tcl Message: Exporting to file C:/Users/jcleong/Documents/MILESTONE_6/mainGame/mainGame.sdk/SDK/SDK_Export/hw/system.xml 
+// Tcl Message: INFO: [BD 41-436] exporting bit file 'C:/Users/jcleong/Documents/MILESTONE_6/mainGame/mainGame.runs/impl_1/system_wrapper.bit'... 
+// Tcl Message: export_hardware: Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 1758.992 ; gain = 0.000 
+// Tcl Message: launch_sdk -bit C:/Users/jcleong/Documents/MILESTONE_6/mainGame/mainGame.sdk/SDK/SDK_Export/hw/system_wrapper.bit -workspace C:/Users/jcleong/Documents/MILESTONE_6/mainGame/mainGame.sdk/SDK/SDK_Export -hwspec C:/Users/jcleong/Documents/MILESTONE_6/mainGame/mainGame.sdk/SDK/SDK_Export/hw/system.xml 
+// Tcl Message: INFO: [Vivado 12-393] Launching SDK... INFO: [Vivado 12-417] Running xsdk -bit C:/Users/jcleong/Documents/MILESTONE_6/mainGame/mainGame.sdk/SDK/SDK_Export/hw/system_wrapper.bit -workspace C:/Users/jcleong/Documents/MILESTONE_6/mainGame/mainGame.sdk/SDK/SDK_Export -hwspec C:/Users/jcleong/Documents/MILESTONE_6/mainGame/mainGame.sdk/SDK/SDK_Export/hw/system.xml INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages. 
+// [Engine Memory]: 1,524 mb (+2674kb) [00:09:06]
+// Elapsed time: 14 seconds
+dismissDialog ("Export Hardware for SDK"); // ca:I (bR:JFrame)
+// HMemoryUtils.trashcanNow. Current time: 3/26/14 12:30:06 PM
+// HMemoryUtils.trashcanNow. Current time: 3/26/14 1:00:10 PM
+// HMemoryUtils.trashcanNow. Current time: 3/26/14 1:30:13 PM
+// Elapsed time: 4925 seconds
+selectButton (PAResourceCommand.PACommandNames_ZOOM_IN, "System_zoom_in"); // t:JideButton (CommandBar:DockableBar, bR:JFrame)
+selectButton (PAResourceCommand.PACommandNames_ZOOM_IN, "System_zoom_in"); // t:JideButton (CommandBar:DockableBar, bR:JFrame)
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// [Engine Memory]: 1,554 mb (+31670kb) [01:31:16]
+// HMemoryUtils.trashcanNow. Current time: 3/26/14 1:31:20 PM
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// Elapsed time: 48 seconds
+expandTree (PAResourceQtoZ.SystemTreeView_SYSTEM_TREE, "[system, SVGA_core_0]", 13); // f:JTree (JViewport:JComponent, bR:JFrame)
+collapseTree (PAResourceQtoZ.SystemTreeView_SYSTEM_TREE, "[system, SVGA_core_0]", 13); // f:JTree (JViewport:JComponent, bR:JFrame)
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// ca:I (bR:JFrame):  Re-customize IP : addNotify
+// TclEventType: PARAM_UPDATED
+// m:I (bR:JFrame): Re-customize IP: addNotify
+// bZ:X (m:I): Configuration Presets: addNotify
+// 'M' command handler elapsed time: 6 seconds
+// [GUI Memory]: 192 mb (+32006kb) [01:32:31]
+// [Engine Memory]: 1,602 mb (+49717kb) [01:32:31]
+// HMemoryUtils.trashcanNow. Current time: 3/26/14 1:32:35 PM
+// Elapsed time: 26 seconds
+dismissDialog ("Re-customize IP"); // ca:I (bR:JFrame)
+selectButton ((HResource) null, "Clock Configuration"); // i:JideButton (bV:ButtonPanel, m:I)
+expandTreeTable (PAResourceAtoH.ClkConfigTreeTablePanel_CLK_CONFIG_TREE_TABLE, "PL Fabric Clocks ; PL Fabric Clocks ; PL Fabric Clocks ; PL Fabric Clocks ; PL Fabric Clocks ; PL Fabric Clocks", 2); // p:ci (JViewport:JComponent, m:I)
+selectButton (RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, m:I)
+// [Engine Memory]: 1,608 mb (+6488kb) [01:32:36]
+// [GUI Memory]: 193 mb (+949kb) [01:32:37]
+// [Engine Memory]: 1,614 mb (+6434kb) [01:32:37]
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// [GUI Memory]: 197 mb (+4217kb) [01:33:44]
+// ca:I (bR:JFrame):  Re-customize IP : addNotify
+// TclEventType: PARAM_UPDATED
+// m:I (bR:JFrame): Re-customize IP: addNotify
+// Elapsed time: 68 seconds
+dismissDialog ("Re-customize IP"); // ca:I (bR:JFrame)
+selectTab (PAResourceQtoZ.XPG_TabbedPane_TABBED_PANE, (HResource) null, "Slave Interfaces", 1); // bV:g (t:JPanel, m:I)
+selectTab (PAResourceQtoZ.XPG_TabbedPane_TABBED_PANE, (HResource) null, "Top Level Settings", 0); // bV:g (t:JPanel, m:I)
+selectCheckBox ((HResource) null, "Enable Advanced Configuration Options", false, true); // c:JCheckBox (aG:t, m:I): FALSE
+selectTab (PAResourceQtoZ.XPG_TabbedPane_TABBED_PANE, (HResource) null, "Advanced Options", 2); // bV:g (t:JPanel, m:I)
+selectButton ((HResource) null, "Data Width of the AXI Crossbar"); // p:JideToggleButton (t:JPanel, m:I): TRUE
+selectComboBox ("Data Width of the AXI Crossbar", "64", 1); // aO:c (t:JPanel, m:I)
+selectButton (RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, m:I)
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// TclEventType: RSB_SCRIPT_TASK
+// ca:I (m:I):  Customize IP : addNotify
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// Tcl Message: startgroup set_property -dict [list CONFIG.XBAR_DATA_WIDTH.VALUE_SRC USER] [get_bd_cells axi_mem_intercon] 
+// TclEventType: RSB_REMOVE_OBJECT
+// [GUI Memory]: 211 mb (+14219kb) [01:33:53]
+// [Engine Memory]: 1,626 mb (+12587kb) [01:33:53]
+// TclEventType: RSB_REMOVE_OBJECT
+// [GUI Memory]: 225 mb (+14588kb) [01:33:54]
+// TclEventType: RSB_REMOVE_OBJECT
+// [Engine Memory]: 1,639 mb (+13783kb) [01:33:54]
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// [Engine Memory]: 1,641 mb (+1433kb) [01:33:55]
+// TclEventType: RSB_REMOVE_OBJECT
+// [GUI Memory]: 226 mb (+1585kb) [01:33:56]
+// [Engine Memory]: 1,659 mb (+19181kb) [01:33:56]
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// [GUI Memory]: 242 mb (+16119kb) [01:33:56]
+// [Engine Memory]: 1,660 mb (+1138kb) [01:33:56]
+// TclEventType: RSB_REMOVE_OBJECT
+// [GUI Memory]: 262 mb (+21415kb) [01:33:57]
+// [Engine Memory]: 1,666 mb (+6316kb) [01:33:57]
+// TclEventType: RSB_SCRIPT_TASK
+// HMemoryUtils.trashcanNow. Current time: 3/26/14 1:34:01 PM
+// TclEventType: RSB_CANVAS_LOCATION
+// [Engine Memory]: 1,678 mb (+12222kb) [01:33:58]
+// [Engine Memory]: 1,678 mb (+36kb) [01:33:58]
+// [Engine Memory]: 1,678 mb (+61kb) [01:33:58]
+// TclEventType: RSB_BLOCK_SIZE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: RSB_CANVAS_LOCATION
+// [Engine Memory]: 1,678 mb (+290kb) [01:33:58]
+// TclEventType: RSB_BLOCK_SIZE
+// [Engine Memory]: 1,678 mb (+151kb) [01:33:59]
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_CANVAS_LOCATION
+// [Engine Memory]: 1,678 mb (+57kb) [01:33:59]
+// TclEventType: RSB_BLOCK_SIZE
+// [Engine Memory]: 1,681 mb (+2539kb) [01:33:59]
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: 0 
+// Tcl Message: set_property -dict [list CONFIG.ENABLE_ADVANCED_OPTIONS {1} CONFIG.XBAR_DATA_WIDTH {64}] [get_bd_cells axi_mem_intercon] 
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// [Engine Memory]: 1,682 mb (+1318kb) [01:33:59]
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// Tcl Message: 0 
+// Tcl Message: endgroup 
+// Elapsed time: 13 seconds
+dismissDialog ("Customize IP"); // ca:I (m:I)
+selectTab ((HResource) null, (HResource) null, "Sources", 0); // FrameContainer:JideTabbedPane (ContainerContainer:JideSplitPane, bR:JFrame)
+expandTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, system_wrapper (system_wrapper.v)]", 1); // n:f (u:JPanel, bR:JFrame)
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, system_wrapper (system_wrapper.v), system_i - system (system.bd)]", 2, false, false, false, true, false); // n:f (u:JPanel, bR:JFrame) - POPUP TRIGGER
+selectMenuItem (PAResourceCommand.PACommandNames_CREATE_TOP_HDL, "Create HDL Wrapper..."); // ai:JMenuItem (am:JPopupMenu, bR:JFrame)
+// a:X (bR:JFrame): Create HDL Wrapper: addNotify
+selectButton (RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, a:X)
+dismissDialog ("Create HDL Wrapper"); // a:X (bR:JFrame)
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// ca:I (bR:JFrame):  Create HDL Wrapper : addNotify
+// Tcl Message: make_wrapper -files [get_files C:/Users/jcleong/Documents/MILESTONE_6/mainGame/mainGame.srcs/sources_1/bd/system/system.bd] -top 
+// TclEventType: RSB_REMOVE_OBJECT
+// [GUI Memory]: 263 mb (+1508kb) [01:34:13]
+// TclEventType: RSB_REMOVE_OBJECT
+// [Engine Memory]: 1,687 mb (+5623kb) [01:34:14]
+// TclEventType: RSB_REMOVE_OBJECT
+// [GUI Memory]: 276 mb (+12960kb) [01:34:14]
+// [Engine Memory]: 1,690 mb (+3125kb) [01:34:14]
+// TclEventType: RSB_REMOVE_OBJECT
+// [Engine Memory]: 1,696 mb (+5799kb) [01:34:15]
+// TclEventType: RSB_REMOVE_OBJECT
+// [Engine Memory]: 1,697 mb (+786kb) [01:34:16]
+// TclEventType: RSB_REMOVE_OBJECT
+// HMemoryUtils.trashcanNow. Current time: 3/26/14 1:34:21 PM
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// Tcl Message: delete_bd_objs: Time (s): cpu = 00:00:11 ; elapsed = 00:00:09 . Memory (MB): peak = 1917.746 ; gain = 0.000 
+// TclEventType: RSB_REMOVE_OBJECT
+// [GUI Memory]: 288 mb (+12338kb) [01:34:24]
+// TclEventType: RSB_REMOVE_OBJECT
+// [Engine Memory]: 1,706 mb (+10100kb) [01:34:25]
+// TclEventType: RSB_REMOVE_OBJECT
+// [Engine Memory]: 1,712 mb (+6221kb) [01:34:25]
+// TclEventType: RSB_REMOVE_OBJECT
+// [Engine Memory]: 1,712 mb (+53kb) [01:34:26]
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// Tcl Message: delete_bd_objs: Time (s): cpu = 00:00:09 ; elapsed = 00:00:07 . Memory (MB): peak = 1919.293 ; gain = 1.547 
+// TclEventType: RSB_REMOVE_OBJECT
+// [Engine Memory]: 1,712 mb (+28kb) [01:34:30]
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// [GUI Memory]: 291 mb (+3933kb) [01:34:31]
+// [Engine Memory]: 1,712 mb (+69kb) [01:34:31]
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// [Engine Memory]: 1,713 mb (+229kb) [01:34:32]
+// TclEventType: RSB_REMOVE_OBJECT
+// [GUI Memory]: 292 mb (+227kb) [01:34:32]
+// [Engine Memory]: 1,713 mb (+303kb) [01:34:32]
+// TclEventType: RSB_REMOVE_OBJECT
+// [GUI Memory]: 310 mb (+19710kb) [01:34:33]
+// [Engine Memory]: 1,719 mb (+6090kb) [01:34:33]
+// TclEventType: RSB_REMOVE_OBJECT
+// [Engine Memory]: 1,728 mb (+10010kb) [01:34:33]
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// [Engine Memory]: 1,728 mb (+8kb) [01:34:34]
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// [Engine Memory]: 1,728 mb (+24kb) [01:34:34]
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// [Engine Memory]: 1,728 mb (+212kb) [01:34:35]
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// [Engine Memory]: 1,728 mb (+69kb) [01:34:36]
+// TclEventType: RSB_REMOVE_OBJECT
+// [Engine Memory]: 1,729 mb (+24kb) [01:34:37]
+// TclEventType: RSB_REMOVE_OBJECT
+// HMemoryUtils.trashcanNow. Current time: 3/26/14 1:34:41 PM
+// TclEventType: RSB_REMOVE_OBJECT
+// [Engine Memory]: 1,730 mb (+1757kb) [01:34:38]
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// [Engine Memory]: 1,731 mb (+643kb) [01:34:39]
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// [Engine Memory]: 1,731 mb (+663kb) [01:34:50]
+// Tcl Message: Verilog Output written to : system.v Verilog Output written to : system_wrapper.v 
+// TclEventType: RSB_SCRIPT_TASK
+// [Engine Memory]: 1,741 mb (+10358kb) [01:34:52]
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// Tcl Message: Wrote  : <C:/Users/jcleong/Documents/MILESTONE_6/mainGame/mainGame.srcs/sources_1/bd/system/system.bd>  
+// Tcl Message: make_wrapper: Time (s): cpu = 00:00:47 ; elapsed = 00:00:41 . Memory (MB): peak = 1931.117 ; gain = 13.371 
+// Elapsed time: 41 seconds
+dismissDialog ("Create HDL Wrapper"); // ca:I (bR:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// [Engine Memory]: 1,749 mb (+8392kb) [01:35:00]
+// Elapsed time: 26 seconds
+selectTree (PAResourceAtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 15); // w:K (v:u, bR:JFrame)
+// af:bv (bR:JFrame): Run Synthesis: addNotify
+selectButton (RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, af:bv)
+// ca:I (bR:JFrame):  Resetting Runs : addNotify
+dismissDialog ("Run Synthesis"); // af:bv (bR:JFrame)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// ca:I (bR:JFrame):  Starting Design runs : addNotify
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// [Engine Memory]: 1,751 mb (+1417kb) [01:35:22]
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// Tcl Message: launch_runs synth_1 
+// TclEventType: RSB_REMOVE_OBJECT
+// [Engine Memory]: 1,752 mb (+1241kb) [01:35:22]
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// Tcl Message: delete_bd_objs: Time (s): cpu = 00:00:13 ; elapsed = 00:00:11 . Memory (MB): peak = 1946.352 ; gain = 0.000 
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// Tcl Message: delete_bd_objs: Time (s): cpu = 00:00:12 ; elapsed = 00:00:10 . Memory (MB): peak = 1946.352 ; gain = 0.000 
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// Tcl Message: delete_bd_objs: Time (s): cpu = 00:00:06 ; elapsed = 00:00:05 . Memory (MB): peak = 1946.352 ; gain = 0.000 
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: Verilog Output written to : system.v Verilog Output written to : system_wrapper.v 
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// Tcl Message: Wrote  : <C:/Users/jcleong/Documents/MILESTONE_6/mainGame/mainGame.srcs/sources_1/bd/system/system.bd>  
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [IP_Flow 19-1706] Not generating up to date 'Synthesis' target for IP 'system_processing_system7_0_0'. INFO: [BD 41-1029] Generation completed for the IP Integrator block /processing_system7_0 . 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// [Engine Memory]: 1,758 mb (+6701kb) [01:36:10]
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block /proc_sys_reset . INFO: [IP_Flow 19-1706] Not generating up to date 'Synthesis' target for IP 'system_xbar_1'. INFO: [BD 41-1029] Generation completed for the IP Integrator block /processing_system7_0_axi_periph/xbar . INFO: [IP_Flow 19-1706] Not generating up to date 'Synthesis' target for IP 'system_SVGA_core_0_0'. INFO: [BD 41-1029] Generation completed for the IP Integrator block /SVGA_core_0 . 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [IP_Flow 19-1706] Not generating up to date 'Synthesis' target for IP 'system_axi_gpio_1_1'. INFO: [IP_Flow 19-1706] Not generating up to date 'Implementation' target for IP 'system_axi_gpio_1_1'. INFO: [BD 41-1029] Generation completed for the IP Integrator block /btns_5bit . INFO: [IP_Flow 19-1706] Not generating up to date 'Synthesis' target for IP 'system_led_ip_0_0'. INFO: [BD 41-1029] Generation completed for the IP Integrator block /led_ip_0 . 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PARAM_UPDATED
+// Tcl Message: INFO: [IP_Flow 19-1706] Not generating up to date 'Synthesis' target for IP 'system_axi_gpio_1_2'. INFO: [IP_Flow 19-1706] Not generating up to date 'Implementation' target for IP 'system_axi_gpio_1_2'. INFO: [BD 41-1029] Generation completed for the IP Integrator block /sw_8bits . 
+// Tcl Message: Delivering 'Verilog Synthesis' files for IP 'system_auto_pc_33'. 
+// Tcl Message: INFO: [IP_Flow 19-616] The current project language is set to Verilog. However the IP definition 'xilinx.com:ip:fifo_generator:11.0' does not support 'Verilog Synthesis' output products, delivering 'VHDL Synthesis' output products instead. INFO: [IP_Flow 19-616] The current project language is set to Verilog. However the IP definition 'xilinx.com:ip:blk_mem_gen:8.0' does not support 'Verilog Synthesis' output products, delivering 'VHDL Synthesis' output products instead. 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PARAM_UPDATED
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block /processing_system7_0_axi_periph/s00_couplers/auto_pc . 
+// Tcl Message: Delivering 'Verilog Synthesis' files for IP 'system_auto_pc_34'. 
+// Tcl Message: INFO: [IP_Flow 19-616] The current project language is set to Verilog. However the IP definition 'xilinx.com:ip:fifo_generator:11.0' does not support 'Verilog Synthesis' output products, delivering 'VHDL Synthesis' output products instead. INFO: [IP_Flow 19-616] The current project language is set to Verilog. However the IP definition 'xilinx.com:ip:blk_mem_gen:8.0' does not support 'Verilog Synthesis' output products, delivering 'VHDL Synthesis' output products instead. 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PARAM_UPDATED
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block /axi_mem_intercon/s00_couplers/auto_pc . 
+// Tcl Message: Delivering 'Verilog Synthesis' files for IP 'system_auto_pc_35'. 
+// Tcl Message: INFO: [IP_Flow 19-616] The current project language is set to Verilog. However the IP definition 'xilinx.com:ip:fifo_generator:11.0' does not support 'Verilog Synthesis' output products, delivering 'VHDL Synthesis' output products instead. INFO: [IP_Flow 19-616] The current project language is set to Verilog. However the IP definition 'xilinx.com:ip:blk_mem_gen:8.0' does not support 'Verilog Synthesis' output products, delivering 'VHDL Synthesis' output products instead. 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Wed Mar 26 13:36:21 2014] Launched synth_1... Run output will be captured here: C:/Users/jcleong/Documents/MILESTONE_6/mainGame/mainGame.runs/synth_1/runme.log 
+// Tcl Message: launch_runs: Time (s): cpu = 00:00:59 ; elapsed = 00:00:56 . Memory (MB): peak = 1953.789 ; gain = 8.684 
+// 'q' command handler elapsed time: 57 seconds
+// Elapsed time: 57 seconds
+dismissDialog ("Starting Design runs"); // ca:I (bR:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 28 seconds
+selectButton (PAResourceQtoZ.SystemBuilderView_ADD_IP, "System_RSB_ADD_IP"); // t:JideButton (CommandBar:DockableBar, bR:JFrame)
+setText ("PAResourceAtoH.CoreTreeTablePanel_CORE_TREE_TABLE_SEARCH_FIELD", "pro"); // OverlayTextField:JTextField (DefaultOverlayable:JPanel, ResizableWindow:JWindow)
+selectTable (PAResourceAtoH.CoreTreeTablePanel_CORE_TREE_TABLE, "ZYNQ7 Processing System", 54); // F:ad (JViewport:JComponent, ResizableWindow:JWindow)
+selectTable (PAResourceAtoH.CoreTreeTablePanel_CORE_TREE_TABLE, "ZYNQ7 Processing System BFM", 109); // F:ad (JViewport:JComponent, ResizableWindow:JWindow)
+selectTable (PAResourceAtoH.CoreTreeTablePanel_CORE_TREE_TABLE, "ZYNQ7 Processing System", 54); // F:ad (JViewport:JComponent, ResizableWindow:JWindow)
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// ca:I (bR:JFrame):  Re-customize IP : addNotify
+// TclEventType: PARAM_UPDATED
+// m:I (bR:JFrame): Re-customize IP: addNotify
+// bZ:X (m:I): Configuration Presets: addNotify
+// 'M' command handler elapsed time: 3 seconds
+// HMemoryUtils.trashcanNow. Current time: 3/26/14 1:37:17 PM
+// Elapsed time: 13 seconds
+dismissDialog ("Re-customize IP"); // ca:I (bR:JFrame)
+// [Engine Memory]: 1,773 mb (+15462kb) [01:37:20]
+// [Engine Memory]: 1,791 mb (+19410kb) [01:37:33]
+// TclEventType: RUN_COMPLETED
+// O:af (bR:JFrame): Synthesis Completed: addNotify
+// Elapsed time: 178 seconds
+selectButton (RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, O:af)
+// ca:I (bR:JFrame):  Starting Design runs : addNotify
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_LAUNCH
+// Tcl Message: launch_runs impl_1 
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Wed Mar 26 13:40:15 2014] Launched impl_1... Run output will be captured here: C:/Users/jcleong/Documents/MILESTONE_6/mainGame/mainGame.runs/impl_1/runme.log 
+dismissDialog ("Starting Design runs"); // ca:I (bR:JFrame)
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_COMPLETED
+// O:af (bR:JFrame): Implementation Completed: addNotify
+// Elapsed time: 92 seconds
+selectButton (RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, O:af)
+// ca:I (bR:JFrame):  Reloading : addNotify
+// Tcl Message: refresh_design 
+// TclEventType: DESIGN_REFRESH
+// HMemoryUtils.trashcanNow. Current time: 3/26/14 1:41:50 PM
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: DESIGN_REFRESH
+// HMemoryUtils.trashcanNow. Current time: 3/26/14 1:42:08 PM
+// [Engine Memory]: 1,792 mb (+286kb) [01:42:06]
+// [Engine Memory]: 1,792 mb (+364kb) [01:42:06]
+// [Engine Memory]: 1,793 mb (+671kb) [01:42:06]
+// [Engine Memory]: 1,794 mb (+1265kb) [01:42:06]
+// [Engine Memory]: 1,795 mb (+749kb) [01:42:06]
+// [Engine Memory]: 1,796 mb (+892kb) [01:42:06]
+// [Engine Memory]: 1,797 mb (+1998kb) [01:42:06]
+// [Engine Memory]: 1,799 mb (+1257kb) [01:42:06]
+// [Engine Memory]: 1,800 mb (+1048kb) [01:42:06]
+// [Engine Memory]: 1,803 mb (+3215kb) [01:42:06]
+// [Engine Memory]: 1,803 mb (+212kb) [01:42:06]
+// [Engine Memory]: 1,804 mb (+1064kb) [01:42:06]
+// [Engine Memory]: 1,805 mb (+1425kb) [01:42:06]
+// [Engine Memory]: 1,805 mb (+90kb) [01:42:06]
+// [Engine Memory]: 1,807 mb (+1683kb) [01:42:06]
+// [Engine Memory]: 1,808 mb (+1327kb) [01:42:06]
+// [Engine Memory]: 1,812 mb (+3698kb) [01:42:06]
+// [Engine Memory]: 1,814 mb (+1941kb) [01:42:06]
+// [Engine Memory]: 1,820 mb (+6987kb) [01:42:06]
+// [Engine Memory]: 1,821 mb (+745kb) [01:42:06]
+// [Engine Memory]: 1,824 mb (+2699kb) [01:42:06]
+// [Engine Memory]: 1,848 mb (+25718kb) [01:42:07]
+// Device: addNotify
+// Tcl Message: INFO: [Netlist 29-17] Analyzing 19 Unisim elements for replacement INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds INFO: [Project 1-479] Netlist was created with Vivado 2013.3 INFO: [Opt 31-138] Pushed 0 inverter(s). 
+// Tcl Message: Parsing XDC File [c:/Users/jcleong/Documents/MILESTONE_6/mainGame/.Xil/Vivado-5540-lab715/dcp/system_wrapper.xdc] Finished Parsing XDC File [c:/Users/jcleong/Documents/MILESTONE_6/mainGame/.Xil/Vivado-5540-lab715/dcp/system_wrapper.xdc] Reading XDEF placement. Reading XDEF routing. 
+// Tcl Message: Read XDEF File: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.180 . Memory (MB): peak = 2007.762 ; gain = 0.000 
+// Tcl Message: Restoring placement. Restored 891 out of 891 XDEF sites from archive | CPU: 1.000000 secs | Memory: 0.000000 MB | 
+// Tcl Message: INFO: [Memdata 28-143] Successfully populated the BRAM INIT strings from the following elf files:  
+// Tcl Message: refresh_design: Time (s): cpu = 00:00:29 ; elapsed = 00:00:22 . Memory (MB): peak = 2051.051 ; gain = 43.289 
+// Elapsed time: 23 seconds
+dismissDialog ("Reloading"); // ca:I (bR:JFrame)
+selectComboBox (RDIResource.MainWinToolbarMgr_SELECT_OR_SAVE_WINDOW_LAYOUT, "I/O Planning", 1); // aK:c (Box:JComponent, bR:JFrame)
+// Package: addNotify
+// [Engine Memory]: 1,849 mb (+548kb) [01:42:13]
+// [Engine Memory]: 1,849 mb (+315kb) [01:42:14]
+// [Engine Memory]: 1,849 mb (+32kb) [01:42:14]
+// [Engine Memory]: 1,851 mb (+2236kb) [01:42:15]
+expandTreeTable (PAResourceQtoZ.SignalTreePanel_SIGNAL_TREE_TABLE, "VGA_B (4) ; Output ;  ;  ;  ; 33 ; LVCMOS33 ; 3.3 ;  ; 12 ; SLOW ; NONE ; FP_VTT_50 ; ", 12); // aJ:ad (JViewport:JComponent, bR:JFrame)
+collapseTreeTable (PAResourceQtoZ.SignalTreePanel_SIGNAL_TREE_TABLE, "VGA_B (4) ; Output ;  ;  ;  ; 33 ; LVCMOS33 ; 3.3 ;  ; 12 ; SLOW ; NONE ; FP_VTT_50 ; ", 12); // aJ:ad (JViewport:JComponent, bR:JFrame)
+selectTree (PAResourceAtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 23); // w:K (v:u, bR:JFrame)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream 
+// TclEventType: RUN_MODIFY
+// ca:I (bR:JFrame):  Generate Bitstream : addNotify
+// Tcl Message: [Wed Mar 26 13:42:23 2014] Launched impl_1... Run output will be captured here: C:/Users/jcleong/Documents/MILESTONE_6/mainGame/mainGame.runs/impl_1/runme.log 
+dismissDialog ("Generate Bitstream"); // ca:I (bR:JFrame)
+// TclEventType: RUN_COMPLETED
+// O:af (bR:JFrame): Bitstream Generation Completed: addNotify
+// Elapsed time: 69 seconds
+selectButton (RDIResource.BaseDialog_CANCEL, "Cancel"); // a:JButton (JPanel:JComponent, O:af)
+dismissDialog ("Bitstream Generation Completed"); // O:af (bR:JFrame)
+selectMenu (PAResourceItoP.MainMenuMgr_FILE, "File"); // ac:JideMenu (CommandMenuBar:CommandBar, bR:JFrame)
+dismissMenu (PAResourceItoP.MainMenuMgr_FILE, "File"); // ac:JideMenu (CommandMenuBar:CommandBar, bR:JFrame)
+selectMenu (PAResourceItoP.MainMenuMgr_EDIT, "Edit"); // ac:JideMenu (CommandMenuBar:CommandBar, bR:JFrame)
+dismissMenu (PAResourceItoP.MainMenuMgr_EDIT, "Edit"); // ac:JideMenu (CommandMenuBar:CommandBar, bR:JFrame)
+selectMenu (PAResourceItoP.MainMenuMgr_FILE, "File"); // ac:JideMenu (CommandMenuBar:CommandBar, bR:JFrame)
+selectMenu (PAResourceItoP.MainMenuMgr_OPEN_RECENT_PROJECT, "Open Recent Project"); // af:JMenu (JPopupMenu:JComponent, bR:JFrame)
+selectMenu (PAResourceItoP.MainMenuMgr_OPEN_EXAMPLE_PROJECT, "Open Example Project"); // af:JMenu (JPopupMenu:JComponent, bR:JFrame)
+selectMenu (PAResourceItoP.MainMenuMgr_OPEN_EXAMPLE_PROJECT, "Open Example Project"); // af:JMenu (JPopupMenu:JComponent, bR:JFrame)
+selectMenu (PAResourceItoP.MainMenuMgr_OPEN_RECENT_PROJECT, "Open Recent Project"); // af:JMenu (JPopupMenu:JComponent, bR:JFrame)
+selectMenu (PAResourceItoP.MainMenuMgr_OPEN_EXAMPLE_PROJECT, "Open Example Project"); // af:JMenu (JPopupMenu:JComponent, bR:JFrame)
+selectMenu (PAResourceItoP.MainMenuMgr_OPEN_RECENT_CHECKPOINT, "Open Recent Checkpoint"); // af:JMenu (JPopupMenu:JComponent, bR:JFrame)
+selectMenu (PAResourceItoP.MainMenuMgr_OPEN_RECENT_IP_LOCATION, "Open Recent IP Location"); // af:JMenu (JPopupMenu:JComponent, bR:JFrame)
+selectMenu (PAResourceItoP.MainMenuMgr_OPEN_RECENT_FILE, "Open Recent File"); // af:JMenu (JPopupMenu:JComponent, bR:JFrame)
+selectMenu (PAResourceItoP.MainMenuMgr_IMPORT, "Import"); // af:JMenu (JPopupMenu:JComponent, bR:JFrame)
+selectMenu (PAResourceItoP.MainMenuMgr_EXPORT, "Export"); // af:JMenu (JPopupMenu:JComponent, bR:JFrame)
+selectMenuItem (PAResourceCommand.PACommandNames_EXPORT_HARDWARE, "Export Hardware for SDK..."); // ai:JMenuItem (JPopupMenu:JComponent, bR:JFrame)
+dismissMenu (PAResourceItoP.MainMenuMgr_FILE, "File"); // ac:JideMenu (CommandMenuBar:CommandBar, bR:JFrame)
+// s:X (bR:JFrame): Export Hardware for SDK: addNotify
+selectCheckBox (PAResourceAtoH.ExportHardwareDialog_LAUNCH_SDK, "Launch SDK", false, true); // c:JCheckBox (JPanel:JComponent, s:X): FALSE
+selectCheckBox (PAResourceAtoH.ExportHardwareDialog_LAUNCH_SDK, "Launch SDK", true, false); // c:JCheckBox (JPanel:JComponent, s:X): TRUE
+selectCheckBox (PAResourceAtoH.ExportHardwareDialog_LAUNCH_SDK, "Launch SDK", false, true); // c:JCheckBox (JPanel:JComponent, s:X): FALSE
+selectButton (RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, s:X)
+// 'd' command handler elapsed time: 3 seconds
+selectButton ((HResource) null, "Yes"); // BasicOptionPaneUI$ButtonFactory:JButton (JPanel:JComponent, D:JDialog)
+dismissDialog ("Export Hardware for SDK"); // s:X (bR:JFrame)
+// ca:I (bR:JFrame):  Export Hardware for SDK : addNotify
+// Tcl Message: export_hardware [get_files C:/Users/jcleong/Documents/MILESTONE_6/mainGame/mainGame.srcs/sources_1/bd/system/system.bd] [get_runs impl_1] -bitstream 
+// HMemoryUtils.trashcanNow. Current time: 3/26/14 1:43:52 PM
+// [Engine Memory]: 1,877 mb (+27054kb) [01:43:59]
+// Tcl Message: Exporting to file C:/Users/jcleong/Documents/MILESTONE_6/mainGame/mainGame.sdk/SDK/SDK_Export/hw/system.xml 
+// Tcl Message: INFO: [BD 41-436] exporting bit file 'C:/Users/jcleong/Documents/MILESTONE_6/mainGame/mainGame.runs/impl_1/system_wrapper.bit'... 
+// Tcl Message: export_hardware: Time (s): cpu = 00:00:16 ; elapsed = 00:00:16 . Memory (MB): peak = 2122.387 ; gain = 69.086 
+// Tcl Message: launch_sdk -bit C:/Users/jcleong/Documents/MILESTONE_6/mainGame/mainGame.sdk/SDK/SDK_Export/hw/system_wrapper.bit -workspace C:/Users/jcleong/Documents/MILESTONE_6/mainGame/mainGame.sdk/SDK/SDK_Export -hwspec C:/Users/jcleong/Documents/MILESTONE_6/mainGame/mainGame.sdk/SDK/SDK_Export/hw/system.xml 
+// Tcl Message: INFO: [Vivado 12-393] Launching SDK... INFO: [Vivado 12-417] Running xsdk -bit C:/Users/jcleong/Documents/MILESTONE_6/mainGame/mainGame.sdk/SDK/SDK_Export/hw/system_wrapper.bit -workspace C:/Users/jcleong/Documents/MILESTONE_6/mainGame/mainGame.sdk/SDK/SDK_Export -hwspec C:/Users/jcleong/Documents/MILESTONE_6/mainGame/mainGame.sdk/SDK/SDK_Export/hw/system.xml INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages. 
+// Elapsed time: 16 seconds
+dismissDialog ("Export Hardware for SDK"); // ca:I (bR:JFrame)
+// Elapsed time: 539 seconds
+selectTree (PAResourceAtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, IP Integrator, Open Block Design]", 6); // w:K (v:u, bR:JFrame)
+selectMenuItem ((HResource) null, "system.bd"); // ai:JMenuItem (am:JPopupMenu, bR:JFrame)
+// ca:I (bR:JFrame):  Open Block Design : addNotify
+// TclEventType: RSB_OPEN_DIAGRAM
+// Tcl Message: open_bd_design {C:/Users/jcleong/Documents/MILESTONE_6/mainGame/mainGame.srcs/sources_1/bd/system/system.bd} 
+dismissDialog ("Open Block Design"); // ca:I (bR:JFrame)
+// Elapsed time: 67 seconds
+selectButton (PAResourceCommand.PACommandNames_ZOOM_OUT, "System_zoom_out"); // t:JideButton (CommandBar:DockableBar, bR:JFrame)
+selectButton (PAResourceCommand.PACommandNames_ZOOM_FIT, "System_zoom_fit"); // t:JideButton (CommandBar:DockableBar, bR:JFrame)
+selectButton (PAResourceCommand.PACommandNames_ZOOM_IN, "System_zoom_in"); // t:JideButton (CommandBar:DockableBar, bR:JFrame)
+selectButton (PAResourceCommand.PACommandNames_ZOOM_IN, "System_zoom_in"); // t:JideButton (CommandBar:DockableBar, bR:JFrame)
+selectButton (PAResourceCommand.PACommandNames_ZOOM_IN, "System_zoom_in"); // t:JideButton (CommandBar:DockableBar, bR:JFrame)
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// ca:I (bR:JFrame):  Re-customize IP : addNotify
+// TclEventType: PARAM_UPDATED
+// m:I (bR:JFrame): Re-customize IP: addNotify
+// Elapsed time: 135 seconds
+dismissDialog ("Re-customize IP"); // ca:I (bR:JFrame)
+selectTab (PAResourceQtoZ.XPG_TabbedPane_TABBED_PANE, (HResource) null, "Master Interfaces", 2); // bV:g (t:JPanel, m:I)
+selectTab (PAResourceQtoZ.XPG_TabbedPane_TABBED_PANE, (HResource) null, "Slave Interfaces", 1); // bV:g (t:JPanel, m:I)
+selectTab (PAResourceQtoZ.XPG_TabbedPane_TABBED_PANE, (HResource) null, "Top Level Settings", 0); // bV:g (t:JPanel, m:I)
+selectComboBox ("Number of Master Interfaces", "6", 5); // aO:c (t:JPanel, m:I)
+selectButton (RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, m:I)
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: startgroup set_property -dict [list CONFIG.NUM_MI {6}] [get_bd_cells processing_system7_0_axi_periph] 
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// ca:I (m:I):  Customize IP : addNotify
+// TclEventType: RSB_REMOVE_OBJECT
+// [GUI Memory]: 331 mb (+21434kb) [01:56:33]
+// TclEventType: RSB_REMOVE_OBJECT
+// [GUI Memory]: 350 mb (+19894kb) [01:56:34]
+// TclEventType: RSB_REMOVE_OBJECT
+// [GUI Memory]: 361 mb (+11547kb) [01:56:36]
+// TclEventType: RSB_REMOVE_OBJECT
+// [GUI Memory]: 372 mb (+12208kb) [01:56:36]
+// [Engine Memory]: 1,879 mb (+2039kb) [01:56:36]
+// TclEventType: RSB_REMOVE_OBJECT
+// [Engine Memory]: 1,897 mb (+19107kb) [01:56:37]
+// TclEventType: RSB_REMOVE_OBJECT
+// [Engine Memory]: 1,911 mb (+14422kb) [01:56:37]
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// Tcl Message: delete_bd_objs: Time (s): cpu = 00:00:10 ; elapsed = 00:00:08 . Memory (MB): peak = 2122.387 ; gain = 0.000 
+// HMemoryUtils.trashcanNow. Current time: 3/26/14 1:56:43 PM
+// TclEventType: RSB_REMOVE_OBJECT
+// [Engine Memory]: 1,917 mb (+6172kb) [01:56:42]
+// TclEventType: RSB_REMOVE_OBJECT
+// [Engine Memory]: 1,922 mb (+5136kb) [01:56:43]
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// Tcl Message: delete_bd_objs: Time (s): cpu = 00:00:09 ; elapsed = 00:00:08 . Memory (MB): peak = 2122.387 ; gain = 0.000 
+// TclEventType: RSB_REMOVE_OBJECT
+// [GUI Memory]: 377 mb (+4819kb) [01:56:49]
+// TclEventType: RSB_REMOVE_OBJECT
+// [GUI Memory]: 391 mb (+14261kb) [01:56:49]
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// Tcl Message: 0 
+// Tcl Message: endgroup 
+// Elapsed time: 22 seconds
+dismissDialog ("Customize IP"); // ca:I (m:I)
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// ca:I (bR:JFrame):  Re-customize IP : addNotify
+// TclEventType: PARAM_UPDATED
+// HMemoryUtils.trashcanNow. Current time: 3/26/14 1:57:18 PM
+// m:I (bR:JFrame): Re-customize IP: addNotify
+// bZ:X (m:I): Configuration Presets: addNotify
+// 'M' command handler elapsed time: 7 seconds
+// [Engine Memory]: 1,940 mb (+19513kb) [01:57:18]
+// Elapsed time: 25 seconds
+dismissDialog ("Re-customize IP"); // ca:I (bR:JFrame)
+selectButton ((HResource) null, "MIO Configuration"); // i:JideButton (bV:ButtonPanel, m:I)
+selectButton ((HResource) null, "Peripheral I/O Pins"); // i:JideButton (bV:ButtonPanel, m:I)
+selectButton ((HResource) null, "MIO Configuration"); // i:JideButton (bV:ButtonPanel, m:I)
+expandTreeTable (PAResourceItoP.MIOConfigTreeTablePanel_MIO_CONFIG_TREE_TABLE, "I/O Peripherals ; I/O Peripherals ; I/O Peripherals ; I/O Peripherals ; I/O Peripherals ; I/O Peripherals ; I/O Peripherals", 1); // aO:ci (JViewport:JComponent, m:I)
+collapseTreeTable (PAResourceItoP.MIOConfigTreeTablePanel_MIO_CONFIG_TREE_TABLE, "I/O Peripherals ; I/O Peripherals ; I/O Peripherals ; I/O Peripherals ; I/O Peripherals ; I/O Peripherals ; I/O Peripherals", 1); // aO:ci (JViewport:JComponent, m:I)
+expandTreeTable (PAResourceItoP.MIOConfigTreeTablePanel_MIO_CONFIG_TREE_TABLE, "Memory Interfaces ; Memory Interfaces ; Memory Interfaces ; Memory Interfaces ; Memory Interfaces ; Memory Interfaces ; Memory Interfaces", 0); // aO:ci (JViewport:JComponent, m:I)
+collapseTreeTable (PAResourceItoP.MIOConfigTreeTablePanel_MIO_CONFIG_TREE_TABLE, "Memory Interfaces ; Memory Interfaces ; Memory Interfaces ; Memory Interfaces ; Memory Interfaces ; Memory Interfaces ; Memory Interfaces", 0); // aO:ci (JViewport:JComponent, m:I)
+selectTable (PAResourceItoP.MIOConfigTreeTablePanel_MIO_CONFIG_TREE_TABLE, "Memory Interfaces ; Memory Interfaces ; Memory Interfaces ; Memory Interfaces ; Memory Interfaces ; Memory Interfaces ; Memory Interfaces", 0, false, false, false, false, true); // aO:ci (JViewport:JComponent, m:I) - DOUBLE CLICK
+expandTreeTable (PAResourceItoP.MIOConfigTreeTablePanel_MIO_CONFIG_TREE_TABLE, "Application Processor Unit ; Application Processor Unit ; Application Processor Unit ; Application Processor Unit ; Application Processor Unit ; Application Processor Unit ; Application Processor Unit", 2); // aO:ci (JViewport:JComponent, m:I)
+collapseTreeTable (PAResourceItoP.MIOConfigTreeTablePanel_MIO_CONFIG_TREE_TABLE, "Application Processor Unit ; Application Processor Unit ; Application Processor Unit ; Application Processor Unit ; Application Processor Unit ; Application Processor Unit ; Application Processor Unit", 2); // aO:ci (JViewport:JComponent, m:I)
+selectTable (PAResourceItoP.MIOConfigTreeTablePanel_MIO_CONFIG_TREE_TABLE, "Application Processor Unit ; Application Processor Unit ; Application Processor Unit ; Application Processor Unit ; Application Processor Unit ; Application Processor Unit ; Application Processor Unit", 2, false, false, false, false, true); // aO:ci (JViewport:JComponent, m:I) - DOUBLE CLICK
+expandTreeTable (PAResourceItoP.MIOConfigTreeTablePanel_MIO_CONFIG_TREE_TABLE, "Programmable Logic Test and Debug ; Programmable Logic Test and Debug ; Programmable Logic Test and Debug ; Programmable Logic Test and Debug ; Programmable Logic Test and Debug ; Programmable Logic Test and Debug ; Programmable Logic Test and Debug", 3); // aO:ci (JViewport:JComponent, m:I)
+selectButton ((HResource) null, "SMC Timing Calculation"); // i:JideButton (bV:ButtonPanel, m:I)
+selectButton ((HResource) null, "DDR Configuration"); // i:JideButton (bV:ButtonPanel, m:I)
+selectButton ((HResource) null, "Clock Configuration"); // i:JideButton (bV:ButtonPanel, m:I)
+expandTreeTable (PAResourceAtoH.ClkConfigTreeTablePanel_CLK_CONFIG_TREE_TABLE, "System Debug Clocks ; System Debug Clocks ; System Debug Clocks ; System Debug Clocks ; System Debug Clocks ; System Debug Clocks", 3); // p:ci (JViewport:JComponent, m:I)
+expandTreeTable (PAResourceAtoH.ClkConfigTreeTablePanel_CLK_CONFIG_TREE_TABLE, "PL Fabric Clocks ; PL Fabric Clocks ; PL Fabric Clocks ; PL Fabric Clocks ; PL Fabric Clocks ; PL Fabric Clocks", 2); // p:ci (JViewport:JComponent, m:I)
+expandTreeTable (PAResourceAtoH.ClkConfigTreeTablePanel_CLK_CONFIG_TREE_TABLE, "IO Peripheral Clocks ; IO Peripheral Clocks ; IO Peripheral Clocks ; IO Peripheral Clocks ; IO Peripheral Clocks ; IO Peripheral Clocks", 1); // p:ci (JViewport:JComponent, m:I)
+expandTreeTable (PAResourceAtoH.ClkConfigTreeTablePanel_CLK_CONFIG_TREE_TABLE, "Processor/Memory Clocks ; Processor/Memory Clocks ; Processor/Memory Clocks ; Processor/Memory Clocks ; Processor/Memory Clocks ; Processor/Memory Clocks", 0); // p:ci (JViewport:JComponent, m:I)
+selectButton ((HResource) null, "PS-PL Configuration"); // i:JideButton (bV:ButtonPanel, m:I)
+expandTreeTable (PAResourceAtoH.GenSettingTreeTablePanel_GEN_SETTING_TREE_TABLE, "GP Slave AXI Interface ; GP Slave AXI Interface ; GP Slave AXI Interface", 3); // ar:ci (JViewport:JComponent, m:I)
+expandTreeTable (PAResourceAtoH.GenSettingTreeTablePanel_GEN_SETTING_TREE_TABLE, "GP Master AXI Interface ; GP Master AXI Interface ; GP Master AXI Interface", 2); // ar:ci (JViewport:JComponent, m:I)
+expandTreeTable (PAResourceAtoH.GenSettingTreeTablePanel_GEN_SETTING_TREE_TABLE, "M AXI GP1 interface ; 1 ; Enables General purpose AXI master interface 1", 4); // ar:ci (JViewport:JComponent, m:I)
+expandTreeTable (PAResourceAtoH.GenSettingTreeTablePanel_GEN_SETTING_TREE_TABLE, "M AXI GP0 interface ; 1 ; Enables General purpose AXI master interface 0", 3); // ar:ci (JViewport:JComponent, m:I)
+selectTable (PAResourceAtoH.GenSettingTreeTablePanel_GEN_SETTING_TREE_TABLE, "M AXI GP1 interface ; 1 ; Enables General purpose AXI master interface 1", 6); // ar:ci (JViewport:JComponent, m:I)
+selectCheckBox ((HResource) null, (String) null, true, false); // ck:c (ar:ci, m:I): TRUE
+selectButton (RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, m:I)
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// Tcl Message: startgroup set_property -dict [list CONFIG.PCW_USE_M_AXI_GP1 {0}] [get_bd_cells processing_system7_0] 
+// ca:I (m:I):  Customize IP : addNotify
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// TclEventType: RSB_REMOVE_OBJECT
+// Tcl Message: delete_bd_objs [get_bd_intf_nets processing_system7_0_m_axi_gp1] 
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// Tcl Message: endgroup 
+dismissDialog ("Customize IP"); // ca:I (m:I)
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// [GUI Memory]: 398 mb (+7458kb) [01:57:52]
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// 'c' command handler elapsed time: 4 seconds
+// Tcl Message: delete_bd_objs [get_bd_intf_nets processing_system7_0_axi_periph_1_m00_axi] [get_bd_cells processing_system7_0_axi_periph_1] 
+selectButton (PAResourceQtoZ.RSBApplyAutomationBar_RUN_CONNECTION_AUTOMATION, "Run Connection Automation"); // h:i (JPanel:JComponent, bR:JFrame)
+selectMenuItem ((HResource) null, "/SVGA_core_0/S_AXI"); // ai:JMenuItem (am:JPopupMenu, bR:JFrame)
+// o:u (bR:JFrame): Run Connection Automation: addNotify
+selectButton (RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, o:u)
+dismissDialog ("Run Connection Automation"); // o:u (bR:JFrame)
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config {Master "/processing_system7_0/M_AXI_GP0" }  [get_bd_intf_pins SVGA_core_0/S_AXI] 
+// Tcl Message: </SVGA_core_0/S_AXI/reg0> is being mapped into </processing_system7_0/Data> at <0x60000000[ 512M ]> 
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// ca:I (bR:JFrame):  Run Connection Automation : addNotify
+// [GUI Memory]: 399 mb (+882kb) [01:58:02]
+dismissDialog ("Run Connection Automation"); // ca:I (bR:JFrame)
+// [GUI Memory]: 406 mb (+7490kb) [01:58:04]
+selectButton (PAResourceCommand.PACommandNames_REGENERATE_LAYOUT, "System_regenerate_rsb_layout"); // t:JideButton (CommandBar:DockableBar, bR:JFrame)
+// TclEventType: RSB_LAYOUT_STATE
+// TclEventType: RSB_REGENERATE_LAYOUT
+// Tcl Message: regenerate_bd_layout 
+expandTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, system_wrapper (system_wrapper.v)]", 1); // n:f (u:JPanel, bR:JFrame)
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, system_wrapper (system_wrapper.v), system_i - system (system.bd)]", 2, false, false, false, true, false); // n:f (u:JPanel, bR:JFrame) - POPUP TRIGGER
+selectMenuItem (PAResourceCommand.PACommandNames_CREATE_TOP_HDL, "Create HDL Wrapper..."); // ai:JMenuItem (am:JPopupMenu, bR:JFrame)
+// a:X (bR:JFrame): Create HDL Wrapper: addNotify
+selectButton (RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, a:X)
+dismissDialog ("Create HDL Wrapper"); // a:X (bR:JFrame)
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// Tcl Message: make_wrapper -files [get_files C:/Users/jcleong/Documents/MILESTONE_6/mainGame/mainGame.srcs/sources_1/bd/system/system.bd] -top 
+// TclEventType: RSB_REMOVE_OBJECT
+// [GUI Memory]: 416 mb (+11147kb) [01:58:16]
+// [GUI Memory]: 437 mb (+21712kb) [01:58:17]
+// TclEventType: RSB_REMOVE_OBJECT
+// ca:I (bR:JFrame):  Create HDL Wrapper : addNotify
+// TclEventType: RSB_REMOVE_OBJECT
+// [GUI Memory]: 449 mb (+12320kb) [01:58:17]
+// TclEventType: RSB_REMOVE_OBJECT
+// [GUI Memory]: 461 mb (+13199kb) [01:58:18]
+// [Engine Memory]: 1,953 mb (+13950kb) [01:58:18]
+// TclEventType: RSB_REMOVE_OBJECT
+// [Engine Memory]: 1,967 mb (+14360kb) [01:58:18]
+// [GUI Memory]: 480 mb (+19293kb) [01:58:19]
+// [Engine Memory]: 1,976 mb (+8814kb) [01:58:19]
+// TclEventType: RSB_REMOVE_OBJECT
+// [GUI Memory]: 489 mb (+9781kb) [01:58:19]
+// [Engine Memory]: 1,985 mb (+9814kb) [01:58:19]
+// TclEventType: RSB_REMOVE_OBJECT
+// HMemoryUtils.trashcanNow. Current time: 3/26/14 1:58:23 PM
+// TclEventType: RSB_REMOVE_OBJECT
+// [Engine Memory]: 1,993 mb (+8343kb) [01:58:20]
+// TclEventType: RSB_REMOVE_OBJECT
+// [Engine Memory]: 1,993 mb (+8kb) [01:58:22]
+// TclEventType: RSB_REMOVE_OBJECT
+// [Engine Memory]: 1,998 mb (+5459kb) [01:58:26]
+// [Engine Memory]: 2,016 mb (+18391kb) [01:58:26]
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// Tcl Message: delete_bd_objs: Time (s): cpu = 00:00:31 ; elapsed = 00:00:25 . Memory (MB): peak = 2207.691 ; gain = 35.043 
+// TclEventType: RSB_REMOVE_OBJECT
+// [Engine Memory]: 2,017 mb (+1409kb) [01:58:47]
+// [Engine Memory]: 2,017 mb (+4kb) [01:58:47]
+// TclEventType: RSB_REMOVE_OBJECT
+// [Engine Memory]: 2,017 mb (+40kb) [01:58:47]
+// TclEventType: RSB_REMOVE_OBJECT
+// [Engine Memory]: 2,017 mb (+49kb) [01:58:49]
+// TclEventType: RSB_REMOVE_OBJECT
+// [Engine Memory]: 2,019 mb (+2322kb) [01:58:55]
+// TclEventType: RSB_REMOVE_OBJECT
+// [Engine Memory]: 2,019 mb (+40kb) [01:58:57]
+// TclEventType: RSB_REMOVE_OBJECT
+// [Engine Memory]: 2,020 mb (+393kb) [01:58:59]
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// Tcl Message: delete_bd_objs: Time (s): cpu = 00:00:24 ; elapsed = 00:00:21 . Memory (MB): peak = 2207.691 ; gain = 0.000 
+// TclEventType: RSB_REMOVE_OBJECT
+// [GUI Memory]: 507 mb (+18545kb) [01:59:04]
+// [Engine Memory]: 2,027 mb (+7483kb) [01:59:05]
+// TclEventType: RSB_REMOVE_OBJECT
+// [Engine Memory]: 2,027 mb (+4kb) [01:59:05]
+// TclEventType: RSB_REMOVE_OBJECT
+// [Engine Memory]: 2,027 mb (+16kb) [01:59:05]
+// TclEventType: RSB_REMOVE_OBJECT
+// [Engine Memory]: 2,027 mb (+45kb) [01:59:08]
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// [Engine Memory]: 2,027 mb (+139kb) [01:59:11]
+// Tcl Message: delete_bd_objs: Time (s): cpu = 00:00:13 ; elapsed = 00:00:11 . Memory (MB): peak = 2207.691 ; gain = 0.000 
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// [Engine Memory]: 2,027 mb (+8kb) [01:59:12]
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// Tcl Message: delete_bd_objs: Time (s): cpu = 00:00:08 ; elapsed = 00:00:06 . Memory (MB): peak = 2207.691 ; gain = 0.000 
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// [Engine Memory]: 2,027 mb (+143kb) [01:59:26]
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// [Engine Memory]: 2,027 mb (+114kb) [01:59:30]
+// Tcl Message: Verilog Output written to : system.v Verilog Output written to : system_wrapper.v 
+// TclEventType: RSB_SCRIPT_TASK
+// [Engine Memory]: 2,035 mb (+8413kb) [01:59:31]
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// TclEventType: DG_GRAPH_STALE
+// Tcl Message: Wrote  : <C:/Users/jcleong/Documents/MILESTONE_6/mainGame/mainGame.srcs/sources_1/bd/system/system.bd>  
+// TclEventType: DG_GRAPH_STALE
+// Tcl Message: make_wrapper: Time (s): cpu = 00:01:31 ; elapsed = 00:01:17 . Memory (MB): peak = 2214.957 ; gain = 42.309 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// [Engine Memory]: 2,042 mb (+6631kb) [01:59:33]
+// [Engine Memory]: 2,044 mb (+1933kb) [01:59:33]
+// Elapsed time: 78 seconds
+dismissDialog ("Create HDL Wrapper"); // ca:I (bR:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// HMemoryUtils.trashcanNow. Current time: 3/26/14 1:59:39 PM
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: FILE_SET_CHANGE
+// HMemoryUtils.trashcanNow. Current time: 3/26/14 2:00:16 PM
+// Elapsed time: 117 seconds
+selectTree (PAResourceAtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 15); // w:K (v:u, bR:JFrame)
+// af:bv (bR:JFrame): Run Synthesis: addNotify
+selectButton (RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, af:bv)
+// aR:X (bR:JFrame): Save Project: addNotify
+dismissDialog ("Run Synthesis"); // af:bv (bR:JFrame)
+selectButton (PAResourceQtoZ.SaveProjectUtils_SAVE, "Save"); // a:JButton (JPanel:JComponent, aR:X)
+// ca:I (bR:JFrame):  Save Design : addNotify
+dismissDialog ("Save Project"); // aR:X (bR:JFrame)
+// TclEventType: RSB_SAVE_DIAGRAM
+// Tcl Message: save_bd_design 
+// Tcl Message: Wrote  : <C:/Users/jcleong/Documents/MILESTONE_6/mainGame/mainGame.srcs/sources_1/bd/system/system.bd>  
+// ca:I (bR:JFrame):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// ca:I (bR:JFrame):  Starting Design runs : addNotify
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// Tcl Message: launch_runs synth_1 
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// Tcl Message: delete_bd_objs: Time (s): cpu = 00:00:44 ; elapsed = 00:00:37 . Memory (MB): peak = 2229.508 ; gain = 0.000 
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// Tcl Message: delete_bd_objs: Time (s): cpu = 00:00:37 ; elapsed = 00:00:33 . Memory (MB): peak = 2229.508 ; gain = 0.000 
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: delete_bd_objs: Time (s): cpu = 00:00:19 ; elapsed = 00:00:17 . Memory (MB): peak = 2229.508 ; gain = 0.000 
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// Tcl Message: delete_bd_objs: Time (s): cpu = 00:00:13 ; elapsed = 00:00:10 . Memory (MB): peak = 2229.508 ; gain = 0.000 
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// Tcl Message: delete_bd_objs: Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 2229.508 ; gain = 0.000 
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// Tcl Message: Verilog Output written to : system.v Verilog Output written to : system_wrapper.v Wrote  : <C:/Users/jcleong/Documents/MILESTONE_6/mainGame/mainGame.srcs/sources_1/bd/system/system.bd>  
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PARAM_UPDATED
+// Tcl Message: Delivering 'Vivado Synthesis' files for IP 'system_processing_system7_0_0'. 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block /processing_system7_0 . 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [IP_Flow 19-1706] Not generating up to date 'Synthesis' target for IP 'system_axi_gpio_0_0'. INFO: [IP_Flow 19-1706] Not generating up to date 'Implementation' target for IP 'system_axi_gpio_0_0'. INFO: [BD 41-1029] Generation completed for the IP Integrator block /axi_gpio_0 . INFO: [IP_Flow 19-1706] Not generating up to date 'Synthesis' target for IP 'system_zed_audio_ctrl_0_1'. INFO: [BD 41-1029] Generation completed for the IP Integrator block /zed_audio_ctrl_0 . 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [IP_Flow 19-1706] Not generating up to date 'Synthesis' target for IP 'system_proc_sys_reset_0'. INFO: [IP_Flow 19-1706] Not generating up to date 'Implementation' target for IP 'system_proc_sys_reset_0'. INFO: [BD 41-1029] Generation completed for the IP Integrator block /proc_sys_reset . 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PARAM_UPDATED
+// Tcl Message: Delivering 'Verilog Synthesis' files for IP 'system_xbar_1'. 
+// Tcl Message: INFO: [IP_Flow 19-616] The current project language is set to Verilog. However the IP definition 'xilinx.com:ip:fifo_generator:11.0' does not support 'Verilog Synthesis' output products, delivering 'VHDL Synthesis' output products instead. INFO: [IP_Flow 19-616] The current project language is set to Verilog. However the IP definition 'xilinx.com:ip:blk_mem_gen:8.0' does not support 'Verilog Synthesis' output products, delivering 'VHDL Synthesis' output products instead. 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block /processing_system7_0_axi_periph/xbar . INFO: [IP_Flow 19-1706] Not generating up to date 'Synthesis' target for IP 'system_SVGA_core_0_0'. INFO: [BD 41-1029] Generation completed for the IP Integrator block /SVGA_core_0 . 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [IP_Flow 19-1706] Not generating up to date 'Synthesis' target for IP 'system_axi_gpio_1_1'. INFO: [IP_Flow 19-1706] Not generating up to date 'Implementation' target for IP 'system_axi_gpio_1_1'. INFO: [BD 41-1029] Generation completed for the IP Integrator block /btns_5bit . INFO: [IP_Flow 19-1706] Not generating up to date 'Synthesis' target for IP 'system_led_ip_0_0'. INFO: [BD 41-1029] Generation completed for the IP Integrator block /led_ip_0 . 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PARAM_UPDATED
+// Tcl Message: INFO: [IP_Flow 19-1706] Not generating up to date 'Synthesis' target for IP 'system_axi_gpio_1_2'. INFO: [IP_Flow 19-1706] Not generating up to date 'Implementation' target for IP 'system_axi_gpio_1_2'. INFO: [BD 41-1029] Generation completed for the IP Integrator block /sw_8bits . 
+// Tcl Message: Delivering 'Verilog Synthesis' files for IP 'system_auto_pc_38'. 
+// Tcl Message: INFO: [IP_Flow 19-616] The current project language is set to Verilog. However the IP definition 'xilinx.com:ip:fifo_generator:11.0' does not support 'Verilog Synthesis' output products, delivering 'VHDL Synthesis' output products instead. INFO: [IP_Flow 19-616] The current project language is set to Verilog. However the IP definition 'xilinx.com:ip:blk_mem_gen:8.0' does not support 'Verilog Synthesis' output products, delivering 'VHDL Synthesis' output products instead. 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PARAM_UPDATED
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block /processing_system7_0_axi_periph/s00_couplers/auto_pc . 
+// Tcl Message: Delivering 'Verilog Synthesis' files for IP 'system_auto_pc_39'. 
+// Tcl Message: INFO: [IP_Flow 19-616] The current project language is set to Verilog. However the IP definition 'xilinx.com:ip:fifo_generator:11.0' does not support 'Verilog Synthesis' output products, delivering 'VHDL Synthesis' output products instead. INFO: [IP_Flow 19-616] The current project language is set to Verilog. However the IP definition 'xilinx.com:ip:blk_mem_gen:8.0' does not support 'Verilog Synthesis' output products, delivering 'VHDL Synthesis' output products instead. 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block /axi_mem_intercon/s00_couplers/auto_pc . INFO: [BD 41-539] Not generating up to date 'Implementation' target for block design system INFO: [BD 41-1029] Generation completed for the IP Integrator block /processing_system7_0 . INFO: [IP_Flow 19-1706] Not generating up to date 'Implementation' target for IP 'system_axi_gpio_0_0'. 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Wed Mar 26 14:03:59 2014] Launched synth_1... Run output will be captured here: C:/Users/jcleong/Documents/MILESTONE_6/mainGame/mainGame.runs/synth_1/runme.log 
+// Tcl Message: launch_runs: Time (s): cpu = 00:02:34 ; elapsed = 00:02:21 . Memory (MB): peak = 2229.508 ; gain = 0.000 
+// 'q' command handler elapsed time: 146 seconds
+// Elapsed time: 142 seconds
+dismissDialog ("Starting Design runs"); // ca:I (bR:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RUN_COMPLETED
+// O:af (bR:JFrame): Synthesis Completed: addNotify
+// Elapsed time: 181 seconds
+selectRadioButton (PAResourceCommand.PACommandNames_RUN_IMPLEMENTATION, "Run Implementation"); // a:JRadioButton (JPanel:JComponent, O:af)
+selectButton (RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, O:af)
+// ca:I (bR:JFrame):  Starting Design runs : addNotify
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Wed Mar 26 14:07:02 2014] Launched impl_1... Run output will be captured here: C:/Users/jcleong/Documents/MILESTONE_6/mainGame/mainGame.runs/impl_1/runme.log 
+dismissDialog ("Starting Design runs"); // ca:I (bR:JFrame)
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_COMPLETED
+// O:af (bR:JFrame): Implementation Completed: addNotify
+// Elapsed time: 71 seconds
+selectRadioButton (PAResourceCommand.PACommandNames_RUN_BITGEN, "Generate Bitstream"); // a:JRadioButton (JPanel:JComponent, O:af)
+selectButton (RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, O:af)
+dismissDialog ("Implementation Completed"); // O:af (bR:JFrame)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream 
+// TclEventType: RUN_MODIFY
+// ca:I (bR:JFrame):  Generate Bitstream : addNotify
+// Tcl Message: [Wed Mar 26 14:08:15 2014] Launched impl_1... Run output will be captured here: C:/Users/jcleong/Documents/MILESTONE_6/mainGame/mainGame.runs/impl_1/runme.log 
+dismissDialog ("Generate Bitstream"); // ca:I (bR:JFrame)
+// TclEventType: RUN_COMPLETED
+// O:af (bR:JFrame): Bitstream Generation Completed: addNotify
+// Elapsed time: 55 seconds
+selectButton (RDIResource.BaseDialog_CANCEL, "Cancel"); // a:JButton (JPanel:JComponent, O:af)
+dismissDialog ("Bitstream Generation Completed"); // O:af (bR:JFrame)
+selectMenu (PAResourceItoP.MainMenuMgr_FILE, "File"); // ac:JideMenu (CommandMenuBar:CommandBar, bR:JFrame)
+selectMenu (PAResourceItoP.MainMenuMgr_OPEN_EXAMPLE_PROJECT, "Open Example Project"); // af:JMenu (JPopupMenu:JComponent, bR:JFrame)
+selectMenu (PAResourceItoP.MainMenuMgr_OPEN_RECENT_IP_LOCATION, "Open Recent IP Location"); // af:JMenu (JPopupMenu:JComponent, bR:JFrame)
+selectMenu (PAResourceItoP.MainMenuMgr_OPEN_RECENT_FILE, "Open Recent File"); // af:JMenu (JPopupMenu:JComponent, bR:JFrame)
+selectMenu (PAResourceItoP.MainMenuMgr_EXPORT, "Export"); // af:JMenu (JPopupMenu:JComponent, bR:JFrame)
+selectMenu (PAResourceItoP.MainMenuMgr_EXPORT, "Export"); // af:JMenu (JPopupMenu:JComponent, bR:JFrame)
+selectMenuItem (PAResourceCommand.PACommandNames_EXPORT_HARDWARE, "Export Hardware for SDK..."); // ai:JMenuItem (JPopupMenu:JComponent, bR:JFrame)
+dismissMenu (PAResourceItoP.MainMenuMgr_FILE, "File"); // ac:JideMenu (CommandMenuBar:CommandBar, bR:JFrame)
+// s:X (bR:JFrame): Export Hardware for SDK: addNotify
+selectCheckBox (PAResourceAtoH.ExportHardwareDialog_LAUNCH_SDK, "Launch SDK", false, true); // c:JCheckBox (JPanel:JComponent, s:X): FALSE
+selectButton (RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, s:X)
+selectButton ((HResource) null, "Yes"); // BasicOptionPaneUI$ButtonFactory:JButton (JPanel:JComponent, D:JDialog)
+dismissDialog ("Export Hardware for SDK"); // s:X (bR:JFrame)
+// Tcl Message: export_hardware [get_files C:/Users/jcleong/Documents/MILESTONE_6/mainGame/mainGame.srcs/sources_1/bd/system/system.bd] [get_runs impl_1] -bitstream 
+// ca:I (bR:JFrame):  Export Hardware for SDK : addNotify
+// HMemoryUtils.trashcanNow. Current time: 3/26/14 2:09:24 PM
+// [Engine Memory]: 2,073 mb (+30916kb) [02:09:23]
+// Tcl Message: Exporting to file C:/Users/jcleong/Documents/MILESTONE_6/mainGame/mainGame.sdk/SDK/SDK_Export/hw/system.xml 
+// Tcl Message: INFO: [BD 41-436] exporting bit file 'C:/Users/jcleong/Documents/MILESTONE_6/mainGame/mainGame.runs/impl_1/system_wrapper.bit'... 
+// Tcl Message: export_hardware: Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 2244.461 ; gain = 14.953 
+// Tcl Message: launch_sdk -bit C:/Users/jcleong/Documents/MILESTONE_6/mainGame/mainGame.sdk/SDK/SDK_Export/hw/system_wrapper.bit -workspace C:/Users/jcleong/Documents/MILESTONE_6/mainGame/mainGame.sdk/SDK/SDK_Export -hwspec C:/Users/jcleong/Documents/MILESTONE_6/mainGame/mainGame.sdk/SDK/SDK_Export/hw/system.xml 
+// Tcl Message: INFO: [Vivado 12-393] Launching SDK... INFO: [Vivado 12-417] Running xsdk -bit C:/Users/jcleong/Documents/MILESTONE_6/mainGame/mainGame.sdk/SDK/SDK_Export/hw/system_wrapper.bit -workspace C:/Users/jcleong/Documents/MILESTONE_6/mainGame/mainGame.sdk/SDK/SDK_Export -hwspec C:/Users/jcleong/Documents/MILESTONE_6/mainGame/mainGame.sdk/SDK/SDK_Export/hw/system.xml INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages. 
+// [Engine Memory]: 2,075 mb (+1761kb) [02:09:33]
+// Elapsed time: 20 seconds
+dismissDialog ("Export Hardware for SDK"); // ca:I (bR:JFrame)
+// Elapsed time: 903 seconds
+selectButton (PAResourceCommand.PACommandNames_ZOOM_IN, "System_zoom_in"); // t:JideButton (CommandBar:DockableBar, bR:JFrame)
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// HMemoryUtils.trashcanNow. Current time: 3/26/14 2:30:17 PM
+// HMemoryUtils.trashcanNow. Current time: 3/26/14 3:00:17 PM
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// ca:I (bR:JFrame):  Re-customize IP : addNotify
+// TclEventType: PARAM_UPDATED
+// m:I (bR:JFrame): Re-customize IP: addNotify
+// bZ:X (m:I): Configuration Presets: addNotify
+// 'M' command handler elapsed time: 7 seconds
+// Elapsed time: 2947 seconds
+dismissDialog ("Re-customize IP"); // ca:I (bR:JFrame)
+selectButton ((HResource) null, "Clock Configuration"); // i:JideButton (bV:ButtonPanel, m:I)
+expandTreeTable (PAResourceAtoH.ClkConfigTreeTablePanel_CLK_CONFIG_TREE_TABLE, "Processor/Memory Clocks ; Processor/Memory Clocks ; Processor/Memory Clocks ; Processor/Memory Clocks ; Processor/Memory Clocks ; Processor/Memory Clocks", 0); // p:ci (JViewport:JComponent, m:I)
+selectTable (PAResourceAtoH.ClkConfigTreeTablePanel_CLK_CONFIG_TREE_TABLE, "CPU ; ARM PLL ; 666.666667 ; 666.666687 ; 50.0 : 667.0 ; Processor/Memory Clocks", 1); // p:ci (JViewport:JComponent, m:I)
+// Elapsed time: 11 seconds
+setText ("PCW APU PERIPHERAL FREQMHZ", "200"); // ar:am (p:ci, m:I)
+selectButton (RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, m:I)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// Tcl Message: startgroup set_property -dict [list CONFIG.PCW_APU_PERIPHERAL_FREQMHZ {200}] [get_bd_cells processing_system7_0] 
+// ca:I (m:I):  Customize IP : addNotify
+// Tcl Message: endgroup 
+dismissDialog ("Customize IP"); // ca:I (m:I)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 592 seconds
+selectTree (PAResourceAtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager, IP Catalog]", 3); // w:K (v:u, bR:JFrame)
+// ca:I (bR:JFrame):  IP Catalog : addNotify
+dismissDialog ("IP Catalog"); // ca:I (bR:JFrame)
+selectButton (PAResourceCommand.PACommandNames_IP_SETTINGS, "IP Catalog_ip_settings"); // t:JideButton (CommandBar:DockableBar, bR:JFrame)
+// Project Settings: addNotify
+selectList (PAResourceItoP.ProjectSettingsIPRepositoryPanel_REPOSITORY_CHOOSER, "ui.data.coregen.bI@410165d8", 1); // p:a (JViewport:JComponent, j:bf)
+selectButton ((HResource) null, "Cancel"); // JButton:AbstractButton (ButtonPanel:JPanel, j:bf)
+// HMemoryUtils.trashcanNow. Current time: 3/26/14 3:30:17 PM
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// HMemoryUtils.trashcanNow. Current time: 3/26/14 4:00:18 PM
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// ca:I (bR:JFrame):  Re-customize IP : addNotify
+// TclEventType: PARAM_UPDATED
+// m:I (bR:JFrame): Re-customize IP: addNotify
+// bZ:X (m:I): Configuration Presets: addNotify
+// 'M' command handler elapsed time: 5 seconds
+// Elapsed time: 3778 seconds
+dismissDialog ("Re-customize IP"); // ca:I (bR:JFrame)
+// Elapsed time: 12 seconds
+selectButton ((HResource) null, "Clock Configuration"); // i:JideButton (bV:ButtonPanel, m:I)
+expandTreeTable (PAResourceAtoH.ClkConfigTreeTablePanel_CLK_CONFIG_TREE_TABLE, "Processor/Memory Clocks ; Processor/Memory Clocks ; Processor/Memory Clocks ; Processor/Memory Clocks ; Processor/Memory Clocks ; Processor/Memory Clocks", 0); // p:ci (JViewport:JComponent, m:I)
+selectButton (RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, m:I)
+expandTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, system_wrapper (system_wrapper.v)]", 1); // n:f (u:JPanel, bR:JFrame)
+selectTree (PAResourceAtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, system_wrapper (system_wrapper.v), system_i - system (system.bd)]", 2, false, false, false, true, false); // n:f (u:JPanel, bR:JFrame) - POPUP TRIGGER
+selectMenuItem (PAResourceCommand.PACommandNames_CREATE_TOP_HDL, "Create HDL Wrapper..."); // ai:JMenuItem (am:JPopupMenu, bR:JFrame)
+// a:X (bR:JFrame): Create HDL Wrapper: addNotify
+selectButton (RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, a:X)
+dismissDialog ("Create HDL Wrapper"); // a:X (bR:JFrame)
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// Tcl Message: make_wrapper -files [get_files C:/Users/jcleong/Documents/MILESTONE_6/mainGame/mainGame.srcs/sources_1/bd/system/system.bd] -top 
+// TclEventType: RSB_REMOVE_OBJECT
+// ca:I (bR:JFrame):  Create HDL Wrapper : addNotify
+// TclEventType: RSB_REMOVE_OBJECT
+// [GUI Memory]: 511 mb (+4842kb) [04:27:34]
+// TclEventType: RSB_REMOVE_OBJECT
+// [GUI Memory]: 512 mb (+949kb) [04:27:35]
+// [GUI Memory]: 536 mb (+24584kb) [04:27:35]
+// [Engine Memory]: 2,081 mb (+7069kb) [04:27:35]
+// TclEventType: RSB_REMOVE_OBJECT
+// [GUI Memory]: 544 mb (+8855kb) [04:27:36]
+// [Engine Memory]: 2,089 mb (+7786kb) [04:27:36]
+// TclEventType: RSB_REMOVE_OBJECT
+// HMemoryUtils.trashcanNow. Current time: 3/26/14 4:27:40 PM
+// [Engine Memory]: 2,098 mb (+9576kb) [04:27:37]
+// TclEventType: RSB_REMOVE_OBJECT
+// [Engine Memory]: 2,098 mb (+339kb) [04:27:39]
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// [GUI Memory]: 547 mb (+2647kb) [04:27:48]
+// [Engine Memory]: 2,105 mb (+6643kb) [04:27:48]
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// [GUI Memory]: 559 mb (+12700kb) [04:27:48]
+// [Engine Memory]: 2,114 mb (+9515kb) [04:27:48]
+// TclEventType: RSB_REMOVE_OBJECT
+// Tcl Message: delete_bd_objs: Time (s): cpu = 00:00:32 ; elapsed = 00:00:26 . Memory (MB): peak = 2307.441 ; gain = 62.980 
+// TclEventType: RSB_REMOVE_OBJECT
+// [Engine Memory]: 2,120 mb (+6799kb) [04:27:49]
+// TclEventType: RSB_REMOVE_OBJECT
+// [Engine Memory]: 2,120 mb (+4kb) [04:27:50]
+// TclEventType: RSB_REMOVE_OBJECT
+// [Engine Memory]: 2,120 mb (+81kb) [04:27:53]
+// TclEventType: RSB_REMOVE_OBJECT
+// [GUI Memory]: 566 mb (+7694kb) [04:27:58]
+// TclEventType: RSB_REMOVE_OBJECT
+// [Engine Memory]: 2,127 mb (+6762kb) [04:27:59]
+// TclEventType: RSB_REMOVE_OBJECT
+// [Engine Memory]: 2,127 mb (+69kb) [04:27:59]
+// TclEventType: RSB_REMOVE_OBJECT
+// [Engine Memory]: 2,127 mb (+36kb) [04:28:00]
+// TclEventType: RSB_REMOVE_OBJECT
+// [Engine Memory]: 2,129 mb (+1814kb) [04:28:02]
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// [GUI Memory]: 578 mb (+12230kb) [04:28:09]
+// TclEventType: RSB_REMOVE_OBJECT
+// Tcl Message: delete_bd_objs: Time (s): cpu = 00:00:26 ; elapsed = 00:00:21 . Memory (MB): peak = 2313.113 ; gain = 5.672 
+// TclEventType: RSB_REMOVE_OBJECT
+// [Engine Memory]: 2,140 mb (+11829kb) [04:28:10]
+// TclEventType: RSB_REMOVE_OBJECT
+// HMemoryUtils.trashcanNow. Current time: 3/26/14 4:28:15 PM
+// TclEventType: RSB_REMOVE_OBJECT
+// [Engine Memory]: 2,140 mb (+20kb) [04:28:12]
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: delete_bd_objs: Time (s): cpu = 00:00:13 ; elapsed = 00:00:12 . Memory (MB): peak = 2313.113 ; gain = 0.000 
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// [Engine Memory]: 2,140 mb (+274kb) [04:28:22]
+// TclEventType: RSB_REMOVE_OBJECT
+// [GUI Memory]: 583 mb (+5747kb) [04:28:25]
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// Tcl Message: delete_bd_objs: Time (s): cpu = 00:00:08 ; elapsed = 00:00:07 . Memory (MB): peak = 2313.113 ; gain = 0.000 
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// [Engine Memory]: 2,140 mb (+40kb) [04:28:39]
+// TclEventType: RSB_SCRIPT_TASK
+// [Engine Memory]: 2,147 mb (+7430kb) [04:28:41]
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// Tcl Message: Verilog Output written to : system.v Verilog Output written to : system_wrapper.v Wrote  : <C:/Users/jcleong/Documents/MILESTONE_6/mainGame/mainGame.srcs/sources_1/bd/system/system.bd>  
+// Tcl Message: make_wrapper: Time (s): cpu = 00:01:35 ; elapsed = 00:01:20 . Memory (MB): peak = 2318.875 ; gain = 74.414 
+// Elapsed time: 80 seconds
+dismissDialog ("Create HDL Wrapper"); // ca:I (bR:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// [Engine Memory]: 2,148 mb (+892kb) [04:28:50]
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 56 seconds
+selectTree (PAResourceAtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 15); // w:K (v:u, bR:JFrame)
+// af:bv (bR:JFrame): Run Synthesis: addNotify
+selectButton (RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, af:bv)
+// ca:I (bR:JFrame):  Resetting Runs : addNotify
+dismissDialog ("Run Synthesis"); // af:bv (bR:JFrame)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// ca:I (bR:JFrame):  Starting Design runs : addNotify
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// Tcl Message: launch_runs synth_1 
+// TclEventType: RSB_REMOVE_OBJECT
+// [GUI Memory]: 585 mb (+1768kb) [04:29:47]
+// TclEventType: RSB_REMOVE_OBJECT
+// [GUI Memory]: 597 mb (+12552kb) [04:30:02]
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// HMemoryUtils.trashcanNow. Current time: 3/26/14 4:30:18 PM
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// Tcl Message: delete_bd_objs: Time (s): cpu = 00:00:40 ; elapsed = 00:00:34 . Memory (MB): peak = 2323.813 ; gain = 0.000 
+// TclEventType: RSB_REMOVE_OBJECT
+// [GUI Memory]: 600 mb (+3564kb) [04:30:31]
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// Tcl Message: delete_bd_objs: Time (s): cpu = 00:00:33 ; elapsed = 00:00:29 . Memory (MB): peak = 2323.813 ; gain = 0.000 
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// Tcl Message: delete_bd_objs: Time (s): cpu = 00:00:18 ; elapsed = 00:00:15 . Memory (MB): peak = 2323.813 ; gain = 0.000 
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// Tcl Message: delete_bd_objs: Time (s): cpu = 00:00:11 ; elapsed = 00:00:09 . Memory (MB): peak = 2323.813 ; gain = 0.000 
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// Tcl Message: delete_bd_objs: Time (s): cpu = 00:00:06 ; elapsed = 00:00:05 . Memory (MB): peak = 2323.813 ; gain = 0.000 
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// Tcl Message: Verilog Output written to : system.v Verilog Output written to : system_wrapper.v Wrote  : <C:/Users/jcleong/Documents/MILESTONE_6/mainGame/mainGame.srcs/sources_1/bd/system/system.bd>  
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PARAM_UPDATED
+// Tcl Message: Delivering 'Vivado Synthesis' files for IP 'system_processing_system7_0_0'. 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// [Engine Memory]: 2,149 mb (+991kb) [04:31:40]
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block /processing_system7_0 . 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [IP_Flow 19-1706] Not generating up to date 'Synthesis' target for IP 'system_axi_gpio_0_0'. INFO: [IP_Flow 19-1706] Not generating up to date 'Implementation' target for IP 'system_axi_gpio_0_0'. INFO: [BD 41-1029] Generation completed for the IP Integrator block /axi_gpio_0 . INFO: [IP_Flow 19-1706] Not generating up to date 'Synthesis' target for IP 'system_zed_audio_ctrl_0_1'. INFO: [BD 41-1029] Generation completed for the IP Integrator block /zed_audio_ctrl_0 . 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [IP_Flow 19-1706] Not generating up to date 'Synthesis' target for IP 'system_axi_gpio_1_1'. INFO: [IP_Flow 19-1706] Not generating up to date 'Implementation' target for IP 'system_axi_gpio_1_1'. INFO: [BD 41-1029] Generation completed for the IP Integrator block /btns_5bit . INFO: [IP_Flow 19-1706] Not generating up to date 'Synthesis' target for IP 'system_led_ip_0_0'. INFO: [BD 41-1029] Generation completed for the IP Integrator block /led_ip_0 . 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PARAM_UPDATED
+// Tcl Message: INFO: [IP_Flow 19-1706] Not generating up to date 'Synthesis' target for IP 'system_axi_gpio_1_2'. INFO: [IP_Flow 19-1706] Not generating up to date 'Implementation' target for IP 'system_axi_gpio_1_2'. INFO: [BD 41-1029] Generation completed for the IP Integrator block /sw_8bits . 
+// Tcl Message: Delivering 'Verilog Synthesis' files for IP 'system_auto_pc_42'. 
+// Tcl Message: INFO: [IP_Flow 19-616] The current project language is set to Verilog. However the IP definition 'xilinx.com:ip:fifo_generator:11.0' does not support 'Verilog Synthesis' output products, delivering 'VHDL Synthesis' output products instead. INFO: [IP_Flow 19-616] The current project language is set to Verilog. However the IP definition 'xilinx.com:ip:blk_mem_gen:8.0' does not support 'Verilog Synthesis' output products, delivering 'VHDL Synthesis' output products instead. 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PARAM_UPDATED
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block /processing_system7_0_axi_periph/s00_couplers/auto_pc . 
+// Tcl Message: Delivering 'Verilog Synthesis' files for IP 'system_auto_pc_43'. 
+// Tcl Message: INFO: [IP_Flow 19-616] The current project language is set to Verilog. However the IP definition 'xilinx.com:ip:fifo_generator:11.0' does not support 'Verilog Synthesis' output products, delivering 'VHDL Synthesis' output products instead. INFO: [IP_Flow 19-616] The current project language is set to Verilog. However the IP definition 'xilinx.com:ip:blk_mem_gen:8.0' does not support 'Verilog Synthesis' output products, delivering 'VHDL Synthesis' output products instead. 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block /sw_8bits . INFO: [BD 41-1029] Generation completed for the IP Integrator block /processing_system7_0_axi_periph/s00_couplers/auto_pc . INFO: [BD 41-1029] Generation completed for the IP Integrator block /axi_mem_intercon/s00_couplers/auto_pc . 
+// Tcl Message: [Wed Mar 26 16:31:53 2014] Launched synth_1... Run output will be captured here: C:/Users/jcleong/Documents/MILESTONE_6/mainGame/mainGame.runs/synth_1/runme.log 
+// Tcl Message: launch_runs: Time (s): cpu = 00:02:20 ; elapsed = 00:02:08 . Memory (MB): peak = 2328.758 ; gain = 4.945 
+// 'q' command handler elapsed time: 130 seconds
+// Elapsed time: 129 seconds
+dismissDialog ("Starting Design runs"); // ca:I (bR:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RSB_CANVAS_LOCATION
+// TclEventType: RSB_BLOCK_SIZE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// [Engine Memory]: 2,151 mb (+2519kb) [04:34:29]
+// TclEventType: RUN_COMPLETED
+// O:af (bR:JFrame): Synthesis Completed: addNotify
+// Elapsed time: 265 seconds
+selectRadioButton (PAResourceCommand.PACommandNames_RUN_IMPLEMENTATION, "Run Implementation"); // a:JRadioButton (JPanel:JComponent, O:af)
+selectButton (RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, O:af)
+// ca:I (bR:JFrame):  Starting Design runs : addNotify
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_LAUNCH
+// Tcl Message: launch_runs impl_1 
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Wed Mar 26 16:36:20 2014] Launched impl_1... Run output will be captured here: C:/Users/jcleong/Documents/MILESTONE_6/mainGame/mainGame.runs/impl_1/runme.log 
+dismissDialog ("Starting Design runs"); // ca:I (bR:JFrame)
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_COMPLETED
+// O:af (bR:JFrame): Implementation Completed: addNotify
+// Elapsed time: 75 seconds
+selectRadioButton (PAResourceCommand.PACommandNames_RUN_BITGEN, "Generate Bitstream"); // a:JRadioButton (JPanel:JComponent, O:af)
+selectButton (RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, O:af)
+dismissDialog ("Implementation Completed"); // O:af (bR:JFrame)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream 
+// TclEventType: RUN_MODIFY
+// ca:I (bR:JFrame):  Generate Bitstream : addNotify
+// Tcl Message: [Wed Mar 26 16:37:38 2014] Launched impl_1... Run output will be captured here: C:/Users/jcleong/Documents/MILESTONE_6/mainGame/mainGame.runs/impl_1/runme.log 
+dismissDialog ("Generate Bitstream"); // ca:I (bR:JFrame)
+// TclEventType: RUN_COMPLETED
+// O:af (bR:JFrame): Bitstream Generation Completed: addNotify
+// HMemoryUtils.trashcanNow. Current time: 3/26/14 4:38:30 PM
+// [Engine Memory]: 2,178 mb (+28078kb) [04:38:29]
+// Elapsed time: 121 seconds
+selectButton (RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, O:af)
+dismissDialog ("Bitstream Generation Completed"); // O:af (bR:JFrame)
+selectButton (PAResourceCommand.PACommandNames_NEW_PROJECT, "new_project"); // t:JideButton (CommandBar:DockableBar, bR:JFrame)
+// a:aB (bR:JFrame): New Project: addNotify
+selectMenu (PAResourceItoP.MainMenuMgr_FILE, "File"); // ac:JideMenu (CommandMenuBar:CommandBar, bR:JFrame)
+selectMenu (PAResourceItoP.MainMenuMgr_OPEN_RECENT_PROJECT, "Open Recent Project"); // af:JMenu (JPopupMenu:JComponent, bR:JFrame)
+selectMenu (PAResourceItoP.MainMenuMgr_OPEN_EXAMPLE_PROJECT, "Open Example Project"); // af:JMenu (JPopupMenu:JComponent, bR:JFrame)
+selectMenu (PAResourceItoP.MainMenuMgr_OPEN_RECENT_FILE, "Open Recent File"); // af:JMenu (JPopupMenu:JComponent, bR:JFrame)
+selectMenu (PAResourceItoP.MainMenuMgr_EXPORT, "Export"); // af:JMenu (JPopupMenu:JComponent, bR:JFrame)
+dismissMenu (PAResourceItoP.MainMenuMgr_FILE, "File"); // ac:JideMenu (CommandMenuBar:CommandBar, bR:JFrame)
+selectMenu (PAResourceItoP.MainMenuMgr_FILE, "File"); // ac:JideMenu (CommandMenuBar:CommandBar, bR:JFrame)
+selectMenu (PAResourceItoP.MainMenuMgr_OPEN_RECENT_PROJECT, "Open Recent Project"); // af:JMenu (JPopupMenu:JComponent, bR:JFrame)
+selectMenu (PAResourceItoP.MainMenuMgr_OPEN_EXAMPLE_PROJECT, "Open Example Project"); // af:JMenu (JPopupMenu:JComponent, bR:JFrame)
+selectMenu (PAResourceItoP.MainMenuMgr_OPEN_RECENT_CHECKPOINT, "Open Recent Checkpoint"); // af:JMenu (JPopupMenu:JComponent, bR:JFrame)
+selectMenu (PAResourceItoP.MainMenuMgr_OPEN_RECENT_IP_LOCATION, "Open Recent IP Location"); // af:JMenu (JPopupMenu:JComponent, bR:JFrame)
+selectMenu (PAResourceItoP.MainMenuMgr_OPEN_RECENT_FILE, "Open Recent File"); // af:JMenu (JPopupMenu:JComponent, bR:JFrame)
+selectMenu (PAResourceItoP.MainMenuMgr_EXPORT, "Export"); // af:JMenu (JPopupMenu:JComponent, bR:JFrame)
+selectMenuItem (PAResourceCommand.PACommandNames_EXPORT_BD_TCL, "Export Block Design..."); // ai:JMenuItem (JPopupMenu:JComponent, bR:JFrame)
+dismissMenu (PAResourceItoP.MainMenuMgr_FILE, "File"); // ac:JideMenu (CommandMenuBar:CommandBar, bR:JFrame)
+// P:X (bR:JFrame): Export Block Design: addNotify
+selectButton (RDIResource.BaseDialog_CANCEL, "Cancel"); // a:JButton (JPanel:JComponent, P:X)
+dismissDialog ("Export Block Design"); // P:X (bR:JFrame)
+selectMenu (PAResourceItoP.MainMenuMgr_FILE, "File"); // ac:JideMenu (CommandMenuBar:CommandBar, bR:JFrame)
+selectMenu (PAResourceItoP.MainMenuMgr_OPEN_RECENT_CHECKPOINT, "Open Recent Checkpoint"); // af:JMenu (JPopupMenu:JComponent, bR:JFrame)
+selectMenu (PAResourceItoP.MainMenuMgr_EXPORT, "Export"); // af:JMenu (JPopupMenu:JComponent, bR:JFrame)
+selectMenuItem (PAResourceCommand.PACommandNames_EXPORT_HARDWARE, "Export Hardware for SDK..."); // ai:JMenuItem (JPopupMenu:JComponent, bR:JFrame)
+dismissMenu (PAResourceItoP.MainMenuMgr_FILE, "File"); // ac:JideMenu (CommandMenuBar:CommandBar, bR:JFrame)
+// s:X (bR:JFrame): Export Hardware for SDK: addNotify
+selectCheckBox (PAResourceAtoH.ExportHardwareDialog_LAUNCH_SDK, "Launch SDK", false, true); // c:JCheckBox (JPanel:JComponent, s:X): FALSE
+selectButton (RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, s:X)
+selectButton ((HResource) null, "Yes"); // BasicOptionPaneUI$ButtonFactory:JButton (JPanel:JComponent, D:JDialog)
+dismissDialog ("Export Hardware for SDK"); // s:X (bR:JFrame)
+// Tcl Message: export_hardware [get_files C:/Users/jcleong/Documents/MILESTONE_6/mainGame/mainGame.srcs/sources_1/bd/system/system.bd] [get_runs impl_1] -bitstream 
+// ca:I (bR:JFrame):  Export Hardware for SDK : addNotify
+// HMemoryUtils.trashcanNow. Current time: 3/26/14 4:40:05 PM
+// [Engine Memory]: 2,199 mb (+21725kb) [04:40:04]
+// Tcl Message: Exporting to file C:/Users/jcleong/Documents/MILESTONE_6/mainGame/mainGame.sdk/SDK/SDK_Export/hw/system.xml 
+// Tcl Message: INFO: [BD 41-436] exporting bit file 'C:/Users/jcleong/Documents/MILESTONE_6/mainGame/mainGame.runs/impl_1/system_wrapper.bit'... 
+// Tcl Message: export_hardware: Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 2382.457 ; gain = 16.879 
+// Tcl Message: launch_sdk -bit C:/Users/jcleong/Documents/MILESTONE_6/mainGame/mainGame.sdk/SDK/SDK_Export/hw/system_wrapper.bit -workspace C:/Users/jcleong/Documents/MILESTONE_6/mainGame/mainGame.sdk/SDK/SDK_Export -hwspec C:/Users/jcleong/Documents/MILESTONE_6/mainGame/mainGame.sdk/SDK/SDK_Export/hw/system.xml 
+// Tcl Message: INFO: [Vivado 12-393] Launching SDK... INFO: [Vivado 12-417] Running xsdk -bit C:/Users/jcleong/Documents/MILESTONE_6/mainGame/mainGame.sdk/SDK/SDK_Export/hw/system_wrapper.bit -workspace C:/Users/jcleong/Documents/MILESTONE_6/mainGame/mainGame.sdk/SDK/SDK_Export -hwspec C:/Users/jcleong/Documents/MILESTONE_6/mainGame/mainGame.sdk/SDK/SDK_Export/hw/system.xml INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages. 
+// [Engine Memory]: 2,200 mb (+1077kb) [04:40:12]
+// Elapsed time: 19 seconds
+dismissDialog ("Export Hardware for SDK"); // ca:I (bR:JFrame)
+// HMemoryUtils.trashcanNow. Current time: 3/26/14 5:00:20 PM
+// HMemoryUtils.trashcanNow. Current time: 3/26/14 5:30:24 PM
+// HMemoryUtils.trashcanNow. Current time: 3/26/14 6:00:27 PM
+// HMemoryUtils.trashcanNow. Current time: 3/26/14 6:30:30 PM
+// Elapsed time: 7595 seconds
+selectMenu (PAResourceItoP.MainMenuMgr_FILE, "File"); // ac:JideMenu (CommandMenuBar:CommandBar, bR:JFrame)
+selectMenu (PAResourceItoP.MainMenuMgr_OPEN_RECENT_PROJECT, "Open Recent Project"); // af:JMenu (JPopupMenu:JComponent, bR:JFrame)
+selectMenu (PAResourceItoP.MainMenuMgr_OPEN_EXAMPLE_PROJECT, "Open Example Project"); // af:JMenu (JPopupMenu:JComponent, bR:JFrame)
+selectMenu (PAResourceItoP.MainMenuMgr_OPEN_RECENT_CHECKPOINT, "Open Recent Checkpoint"); // af:JMenu (JPopupMenu:JComponent, bR:JFrame)
+selectMenu (PAResourceItoP.MainMenuMgr_OPEN_RECENT_IP_LOCATION, "Open Recent IP Location"); // af:JMenu (JPopupMenu:JComponent, bR:JFrame)
+selectMenu (PAResourceItoP.MainMenuMgr_OPEN_RECENT_FILE, "Open Recent File"); // af:JMenu (JPopupMenu:JComponent, bR:JFrame)
+selectMenu (PAResourceItoP.MainMenuMgr_EXPORT, "Export"); // af:JMenu (JPopupMenu:JComponent, bR:JFrame)
+selectMenu (PAResourceItoP.MainMenuMgr_EXPORT, "Export"); // af:JMenu (JPopupMenu:JComponent, bR:JFrame)
+selectMenu (PAResourceItoP.MainMenuMgr_EXPORT, "Export"); // af:JMenu (JPopupMenu:JComponent, bR:JFrame)
+selectMenuItem (PAResourceCommand.PACommandNames_EXPORT_HARDWARE, "Export Hardware for SDK..."); // ai:JMenuItem (JPopupMenu:JComponent, bR:JFrame)
+dismissMenu (PAResourceItoP.MainMenuMgr_FILE, "File"); // ac:JideMenu (CommandMenuBar:CommandBar, bR:JFrame)
+// s:X (bR:JFrame): Export Hardware for SDK: addNotify
+selectCheckBox (PAResourceAtoH.ExportHardwareDialog_LAUNCH_SDK, "Launch SDK", false, true); // c:JCheckBox (JPanel:JComponent, s:X): FALSE
+selectButton (RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, s:X)
+selectButton ((HResource) null, "Yes"); // BasicOptionPaneUI$ButtonFactory:JButton (JPanel:JComponent, D:JDialog)
+dismissDialog ("Export Hardware for SDK"); // s:X (bR:JFrame)
+// Tcl Message: export_hardware [get_files C:/Users/jcleong/Documents/MILESTONE_6/mainGame/mainGame.srcs/sources_1/bd/system/system.bd] [get_runs impl_1] -bitstream 
+// ca:I (bR:JFrame):  Export Hardware for SDK : addNotify
+// Tcl Message: Exporting to file C:/Users/jcleong/Documents/MILESTONE_6/mainGame/mainGame.sdk/SDK/SDK_Export/hw/system.xml 
+// Tcl Message: INFO: [BD 41-436] exporting bit file 'C:/Users/jcleong/Documents/MILESTONE_6/mainGame/mainGame.runs/impl_1/system_wrapper.bit'... 
+// Tcl Message: export_hardware: Time (s): cpu = 00:00:21 ; elapsed = 00:00:23 . Memory (MB): peak = 2391.641 ; gain = 0.000 
+// Tcl Message: launch_sdk -bit C:/Users/jcleong/Documents/MILESTONE_6/mainGame/mainGame.sdk/SDK/SDK_Export/hw/system_wrapper.bit -workspace C:/Users/jcleong/Documents/MILESTONE_6/mainGame/mainGame.sdk/SDK/SDK_Export -hwspec C:/Users/jcleong/Documents/MILESTONE_6/mainGame/mainGame.sdk/SDK/SDK_Export/hw/system.xml 
+// Tcl Message: INFO: [Vivado 12-393] Launching SDK... INFO: [Vivado 12-417] Running xsdk -bit C:/Users/jcleong/Documents/MILESTONE_6/mainGame/mainGame.sdk/SDK/SDK_Export/hw/system_wrapper.bit -workspace C:/Users/jcleong/Documents/MILESTONE_6/mainGame/mainGame.sdk/SDK/SDK_Export -hwspec C:/Users/jcleong/Documents/MILESTONE_6/mainGame/mainGame.sdk/SDK/SDK_Export/hw/system.xml INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages. 
+// Elapsed time: 23 seconds
+dismissDialog ("Export Hardware for SDK"); // ca:I (bR:JFrame)
+// HMemoryUtils.trashcanNow. Current time: 3/26/14 7:00:34 PM
+// Elapsed time: 1165 seconds
+selectMenu (PAResourceItoP.MainMenuMgr_FILE, "File"); // ac:JideMenu (CommandMenuBar:CommandBar, bR:JFrame)
+selectMenu (PAResourceItoP.MainMenuMgr_EXPORT, "Export"); // af:JMenu (JPopupMenu:JComponent, bR:JFrame)
+selectMenuItem (PAResourceCommand.PACommandNames_EXPORT_HARDWARE, "Export Hardware for SDK..."); // ai:JMenuItem (JPopupMenu:JComponent, bR:JFrame)
+dismissMenu (PAResourceItoP.MainMenuMgr_FILE, "File"); // ac:JideMenu (CommandMenuBar:CommandBar, bR:JFrame)
+// s:X (bR:JFrame): Export Hardware for SDK: addNotify
+selectCheckBox (PAResourceAtoH.ExportHardwareDialog_LAUNCH_SDK, "Launch SDK", false, true); // c:JCheckBox (JPanel:JComponent, s:X): FALSE
+selectButton (RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, s:X)
+selectButton ((HResource) null, "Yes"); // BasicOptionPaneUI$ButtonFactory:JButton (JPanel:JComponent, D:JDialog)
+dismissDialog ("Export Hardware for SDK"); // s:X (bR:JFrame)
+// Tcl Message: export_hardware [get_files C:/Users/jcleong/Documents/MILESTONE_6/mainGame/mainGame.srcs/sources_1/bd/system/system.bd] [get_runs impl_1] -bitstream 
+// ca:I (bR:JFrame):  Export Hardware for SDK : addNotify
+// Tcl Message: Exporting to file C:/Users/jcleong/Documents/MILESTONE_6/mainGame/mainGame.sdk/SDK/SDK_Export/hw/system.xml 
+// Tcl Message: INFO: [BD 41-436] exporting bit file 'C:/Users/jcleong/Documents/MILESTONE_6/mainGame/mainGame.runs/impl_1/system_wrapper.bit'... 
+// Tcl Message: export_hardware: Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 2391.641 ; gain = 0.000 
+// Tcl Message: launch_sdk -bit C:/Users/jcleong/Documents/MILESTONE_6/mainGame/mainGame.sdk/SDK/SDK_Export/hw/system_wrapper.bit -workspace C:/Users/jcleong/Documents/MILESTONE_6/mainGame/mainGame.sdk/SDK/SDK_Export -hwspec C:/Users/jcleong/Documents/MILESTONE_6/mainGame/mainGame.sdk/SDK/SDK_Export/hw/system.xml 
+// Tcl Message: INFO: [Vivado 12-393] Launching SDK... INFO: [Vivado 12-417] Running xsdk -bit C:/Users/jcleong/Documents/MILESTONE_6/mainGame/mainGame.sdk/SDK/SDK_Export/hw/system_wrapper.bit -workspace C:/Users/jcleong/Documents/MILESTONE_6/mainGame/mainGame.sdk/SDK/SDK_Export -hwspec C:/Users/jcleong/Documents/MILESTONE_6/mainGame/mainGame.sdk/SDK/SDK_Export/hw/system.xml INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages. 
+// Elapsed time: 22 seconds
+dismissDialog ("Export Hardware for SDK"); // ca:I (bR:JFrame)

@@ -1,0 +1,126 @@
+#-----------------------------------------------------------
+# Vivado v2013.3 (64-bit)
+# SW Build 329390 on Wed Oct 16 18:37:02 MDT 2013
+# IP Build 192953 on Wed Oct 16 08:44:02 MDT 2013
+# Start of session at: Tue Apr 08 16:19:59 2014
+# Process ID: 712
+# Log file: C:/Users/byim/Documents/ENSC_452/MILESTONE_6/mainGame/vivado.log
+# Journal file: C:/Users/byim/Documents/ENSC_452/MILESTONE_6/mainGame\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:\Users\byim\Documents\ENSC_452\MILESTONE_6\mainGame\mainGame.xpr}
+open_bd_design {C:/Users/byim/Documents/ENSC_452/MILESTONE_6/mainGame/mainGame.srcs/sources_1/bd/system/system.bd}
+set_property location {3 1036 650} [get_bd_cells processing_system7_0]
+set_property location {3 1049 669} [get_bd_cells processing_system7_0]
+set_property location {3 1059 959} [get_bd_cells zed_audio_ctrl_0]
+set_property location {3 1043 1221} [get_bd_cells SVGA_core_0]
+set_property location {3 1062 1224} [get_bd_cells SVGA_core_0]
+set_property location {3 1048 1751} [get_bd_cells joystk2_0]
+set_property location {3 1029 1876} [get_bd_cells randNum_0]
+set_property location {2 583 1260} [get_bd_cells randNum_0]
+set_property location {3 1052 1698} [get_bd_cells joystk2_0]
+set_property location {3 1057 709} [get_bd_cells processing_system7_0]
+set_property location {3 1063 989} [get_bd_cells zed_audio_ctrl_0]
+set_property location {3 1059 1335} [get_bd_cells SVGA_core_0]
+set_property location {3 1059 1760} [get_bd_cells joystk2_0]
+set_property location {1423 982} [get_bd_ports LRCLK]
+set_property location {1388 1006} [get_bd_ports SDATA_O]
+set_property location {1368 1288} [get_bd_ports VGA_HSYNC]
+set_property location {1362 1297} [get_bd_ports VGA_HSYNC]
+set_property location {696 1773} [get_bd_ports MISO]
+undo
+set_property location {689 1764} [get_bd_ports MISO]
+undo
+set_property location {684 1762} [get_bd_ports MISO]
+undo
+set_property location {125 1761} [get_bd_ports MISO]
+set_property location {95 1758} [get_bd_ports MISO]
+set_property location {97 1761} [get_bd_ports MISO]
+set_property location {116 1763} [get_bd_ports MISO]
+set_property location {95 1761} [get_bd_ports MISO]
+set_property location {418 1753} [get_bd_ports MISO]
+set_property location {505 1759} [get_bd_ports MISO]
+set_property location {209 1767} [get_bd_ports MISO]
+set_property location {701 1829} [get_bd_ports MISO]
+set_property location {814 1861} [get_bd_ports MISO]
+set_property location {762 1855} [get_bd_ports MISO]
+set_property location {758 1892} [get_bd_ports MISO]
+set_property location {809 1892} [get_bd_ports MISO]
+undo
+undo
+undo
+undo
+undo
+undo
+set_property location {1 407 1772} [get_bd_cells joystk2_0]
+set_property location {532 1747} [get_bd_ports SS]
+startgroup
+set_property location {592 1786} [get_bd_ports SCLK]
+set_property location {592 1806} [get_bd_ports MOSI]
+set_property location {602 1766} [get_bd_ports SS]
+endgroup
+startgroup
+set_property location {626 1824} [get_bd_ports SCLK]
+set_property location {586 1824} [get_bd_ports MOSI]
+set_property location {626 1824} [get_bd_ports SS]
+endgroup
+undo
+undo
+undo
+undo
+undo
+undo
+undo
+startgroup
+set_property location {1295 1881} [get_bd_ports MOSI]
+set_property location {2045 1701} [get_bd_ports SS]
+set_property location {1335 1881} [get_bd_ports SCLK]
+endgroup
+startgroup
+set_property location {2078 1797} [get_bd_ports SCLK]
+set_property location {2078 1617} [get_bd_ports SS]
+set_property location {1328 1917} [get_bd_ports MOSI]
+endgroup
+startgroup
+set_property location {1322 1943} [get_bd_ports SCLK]
+set_property location {1322 2063} [get_bd_ports MOSI]
+set_property location {1342 1763} [get_bd_ports SS]
+endgroup
+startgroup
+set_property location {1352 1989} [get_bd_ports MOSI]
+set_property location {1332 1689} [get_bd_ports SS]
+set_property location {1332 1869} [get_bd_ports SCLK]
+endgroup
+startgroup
+set_property location {1330 1816} [get_bd_ports SCLK]
+set_property location {1330 1636} [get_bd_ports SS]
+set_property location {1330 1936} [get_bd_ports MOSI]
+endgroup
+startgroup
+set_property location {1337 1953} [get_bd_ports SCLK]
+set_property location {1337 2063} [get_bd_ports MOSI]
+set_property location {1357 1773} [get_bd_ports SS]
+endgroup
+set_property location {3 986 1842} [get_bd_cells joystk2_0]
+startgroup
+set_property location {1349 1955} [get_bd_ports MOSI]
+set_property location {1329 1665} [get_bd_ports SS]
+set_property location {1329 1825} [get_bd_ports SCLK]
+endgroup
+set_property location {1539 1848} [get_bd_ports SCLK]
+set_property location {1334 1839} [get_bd_ports SCLK]
+set_property location {1339 1809} [get_bd_ports SS]
+set_property location {1339 1819} [get_bd_ports SS]
+set_property location {1338 1865} [get_bd_ports MOSI]
+set_property location {1 394 1766} [get_bd_cells joystk2_0]
+startgroup
+set_property location {474 1788} [get_bd_ports MOSI]
+set_property location {474 1748} [get_bd_ports SS]
+set_property location {474 1768} [get_bd_ports SCLK]
+endgroup
+startgroup
+set_property location {563 1781} [get_bd_ports MOSI]
+set_property location {563 1741} [get_bd_ports SS]
+set_property location {563 1761} [get_bd_ports SCLK]
+endgroup
+undo

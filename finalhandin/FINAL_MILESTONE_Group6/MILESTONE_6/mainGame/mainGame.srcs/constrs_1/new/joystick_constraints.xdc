@@ -1,0 +1,8 @@
+set_property IOSTANDARD LVCMOS33 [get_ports SS]
+set_property PACKAGE_PIN W12 [get_ports SS]
+set_property PACKAGE_PIN W11 [get_ports MOSI]
+set_property IOSTANDARD LVCMOS33 [get_ports MOSI]
+set_property IOSTANDARD LVCMOS33 [get_ports SCLK]
+set_property PACKAGE_PIN W8 [get_ports SCLK]
+set_property PACKAGE_PIN V10 [get_ports MISO]
+set_property IOSTANDARD LVCMOS33 [get_ports MISO]

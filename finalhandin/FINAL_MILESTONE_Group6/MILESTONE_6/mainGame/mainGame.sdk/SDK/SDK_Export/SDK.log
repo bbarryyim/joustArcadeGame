@@ -1,0 +1,1375 @@
+14:00:01.748 INFO  - Processing command line option -hwspec C:/Users/byim/Documents/ENSC_452/MILESTONE_6/mainGame/mainGame.sdk/SDK/SDK_Export/hw/system.xml. 
+14:02:16.336 INFO  - FPGA configured successfully with bitstream "C:/Users/byim/Documents/ENSC_452/MILESTONE_6/mainGame/mainGame.sdk/SDK/SDK_Export/hw_platform_0/system_wrapper.bit" 
+14:02:30.153 INFO  - Processor reset is completed for ps7_cortexa9_0 
+14:02:30.253 INFO  - PS initialization will be done as it is not done before. 
+14:02:30.253 INFO  - Running PS initialization.... 
+14:02:30.414 INFO  - ps7_init is completed. 
+14:02:30.514 INFO  - ps7_post_config is completed. 
+14:02:30.614 INFO  - PS Initialization is complete. 
+14:02:50.890 INFO  - Processor reset is completed for ps7_cortexa9_0 
+14:04:47.488 INFO  - Processor reset is completed for ps7_cortexa9_0 
+14:05:24.088 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+14:05:26.499 INFO  - Processor reset is completed for ps7_cortexa9_0 
+14:07:18.582 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+14:07:20.581 INFO  - Processor reset is completed for ps7_cortexa9_0 
+14:10:43.188 INFO  - Processor reset is completed for ps7_cortexa9_1 
+14:10:58.880 INFO  - FPGA configured successfully with bitstream "C:/Users/byim/Documents/ENSC_452/MILESTONE_6/mainGame/mainGame.sdk/SDK/SDK_Export/hw_platform_0/system_wrapper.bit" 
+14:11:10.979 INFO  - Processor reset is completed for ps7_cortexa9_1 
+14:11:27.205 INFO  - Processor reset is completed for ps7_cortexa9_1 
+14:12:27.187 INFO  - Processor reset is completed for ps7_cortexa9_1 
+14:13:55.155 INFO  - Processor reset is completed for ps7_cortexa9_1 
+14:15:22.209 INFO  - ps7_cortexa9_1 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+14:15:24.108 INFO  - Processor reset is completed for ps7_cortexa9_1 
+14:30:07.790 INFO  - Processor reset is completed for ps7_cortexa9_1 
+14:31:01.960 INFO  - Processor reset is completed for ps7_cortexa9_1 
+14:31:38.749 INFO  - ps7_cortexa9_1 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+14:31:40.860 INFO  - Processor reset is completed for ps7_cortexa9_1 
+14:33:11.578 INFO  - ps7_cortexa9_1 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+14:33:13.269 INFO  - Processor reset is completed for ps7_cortexa9_1 
+14:35:05.937 INFO  - Processor reset is completed for ps7_cortexa9_1 
+14:40:28.733 INFO  - Processor reset is completed for ps7_cortexa9_1 
+14:41:29.249 INFO  - ps7_cortexa9_1 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+14:41:31.555 INFO  - Processor reset is completed for ps7_cortexa9_1 
+14:47:16.610 INFO  - Processor reset is completed for ps7_cortexa9_1 
+14:48:42.372 INFO  - ps7_cortexa9_1 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+14:48:44.178 INFO  - Processor reset is completed for ps7_cortexa9_1 
+16:01:07.441 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+16:01:40.202 INFO  - Processing command line option -hwspec C:/Users/byim/Documents/ENSC_452/MILESTONE_6/mainGame/mainGame.sdk/SDK/SDK_Export/hw/system.xml. 
+16:01:41.481 INFO  - The hardware specification for project 'hw_platform_0' is different from C:/Users/byim/Documents/ENSC_452/MILESTONE_6/mainGame/mainGame.sdk/SDK/SDK_Export/hw/system.xml. 
+16:01:41.588 INFO  - Copied contents of C:/Users/byim/Documents/ENSC_452/MILESTONE_6/mainGame/mainGame.sdk/SDK/SDK_Export/hw/system.xml into \hw_platform_0\system.xml. 
+16:01:41.598 INFO  - Copied contents of C:\Users\byim\Documents\ENSC_452\MILESTONE_6\mainGame\mainGame.sdk\SDK\SDK_Export\hw\system_wrapper.bit into \hw_platform_0\system_wrapper.bit. 
+16:01:41.604 INFO  - Copied contents of C:\Users\byim\Documents\ENSC_452\MILESTONE_6\mainGame\mainGame.sdk\SDK\SDK_Export\hw\ps7_init.c into \hw_platform_0\ps7_init.c. 
+16:01:41.607 INFO  - Copied contents of C:\Users\byim\Documents\ENSC_452\MILESTONE_6\mainGame\mainGame.sdk\SDK\SDK_Export\hw\ps7_init.h into \hw_platform_0\ps7_init.h. 
+16:01:41.616 INFO  - Copied contents of C:\Users\byim\Documents\ENSC_452\MILESTONE_6\mainGame\mainGame.sdk\SDK\SDK_Export\hw\ps7_init.html into \hw_platform_0\ps7_init.html. 
+16:01:41.618 INFO  - Copied contents of C:\Users\byim\Documents\ENSC_452\MILESTONE_6\mainGame\mainGame.sdk\SDK\SDK_Export\hw\ps7_summary.html into \hw_platform_0\ps7_summary.html. 
+16:01:41.621 INFO  - Copied contents of C:\Users\byim\Documents\ENSC_452\MILESTONE_6\mainGame\mainGame.sdk\SDK\SDK_Export\hw\ps7_init.tcl into \hw_platform_0\ps7_init.tcl. 
+16:01:41.720 INFO  - Synchronizing projects in the workspace with the hardware platform specification changes. 
+16:02:03.441 INFO  - Updating hardware inferred compiler options for vga_test. 
+16:02:04.191 INFO  - Updating hardware inferred compiler options for vga_t2. 
+16:02:04.220 INFO  - Clearing existing target manager status. 
+16:06:43.170 INFO  - Saving repository preferences. 
+16:06:43.172 INFO  - Reading in cores from local repositories: 
+		 C:\Users\byim\Documents\ENSC_452\MILESTONE_6\rannum 
+16:06:43.175 INFO  - Updating libgen.options on all BSP projects. 
+16:06:43.178 INFO  - Cleaning BSP projects in the workspace. 
+16:12:28.373 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+16:16:06.888 INFO  - Processing command line option -hwspec C:/Users/byim/Documents/ENSC_452/MILESTONE_6/mainGame/mainGame.sdk/SDK/SDK_Export/hw/system.xml. 
+16:16:08.047 INFO  - The hardware specification for project 'hw_platform_0' is different from C:/Users/byim/Documents/ENSC_452/MILESTONE_6/mainGame/mainGame.sdk/SDK/SDK_Export/hw/system.xml. 
+16:16:08.147 INFO  - Copied contents of C:/Users/byim/Documents/ENSC_452/MILESTONE_6/mainGame/mainGame.sdk/SDK/SDK_Export/hw/system.xml into \hw_platform_0\system.xml. 
+16:16:08.156 INFO  - Copied contents of C:\Users\byim\Documents\ENSC_452\MILESTONE_6\mainGame\mainGame.sdk\SDK\SDK_Export\hw\system_wrapper.bit into \hw_platform_0\system_wrapper.bit. 
+16:16:08.162 INFO  - Copied contents of C:\Users\byim\Documents\ENSC_452\MILESTONE_6\mainGame\mainGame.sdk\SDK\SDK_Export\hw\ps7_init.c into \hw_platform_0\ps7_init.c. 
+16:16:08.165 INFO  - Copied contents of C:\Users\byim\Documents\ENSC_452\MILESTONE_6\mainGame\mainGame.sdk\SDK\SDK_Export\hw\ps7_init.h into \hw_platform_0\ps7_init.h. 
+16:16:08.173 INFO  - Copied contents of C:\Users\byim\Documents\ENSC_452\MILESTONE_6\mainGame\mainGame.sdk\SDK\SDK_Export\hw\ps7_init.html into \hw_platform_0\ps7_init.html. 
+16:16:08.174 INFO  - Copied contents of C:\Users\byim\Documents\ENSC_452\MILESTONE_6\mainGame\mainGame.sdk\SDK\SDK_Export\hw\ps7_summary.html into \hw_platform_0\ps7_summary.html. 
+16:16:08.177 INFO  - Copied contents of C:\Users\byim\Documents\ENSC_452\MILESTONE_6\mainGame\mainGame.sdk\SDK\SDK_Export\hw\ps7_init.tcl into \hw_platform_0\ps7_init.tcl. 
+16:16:08.276 INFO  - Synchronizing projects in the workspace with the hardware platform specification changes. 
+16:16:09.524 INFO  - Restoring local repository preferences: 
+		 C:\Users\byim\Documents\ENSC_452\MILESTONE_6\rannum 
+16:16:28.667 INFO  - Updating hardware inferred compiler options for vga_test. 
+16:16:29.418 INFO  - Updating hardware inferred compiler options for vga_t2. 
+16:16:29.621 INFO  - Clearing existing target manager status. 
+16:17:17.076 INFO  - Saving repository preferences. 
+16:17:17.081 INFO  - Reading in cores from local repositories: 
+		 C:\Users\byim\Documents\ENSC_452\MILESTONE_6\rannum\managed_ip_project\randNum_1.0 
+16:17:17.099 INFO  - Updating libgen.options on all BSP projects. 
+16:17:17.108 INFO  - Cleaning BSP projects in the workspace. 
+16:21:20.936 INFO  - Settings changed on project standalone_bsp_2. Triggering a rebuild... 
+16:21:21.395 INFO  - Refreshed build settings on project vga_t2 
+18:06:39.594 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+14:00:55.940 INFO  - Processing command line option -hwspec C:/Users/byim/Documents/ENSC_452/MILESTONE_6/mainGame/mainGame.sdk/SDK/SDK_Export/hw/system.xml. 
+14:00:57.410 INFO  - The hardware specification for project 'hw_platform_0' is different from C:/Users/byim/Documents/ENSC_452/MILESTONE_6/mainGame/mainGame.sdk/SDK/SDK_Export/hw/system.xml. 
+14:00:57.665 INFO  - Copied contents of C:/Users/byim/Documents/ENSC_452/MILESTONE_6/mainGame/mainGame.sdk/SDK/SDK_Export/hw/system.xml into \hw_platform_0\system.xml. 
+14:00:57.674 INFO  - Copied contents of C:\Users\byim\Documents\ENSC_452\MILESTONE_6\mainGame\mainGame.sdk\SDK\SDK_Export\hw\system_wrapper.bit into \hw_platform_0\system_wrapper.bit. 
+14:00:57.681 INFO  - Copied contents of C:\Users\byim\Documents\ENSC_452\MILESTONE_6\mainGame\mainGame.sdk\SDK\SDK_Export\hw\ps7_init.c into \hw_platform_0\ps7_init.c. 
+14:00:57.683 INFO  - Copied contents of C:\Users\byim\Documents\ENSC_452\MILESTONE_6\mainGame\mainGame.sdk\SDK\SDK_Export\hw\ps7_init.h into \hw_platform_0\ps7_init.h. 
+14:00:57.692 INFO  - Copied contents of C:\Users\byim\Documents\ENSC_452\MILESTONE_6\mainGame\mainGame.sdk\SDK\SDK_Export\hw\ps7_init.html into \hw_platform_0\ps7_init.html. 
+14:00:57.693 INFO  - Copied contents of C:\Users\byim\Documents\ENSC_452\MILESTONE_6\mainGame\mainGame.sdk\SDK\SDK_Export\hw\ps7_summary.html into \hw_platform_0\ps7_summary.html. 
+14:00:57.697 INFO  - Copied contents of C:\Users\byim\Documents\ENSC_452\MILESTONE_6\mainGame\mainGame.sdk\SDK\SDK_Export\hw\ps7_init.tcl into \hw_platform_0\ps7_init.tcl. 
+14:00:57.800 INFO  - Synchronizing projects in the workspace with the hardware platform specification changes. 
+14:00:59.165 INFO  - Restoring local repository preferences: 
+		 C:\Users\byim\Documents\ENSC_452\MILESTONE_6\rannum\managed_ip_project\randNum_1.0 
+14:01:21.810 INFO  - Updating hardware inferred compiler options for vga_test. 
+14:01:22.561 INFO  - Updating hardware inferred compiler options for vga_t2. 
+14:01:22.572 INFO  - Clearing existing target manager status. 
+14:03:55.883 INFO  - Project standalone_bsp_2 was a BSP project. Please update references. 
+14:03:55.883 ERROR - SDK has detected that project standalone_bsp_2 has been deleted (or renamed).
+If this project was a BSP referenced by other C/C++ applications, then those applications will fail to build now. Please right click on those applications and click 'Change Referenced BSP' to update those projects' BSP references. 
+14:06:33.056 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+14:08:01.745 INFO  - Processing command line option -hwspec C:/Users/byim/Documents/ENSC_452/MILESTONE_6/mainGame/mainGame.sdk/SDK/SDK_Export/hw/system.xml. 
+14:08:02.842 INFO  - The hardware specification for project 'hw_platform_0' is different from C:/Users/byim/Documents/ENSC_452/MILESTONE_6/mainGame/mainGame.sdk/SDK/SDK_Export/hw/system.xml. 
+14:08:02.946 INFO  - Copied contents of C:/Users/byim/Documents/ENSC_452/MILESTONE_6/mainGame/mainGame.sdk/SDK/SDK_Export/hw/system.xml into \hw_platform_0\system.xml. 
+14:08:02.955 INFO  - Copied contents of C:\Users\byim\Documents\ENSC_452\MILESTONE_6\mainGame\mainGame.sdk\SDK\SDK_Export\hw\system_wrapper.bit into \hw_platform_0\system_wrapper.bit. 
+14:08:02.961 INFO  - Copied contents of C:\Users\byim\Documents\ENSC_452\MILESTONE_6\mainGame\mainGame.sdk\SDK\SDK_Export\hw\ps7_init.c into \hw_platform_0\ps7_init.c. 
+14:08:02.964 INFO  - Copied contents of C:\Users\byim\Documents\ENSC_452\MILESTONE_6\mainGame\mainGame.sdk\SDK\SDK_Export\hw\ps7_init.h into \hw_platform_0\ps7_init.h. 
+14:08:02.973 INFO  - Copied contents of C:\Users\byim\Documents\ENSC_452\MILESTONE_6\mainGame\mainGame.sdk\SDK\SDK_Export\hw\ps7_init.html into \hw_platform_0\ps7_init.html. 
+14:08:02.974 INFO  - Copied contents of C:\Users\byim\Documents\ENSC_452\MILESTONE_6\mainGame\mainGame.sdk\SDK\SDK_Export\hw\ps7_summary.html into \hw_platform_0\ps7_summary.html. 
+14:08:02.977 INFO  - Copied contents of C:\Users\byim\Documents\ENSC_452\MILESTONE_6\mainGame\mainGame.sdk\SDK\SDK_Export\hw\ps7_init.tcl into \hw_platform_0\ps7_init.tcl. 
+14:08:03.069 INFO  - Synchronizing projects in the workspace with the hardware platform specification changes. 
+14:08:21.123 INFO  - Restoring local repository preferences: 
+		 C:\Users\byim\Documents\ENSC_452\MILESTONE_6\rannum\managed_ip_project\randNum_1.0 
+14:08:40.047 INFO  - Updating hardware inferred compiler options for vga_test. 
+14:08:40.798 INFO  - Updating hardware inferred compiler options for vga_t2. 
+14:08:40.804 INFO  - Clearing existing target manager status. 
+14:10:20.055 INFO  - FPGA configured successfully with bitstream "C:/Users/byim/Documents/ENSC_452/MILESTONE_6/mainGame/mainGame.sdk/SDK/SDK_Export/hw_platform_0/system_wrapper.bit" 
+14:10:35.806 INFO  - Processor reset is completed for ps7_cortexa9_0 
+14:10:35.906 INFO  - PS initialization will be done as it is not done before. 
+14:10:35.906 INFO  - Running PS initialization.... 
+14:10:36.066 INFO  - ps7_init is completed. 
+14:10:36.166 INFO  - ps7_post_config is completed. 
+14:10:36.266 INFO  - PS Initialization is complete. 
+14:11:13.302 INFO  - FPGA configured successfully with bitstream "C:/Users/byim/Documents/ENSC_452/MILESTONE_6/mainGame/mainGame.sdk/SDK/SDK_Export/hw_platform_0/system_wrapper.bit" 
+14:11:35.693 INFO  - Processor reset is completed for ps7_cortexa9_0 
+14:18:57.410 INFO  - Processor reset is completed for ps7_cortexa9_0 
+14:23:19.014 INFO  - Processor reset is completed for ps7_cortexa9_0 
+14:24:04.488 INFO  - Processor reset is completed for ps7_cortexa9_0 
+14:24:49.082 INFO  - Processor reset is completed for ps7_cortexa9_0 
+14:26:26.267 INFO  - Processor reset is completed for ps7_cortexa9_0 
+14:53:15.370 INFO  - Processor reset is completed for ps7_cortexa9_0 
+14:56:56.543 INFO  - Processor reset is completed for ps7_cortexa9_0 
+14:59:27.149 INFO  - Processor reset is completed for ps7_cortexa9_0 
+15:00:19.523 INFO  - Processor reset is completed for ps7_cortexa9_0 
+15:01:21.837 INFO  - Processor reset is completed for ps7_cortexa9_0 
+15:03:52.303 INFO  - Processor reset is completed for ps7_cortexa9_0 
+15:04:46.797 INFO  - Processor reset is completed for ps7_cortexa9_0 
+15:06:07.833 INFO  - Processor reset is completed for ps7_cortexa9_0 
+15:08:48.129 INFO  - Processor reset is completed for ps7_cortexa9_0 
+15:48:33.288 INFO  - FPGA configured successfully with bitstream "C:/Users/byim/Documents/ENSC_452/MILESTONE_6/mainGame/mainGame.sdk/SDK/SDK_Export/hw_platform_0/system_wrapper.bit" 
+15:48:49.200 INFO  - Processor reset is completed for ps7_cortexa9_0 
+15:48:49.300 INFO  - PS initialization will be done as it is not done before. 
+15:48:49.300 INFO  - Running PS initialization.... 
+15:48:49.490 INFO  - ps7_init is completed. 
+15:48:49.590 INFO  - ps7_post_config is completed. 
+15:48:49.690 INFO  - PS Initialization is complete. 
+15:50:49.995 INFO  - Processor reset is completed for ps7_cortexa9_0 
+15:53:45.822 INFO  - Processor reset is completed for ps7_cortexa9_0 
+15:58:24.764 INFO  - Processor reset is completed for ps7_cortexa9_0 
+16:00:26.157 INFO  - Processor reset is completed for ps7_cortexa9_0 
+16:01:35.791 INFO  - Processor reset is completed for ps7_cortexa9_0 
+16:12:48.909 INFO  - Processor reset is completed for ps7_cortexa9_0 
+16:16:24.526 INFO  - Processor reset is completed for ps7_cortexa9_0 
+16:19:30.114 INFO  - Processor reset is completed for ps7_cortexa9_0 
+16:33:33.858 INFO  - FPGA configured successfully with bitstream "C:/Users/byim/Documents/ENSC_452/MILESTONE_6/mainGame/mainGame.sdk/SDK/SDK_Export/hw_platform_0/system_wrapper.bit" 
+16:33:58.129 INFO  - Processor reset is completed for ps7_cortexa9_0 
+16:33:58.230 INFO  - PS initialization will be done as it is not done before. 
+16:33:58.230 INFO  - Running PS initialization.... 
+16:33:58.420 INFO  - ps7_init is completed. 
+16:33:58.520 INFO  - ps7_post_config is completed. 
+16:33:58.620 INFO  - PS Initialization is complete. 
+16:34:52.714 INFO  - Processor reset is completed for ps7_cortexa9_0 
+16:37:38.350 INFO  - Processor reset is completed for ps7_cortexa9_0 
+16:40:17.397 INFO  - Processor reset is completed for ps7_cortexa9_0 
+16:43:26.704 INFO  - Processor reset is completed for ps7_cortexa9_0 
+16:45:22.219 INFO  - Processor reset is completed for ps7_cortexa9_0 
+16:49:09.218 INFO  - Processor reset is completed for ps7_cortexa9_0 
+16:50:32.832 INFO  - Processor reset is completed for ps7_cortexa9_0 
+16:51:30.297 INFO  - Processor reset is completed for ps7_cortexa9_0 
+16:52:34.061 INFO  - Processor reset is completed for ps7_cortexa9_0 
+18:16:32.573 INFO  - FPGA configured successfully with bitstream "C:/Users/byim/Documents/ENSC_452/MILESTONE_6/mainGame/mainGame.sdk/SDK/SDK_Export/hw_platform_0/system_wrapper.bit" 
+18:16:43.133 INFO  - Processor reset is completed for ps7_cortexa9_0 
+18:16:43.135 INFO  - PS initialization will be done as it is not done before. 
+18:16:43.136 INFO  - Running PS initialization.... 
+18:16:43.330 INFO  - ps7_init is completed. 
+18:16:43.430 INFO  - ps7_post_config is completed. 
+18:16:43.530 INFO  - PS Initialization is complete. 
+18:18:33.992 INFO  - Processor reset is completed for ps7_cortexa9_0 
+18:19:56.134 INFO  - Processor reset is completed for ps7_cortexa9_0 
+18:20:44.184 INFO  - Processor reset is completed for ps7_cortexa9_0 
+18:32:56.399 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+11:42:41.853 INFO  - Processing command line option -hwspec C:/Users/byim/Documents/ENSC_452/MILESTONE_6/mainGame/mainGame.sdk/SDK/SDK_Export/hw/system.xml. 
+11:42:43.211 INFO  - The hardware specification for project 'hw_platform_0' is different from C:/Users/byim/Documents/ENSC_452/MILESTONE_6/mainGame/mainGame.sdk/SDK/SDK_Export/hw/system.xml. 
+11:42:43.304 INFO  - Copied contents of C:/Users/byim/Documents/ENSC_452/MILESTONE_6/mainGame/mainGame.sdk/SDK/SDK_Export/hw/system.xml into \hw_platform_0\system.xml. 
+11:42:43.320 INFO  - Copied contents of C:\Users\byim\Documents\ENSC_452\MILESTONE_6\mainGame\mainGame.sdk\SDK\SDK_Export\hw\system_wrapper.bit into \hw_platform_0\system_wrapper.bit. 
+11:42:43.320 INFO  - Copied contents of C:\Users\byim\Documents\ENSC_452\MILESTONE_6\mainGame\mainGame.sdk\SDK\SDK_Export\hw\ps7_init.c into \hw_platform_0\ps7_init.c. 
+11:42:43.320 INFO  - Copied contents of C:\Users\byim\Documents\ENSC_452\MILESTONE_6\mainGame\mainGame.sdk\SDK\SDK_Export\hw\ps7_init.h into \hw_platform_0\ps7_init.h. 
+11:42:43.335 INFO  - Copied contents of C:\Users\byim\Documents\ENSC_452\MILESTONE_6\mainGame\mainGame.sdk\SDK\SDK_Export\hw\ps7_init.html into \hw_platform_0\ps7_init.html. 
+11:42:43.335 INFO  - Copied contents of C:\Users\byim\Documents\ENSC_452\MILESTONE_6\mainGame\mainGame.sdk\SDK\SDK_Export\hw\ps7_summary.html into \hw_platform_0\ps7_summary.html. 
+11:42:43.335 INFO  - Copied contents of C:\Users\byim\Documents\ENSC_452\MILESTONE_6\mainGame\mainGame.sdk\SDK\SDK_Export\hw\ps7_init.tcl into \hw_platform_0\ps7_init.tcl. 
+11:42:43.445 INFO  - Synchronizing projects in the workspace with the hardware platform specification changes. 
+11:43:03.865 INFO  - Restoring local repository preferences: 
+		 C:\Users\byim\Documents\ENSC_452\MILESTONE_6\rannum\managed_ip_project\randNum_1.0 
+11:43:23.647 INFO  - Updating hardware inferred compiler options for vga_test. 
+11:43:24.411 INFO  - Updating hardware inferred compiler options for vga_t2. 
+11:43:24.442 INFO  - Clearing existing target manager status. 
+11:48:39.348 INFO  - Time out for XMD transaction is 60000
+If you want to increase the timeout value, goto Windows-> Preferences -> Xilinx SDK -> XMD Startup 
+11:48:39.348 ERROR - Timeout occured while waiting to get reply for command "xconnect arm hw  -debugdevice cpunr 1 devicenr 1" 
+11:50:09.034 INFO  - Time out for XMD transaction is 60000
+If you want to increase the timeout value, goto Windows-> Preferences -> Xilinx SDK -> XMD Startup 
+11:50:09.034 ERROR - Timeout occured while waiting to get reply for command "xconnect arm hw  -debugdevice cpunr 1 devicenr 1" 
+11:51:58.573 INFO  - Time out for XMD transaction is 60000
+If you want to increase the timeout value, goto Windows-> Preferences -> Xilinx SDK -> XMD Startup 
+11:51:58.573 ERROR - Timeout occured while waiting to get reply for command "xconnect arm hw  -debugdevice cpunr 1 devicenr 1" 
+11:53:39.414 INFO  - Time out for XMD transaction is 60000
+If you want to increase the timeout value, goto Windows-> Preferences -> Xilinx SDK -> XMD Startup 
+11:53:39.414 ERROR - Timeout occured while waiting to get reply for command "xconnect arm hw  -debugdevice cpunr 1 devicenr 1" 
+11:53:50.394 ERROR - Unexpected error while terminating XMD: {} org.eclipse.debug.core.DebugException: Terminate failed
+	at org.eclipse.debug.core.model.RuntimeProcess.terminate(RuntimeProcess.java:224)
+	at com.xilinx.sdk.targetmanager.internal.json.XMDJSONProcess.terminate(Unknown Source)
+
+11:54:49.302 INFO  - Processing command line option -hwspec C:/Users/byim/Documents/ENSC_452/MILESTONE_6/mainGame/mainGame.sdk/SDK/SDK_Export/hw/system.xml. 
+11:54:50.327 INFO  - The hardware specification for project 'hw_platform_0' is different from C:/Users/byim/Documents/ENSC_452/MILESTONE_6/mainGame/mainGame.sdk/SDK/SDK_Export/hw/system.xml. 
+11:54:50.427 INFO  - Copied contents of C:/Users/byim/Documents/ENSC_452/MILESTONE_6/mainGame/mainGame.sdk/SDK/SDK_Export/hw/system.xml into \hw_platform_0\system.xml. 
+11:54:50.437 INFO  - Copied contents of C:\Users\byim\Documents\ENSC_452\MILESTONE_6\mainGame\mainGame.sdk\SDK\SDK_Export\hw\system_wrapper.bit into \hw_platform_0\system_wrapper.bit. 
+11:54:50.447 INFO  - Copied contents of C:\Users\byim\Documents\ENSC_452\MILESTONE_6\mainGame\mainGame.sdk\SDK\SDK_Export\hw\ps7_init.c into \hw_platform_0\ps7_init.c. 
+11:54:50.447 INFO  - Copied contents of C:\Users\byim\Documents\ENSC_452\MILESTONE_6\mainGame\mainGame.sdk\SDK\SDK_Export\hw\ps7_init.h into \hw_platform_0\ps7_init.h. 
+11:54:50.457 INFO  - Copied contents of C:\Users\byim\Documents\ENSC_452\MILESTONE_6\mainGame\mainGame.sdk\SDK\SDK_Export\hw\ps7_init.html into \hw_platform_0\ps7_init.html. 
+11:54:50.457 INFO  - Copied contents of C:\Users\byim\Documents\ENSC_452\MILESTONE_6\mainGame\mainGame.sdk\SDK\SDK_Export\hw\ps7_summary.html into \hw_platform_0\ps7_summary.html. 
+11:54:50.467 INFO  - Copied contents of C:\Users\byim\Documents\ENSC_452\MILESTONE_6\mainGame\mainGame.sdk\SDK\SDK_Export\hw\ps7_init.tcl into \hw_platform_0\ps7_init.tcl. 
+11:54:50.717 INFO  - Synchronizing projects in the workspace with the hardware platform specification changes. 
+11:56:48.460 ERROR - Error updating BSP project MSS files. 
+11:56:51.970 ERROR - Error updating hardware inferred compiler settings. 
+11:56:51.970 INFO  - Clearing existing target manager status. 
+11:56:51.980 WARN  - Unable to obtain port 2350 for use by XMD, java.net.BindException: Address already in use: JVM_Bind 
+12:11:23.067 INFO  - Processing command line option -hwspec C:/Users/byim/Documents/ENSC_452/MILESTONE_6/mainGame/mainGame.sdk/SDK/SDK_Export/hw/system.xml. 
+12:11:24.206 INFO  - The hardware specification for project 'hw_platform_0' is different from C:/Users/byim/Documents/ENSC_452/MILESTONE_6/mainGame/mainGame.sdk/SDK/SDK_Export/hw/system.xml. 
+12:11:24.471 INFO  - Copied contents of C:/Users/byim/Documents/ENSC_452/MILESTONE_6/mainGame/mainGame.sdk/SDK/SDK_Export/hw/system.xml into \hw_platform_0\system.xml. 
+12:11:24.471 INFO  - Copied contents of C:\Users\byim\Documents\ENSC_452\MILESTONE_6\mainGame\mainGame.sdk\SDK\SDK_Export\hw\system_wrapper.bit into \hw_platform_0\system_wrapper.bit. 
+12:11:24.487 INFO  - Copied contents of C:\Users\byim\Documents\ENSC_452\MILESTONE_6\mainGame\mainGame.sdk\SDK\SDK_Export\hw\ps7_init.c into \hw_platform_0\ps7_init.c. 
+12:11:24.487 INFO  - Copied contents of C:\Users\byim\Documents\ENSC_452\MILESTONE_6\mainGame\mainGame.sdk\SDK\SDK_Export\hw\ps7_init.h into \hw_platform_0\ps7_init.h. 
+12:11:24.502 INFO  - Copied contents of C:\Users\byim\Documents\ENSC_452\MILESTONE_6\mainGame\mainGame.sdk\SDK\SDK_Export\hw\ps7_init.html into \hw_platform_0\ps7_init.html. 
+12:11:24.502 INFO  - Copied contents of C:\Users\byim\Documents\ENSC_452\MILESTONE_6\mainGame\mainGame.sdk\SDK\SDK_Export\hw\ps7_summary.html into \hw_platform_0\ps7_summary.html. 
+12:11:24.502 INFO  - Copied contents of C:\Users\byim\Documents\ENSC_452\MILESTONE_6\mainGame\mainGame.sdk\SDK\SDK_Export\hw\ps7_init.tcl into \hw_platform_0\ps7_init.tcl. 
+12:11:24.580 INFO  - Synchronizing projects in the workspace with the hardware platform specification changes. 
+12:11:25.906 INFO  - Restoring local repository preferences: 
+		 C:\Users\byim\Documents\ENSC_452\MILESTONE_6\rannum\managed_ip_project\randNum_1.0 
+12:11:46.982 INFO  - Updating hardware inferred compiler options for vga_test. 
+12:11:47.747 INFO  - Updating hardware inferred compiler options for vga_t2. 
+12:11:47.778 INFO  - Clearing existing target manager status. 
+12:13:48.342 INFO  - FPGA configured successfully with bitstream "C:/Users/byim/Documents/ENSC_452/MILESTONE_6/mainGame/mainGame.sdk/SDK/SDK_Export/hw_platform_0/system_wrapper.bit" 
+12:14:26.750 ERROR - No such port: COM4 
+12:14:27.046 INFO  - Processor reset is completed for ps7_cortexa9_0 
+12:14:27.155 INFO  - PS initialization will be done as it is not done before. 
+12:14:27.155 INFO  - Running PS initialization.... 
+12:14:27.343 INFO  - ps7_init is completed. 
+12:14:27.452 INFO  - ps7_post_config is completed. 
+12:14:27.561 INFO  - PS Initialization is complete. 
+12:15:06.955 ERROR - Unexpected error while opening JTAG UART:  java.lang.RuntimeException: Error while opening JTAG UART server: MDM Uart NOT Present in the System
+Could not detect MDM peripheral on hardware. Please check:
+    1. If FPGA is configured correctly
+    2. MDM Core is instantiated in the design
+    3. If the correct FPGA is referred, in case of multiple FPGAs
+    4. If the correct MDM is referred, in case of a multiple MDM system
+    
+
+	at com.xilinx.sdk.targetmanager.internal.TM.startJTAGUARTServer(Unknown Source)
+	at com.xilinx.sdk.debug.core.internal.comm.JTAGUARTStreamsProxy.<init>(Unknown Source)
+
+12:15:07.392 INFO  - Processor reset is completed for ps7_cortexa9_0 
+12:16:22.751 INFO  - FPGA configured successfully with bitstream "C:/Users/byim/Documents/ENSC_452/MILESTONE_6/mainGame/mainGame.sdk/SDK/SDK_Export/hw_platform_0/system_wrapper.bit" 
+12:16:45.591 INFO  - Processor reset is completed for ps7_cortexa9_0 
+12:16:45.700 INFO  - PS initialization will be done as it is not done before. 
+12:16:45.700 INFO  - Running PS initialization.... 
+12:16:45.887 INFO  - ps7_init is completed. 
+12:16:45.996 INFO  - ps7_post_config is completed. 
+12:16:46.105 INFO  - PS Initialization is complete. 
+12:24:27.208 INFO  - Processor reset is completed for ps7_cortexa9_0 
+12:27:38.596 INFO  - Processor reset is completed for ps7_cortexa9_0 
+12:28:12.638 INFO  - Processor reset is completed for ps7_cortexa9_0 
+12:29:02.468 INFO  - Processor reset is completed for ps7_cortexa9_0 
+12:40:59.588 INFO  - Processor reset is completed for ps7_cortexa9_0 
+12:42:00.026 INFO  - Processor reset is completed for ps7_cortexa9_0 
+12:42:33.383 INFO  - Processor reset is completed for ps7_cortexa9_0 
+12:44:07.909 INFO  - Processor reset is completed for ps7_cortexa9_0 
+12:48:04.101 INFO  - Processor reset is completed for ps7_cortexa9_0 
+13:02:42.825 INFO  - Processor reset is completed for ps7_cortexa9_0 
+13:26:33.832 INFO  - Processor reset is completed for ps7_cortexa9_0 
+13:26:54.848 INFO  - Processor reset is completed for ps7_cortexa9_0 
+13:45:19.367 INFO  - Processor reset is completed for ps7_cortexa9_0 
+13:47:16.673 INFO  - Processor reset is completed for ps7_cortexa9_0 
+13:48:04.837 INFO  - Processor reset is completed for ps7_cortexa9_0 
+14:24:14.993 INFO  - FPGA configured successfully with bitstream "C:/Users/byim/Documents/ENSC_452/MILESTONE_6/mainGame/mainGame.sdk/SDK/SDK_Export/hw_platform_0/system_wrapper.bit" 
+14:24:34.042 INFO  - Processor reset is completed for ps7_cortexa9_0 
+14:24:34.151 INFO  - PS initialization will be done as it is not done before. 
+14:24:34.151 INFO  - Running PS initialization.... 
+14:24:34.339 INFO  - ps7_init is completed. 
+14:24:34.448 INFO  - ps7_post_config is completed. 
+14:24:34.557 INFO  - PS Initialization is complete. 
+14:30:10.434 INFO  - Processor reset is completed for ps7_cortexa9_0 
+14:36:29.534 INFO  - Processor reset is completed for ps7_cortexa9_0 
+14:51:55.259 INFO  - Processor reset is completed for ps7_cortexa9_0 
+14:53:07.990 INFO  - Processor reset is completed for ps7_cortexa9_0 
+15:38:38.377 INFO  - Processor reset is completed for ps7_cortexa9_0 
+15:39:48.456 INFO  - Processor reset is completed for ps7_cortexa9_0 
+15:43:45.287 INFO  - Processor reset is completed for ps7_cortexa9_0 
+15:44:30.032 INFO  - Processor reset is completed for ps7_cortexa9_0 
+16:00:04.758 INFO  - Processor reset is completed for ps7_cortexa9_0 
+16:00:59.206 INFO  - Processor reset is completed for ps7_cortexa9_0 
+16:02:14.730 INFO  - Processor reset is completed for ps7_cortexa9_0 
+16:02:49.522 INFO  - Processor reset is completed for ps7_cortexa9_0 
+16:03:28.775 INFO  - Processor reset is completed for ps7_cortexa9_0 
+16:16:54.752 INFO  - Processor reset is completed for ps7_cortexa9_0 
+16:21:27.916 INFO  - Processor reset is completed for ps7_cortexa9_0 
+16:23:26.825 INFO  - Processor reset is completed for ps7_cortexa9_0 
+16:29:31.048 INFO  - Processor reset is completed for ps7_cortexa9_0 
+16:32:45.743 INFO  - Processor reset is completed for ps7_cortexa9_0 
+16:33:24.637 INFO  - Processor reset is completed for ps7_cortexa9_0 
+16:38:47.473 INFO  - Processor reset is completed for ps7_cortexa9_0 
+16:42:21.528 INFO  - Processor reset is completed for ps7_cortexa9_0 
+16:44:54.601 INFO  - Processor reset is completed for ps7_cortexa9_0 
+16:47:50.591 INFO  - Processor reset is completed for ps7_cortexa9_0 
+17:54:21.430 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+12:08:16.578 INFO  - Processing command line option -hwspec C:/Users/byim/Documents/ENSC_452/MILESTONE_6/mainGame/mainGame.sdk/SDK/SDK_Export/hw/system.xml. 
+12:08:18.123 INFO  - The hardware specification for project 'hw_platform_0' is different from C:/Users/byim/Documents/ENSC_452/MILESTONE_6/mainGame/mainGame.sdk/SDK/SDK_Export/hw/system.xml. 
+12:08:18.263 INFO  - Copied contents of C:/Users/byim/Documents/ENSC_452/MILESTONE_6/mainGame/mainGame.sdk/SDK/SDK_Export/hw/system.xml into \hw_platform_0\system.xml. 
+12:08:18.279 INFO  - Copied contents of C:\Users\byim\Documents\ENSC_452\MILESTONE_6\mainGame\mainGame.sdk\SDK\SDK_Export\hw\system_wrapper.bit into \hw_platform_0\system_wrapper.bit. 
+12:08:18.294 INFO  - Copied contents of C:\Users\byim\Documents\ENSC_452\MILESTONE_6\mainGame\mainGame.sdk\SDK\SDK_Export\hw\ps7_init.c into \hw_platform_0\ps7_init.c. 
+12:08:18.294 INFO  - Copied contents of C:\Users\byim\Documents\ENSC_452\MILESTONE_6\mainGame\mainGame.sdk\SDK\SDK_Export\hw\ps7_init.h into \hw_platform_0\ps7_init.h. 
+12:08:18.310 INFO  - Copied contents of C:\Users\byim\Documents\ENSC_452\MILESTONE_6\mainGame\mainGame.sdk\SDK\SDK_Export\hw\ps7_init.html into \hw_platform_0\ps7_init.html. 
+12:08:18.310 INFO  - Copied contents of C:\Users\byim\Documents\ENSC_452\MILESTONE_6\mainGame\mainGame.sdk\SDK\SDK_Export\hw\ps7_summary.html into \hw_platform_0\ps7_summary.html. 
+12:08:18.310 INFO  - Copied contents of C:\Users\byim\Documents\ENSC_452\MILESTONE_6\mainGame\mainGame.sdk\SDK\SDK_Export\hw\ps7_init.tcl into \hw_platform_0\ps7_init.tcl. 
+12:08:18.560 INFO  - Synchronizing projects in the workspace with the hardware platform specification changes. 
+12:08:40.353 INFO  - Restoring local repository preferences: 
+		 C:\Users\byim\Documents\ENSC_452\MILESTONE_6\rannum\managed_ip_project\randNum_1.0 
+12:08:59.791 INFO  - Updating hardware inferred compiler options for vga_test. 
+12:09:00.556 INFO  - Updating hardware inferred compiler options for vga_t2. 
+12:09:00.571 INFO  - Clearing existing target manager status. 
+12:16:41.569 INFO  - FPGA configured successfully with bitstream "C:/Users/byim/Documents/ENSC_452/MILESTONE_6/mainGame/mainGame.sdk/SDK/SDK_Export/hw_platform_0/system_wrapper.bit" 
+12:19:24.281 INFO  - Processor reset is completed for ps7_cortexa9_0 
+12:19:24.390 INFO  - PS initialization will be done as it is not done before. 
+12:19:24.390 INFO  - Running PS initialization.... 
+12:19:24.577 INFO  - ps7_init is completed. 
+12:19:24.687 INFO  - ps7_post_config is completed. 
+12:19:24.796 INFO  - PS Initialization is complete. 
+12:19:58.203 INFO  - Processor reset is completed for ps7_cortexa9_0 
+12:22:41.299 INFO  - Processor reset is completed for ps7_cortexa9_0 
+12:47:56.564 INFO  - Processor reset is completed for ps7_cortexa9_0 
+12:49:43.257 INFO  - Processor reset is completed for ps7_cortexa9_0 
+14:52:43.268 INFO  - FPGA configured successfully with bitstream "C:/Users/byim/Documents/ENSC_452/MILESTONE_6/mainGame/mainGame.sdk/SDK/SDK_Export/hw_platform_0/system_wrapper.bit" 
+14:52:56.452 INFO  - Processor reset is completed for ps7_cortexa9_0 
+14:52:56.561 INFO  - PS initialization will be done as it is not done before. 
+14:52:56.561 INFO  - Running PS initialization.... 
+14:52:56.748 INFO  - ps7_init is completed. 
+14:52:56.857 INFO  - ps7_post_config is completed. 
+14:52:56.966 INFO  - PS Initialization is complete. 
+14:54:28.997 INFO  - Processor reset is completed for ps7_cortexa9_0 
+14:55:13.320 INFO  - Processor reset is completed for ps7_cortexa9_0 
+14:56:01.840 INFO  - Processor reset is completed for ps7_cortexa9_0 
+14:56:28.800 INFO  - Processor reset is completed for ps7_cortexa9_0 
+14:59:40.392 INFO  - Processor reset is completed for ps7_cortexa9_0 
+15:01:02.281 INFO  - Processor reset is completed for ps7_cortexa9_0 
+15:01:28.320 INFO  - Processor reset is completed for ps7_cortexa9_0 
+15:02:33.423 INFO  - Processor reset is completed for ps7_cortexa9_0 
+15:03:13.270 INFO  - Processor reset is completed for ps7_cortexa9_0 
+15:04:03.162 INFO  - Processor reset is completed for ps7_cortexa9_0 
+15:05:53.523 INFO  - Processor reset is completed for ps7_cortexa9_0 
+15:37:05.809 INFO  - FPGA configured successfully with bitstream "C:/Users/byim/Documents/ENSC_452/MILESTONE_6/mainGame/mainGame.sdk/SDK/SDK_Export/hw_platform_0/system_wrapper.bit" 
+15:37:23.298 INFO  - Processor reset is completed for ps7_cortexa9_0 
+15:37:23.407 INFO  - PS initialization will be done as it is not done before. 
+15:37:23.407 INFO  - Running PS initialization.... 
+15:37:23.594 INFO  - ps7_init is completed. 
+15:37:23.704 INFO  - ps7_post_config is completed. 
+15:37:23.813 INFO  - PS Initialization is complete. 
+15:40:02.596 INFO  - Processor reset is completed for ps7_cortexa9_0 
+16:15:58.560 INFO  - FPGA configured successfully with bitstream "C:/Users/byim/Documents/ENSC_452/MILESTONE_6/mainGame/mainGame.sdk/SDK/SDK_Export/hw_platform_0/system_wrapper.bit" 
+16:16:17.937 INFO  - Processor reset is completed for ps7_cortexa9_0 
+16:16:18.046 INFO  - PS initialization will be done as it is not done before. 
+16:16:18.046 INFO  - Running PS initialization.... 
+16:16:18.233 INFO  - ps7_init is completed. 
+16:16:18.342 INFO  - ps7_post_config is completed. 
+16:16:18.451 INFO  - PS Initialization is complete. 
+16:18:00.637 INFO  - Processor reset is completed for ps7_cortexa9_0 
+16:21:00.028 INFO  - Processor reset is completed for ps7_cortexa9_0 
+16:21:23.837 INFO  - Processor reset is completed for ps7_cortexa9_0 
+16:23:22.887 INFO  - Processor reset is completed for ps7_cortexa9_0 
+16:26:49.859 INFO  - Processor reset is completed for ps7_cortexa9_0 
+16:29:58.315 INFO  - Processor reset is completed for ps7_cortexa9_0 
+16:34:12.619 INFO  - Processor reset is completed for ps7_cortexa9_0 
+16:36:04.633 INFO  - Processor reset is completed for ps7_cortexa9_0 
+16:37:38.878 INFO  - Processor reset is completed for ps7_cortexa9_0 
+16:41:26.957 INFO  - Processor reset is completed for ps7_cortexa9_0 
+16:42:04.432 INFO  - Processor reset is completed for ps7_cortexa9_0 
+16:42:33.671 INFO  - Processor reset is completed for ps7_cortexa9_0 
+16:44:20.989 INFO  - Processor reset is completed for ps7_cortexa9_0 
+16:44:41.709 INFO  - Processor reset is completed for ps7_cortexa9_0 
+16:44:51.850 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+16:44:54.801 INFO  - Processor reset is completed for ps7_cortexa9_0 
+16:45:05.193 INFO  - Processor reset is completed for ps7_cortexa9_0 
+16:45:18.471 INFO  - Processor reset is completed for ps7_cortexa9_0 
+16:45:48.926 INFO  - Processor reset is completed for ps7_cortexa9_0 
+17:42:50.816 INFO  - FPGA configured successfully with bitstream "C:/Users/byim/Documents/ENSC_452/MILESTONE_6/mainGame/mainGame.sdk/SDK/SDK_Export/hw_platform_0/system_wrapper.bit" 
+17:43:05.377 INFO  - Processor reset is completed for ps7_cortexa9_0 
+17:43:05.477 INFO  - PS initialization will be done as it is not done before. 
+17:43:05.477 INFO  - Running PS initialization.... 
+17:43:05.667 INFO  - ps7_init is completed. 
+17:43:05.767 INFO  - ps7_post_config is completed. 
+17:43:05.867 INFO  - PS Initialization is complete. 
+17:44:23.636 INFO  - Processor reset is completed for ps7_cortexa9_0 
+17:46:41.608 INFO  - Processor reset is completed for ps7_cortexa9_0 
+17:47:24.746 INFO  - Processor reset is completed for ps7_cortexa9_0 
+17:48:10.676 INFO  - Processor reset is completed for ps7_cortexa9_0 
+17:50:34.640 INFO  - Processor reset is completed for ps7_cortexa9_0 
+17:54:27.415 INFO  - Processor reset is completed for ps7_cortexa9_0 
+18:03:45.531 INFO  - FPGA configured successfully with bitstream "C:/Users/byim/Documents/ENSC_452/MILESTONE_6/mainGame/mainGame.sdk/SDK/SDK_Export/hw_platform_0/system_wrapper.bit" 
+18:03:55.782 INFO  - Processor reset is completed for ps7_cortexa9_0 
+18:03:55.891 INFO  - PS initialization will be done as it is not done before. 
+18:03:55.891 INFO  - Running PS initialization.... 
+18:03:56.078 INFO  - ps7_init is completed. 
+18:03:56.187 INFO  - ps7_post_config is completed. 
+18:03:56.297 INFO  - PS Initialization is complete. 
+18:04:20.901 INFO  - Processor reset is completed for ps7_cortexa9_0 
+18:07:20.153 INFO  - Processor reset is completed for ps7_cortexa9_0 
+18:08:26.348 INFO  - Processor reset is completed for ps7_cortexa9_0 
+18:09:46.739 INFO  - Processor reset is completed for ps7_cortexa9_0 
+18:10:57.288 INFO  - Processor reset is completed for ps7_cortexa9_0 
+18:31:25.718 INFO  - Processor reset is completed for ps7_cortexa9_0 
+18:32:42.974 INFO  - Processor reset is completed for ps7_cortexa9_0 
+18:33:31.179 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+18:33:34.785 INFO  - Processor reset is completed for ps7_cortexa9_0 
+18:34:06.535 INFO  - Processor reset is completed for ps7_cortexa9_0 
+18:34:58.939 INFO  - Processor reset is completed for ps7_cortexa9_0 
+18:36:38.660 INFO  - Processor reset is completed for ps7_cortexa9_0 
+18:38:17.559 INFO  - Processor reset is completed for ps7_cortexa9_0 
+18:39:22.630 INFO  - Processor reset is completed for ps7_cortexa9_0 
+18:43:18.601 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+18:43:22.316 INFO  - Processor reset is completed for ps7_cortexa9_0 
+18:45:03.398 INFO  - Processor reset is completed for ps7_cortexa9_0 
+18:46:38.537 INFO  - Processor reset is completed for ps7_cortexa9_0 
+18:52:50.977 INFO  - FPGA Cable Disconnected. All active launches will be terminated. 
+18:53:04.493 INFO  - FPGA configured successfully with bitstream "C:/Users/byim/Documents/ENSC_452/MILESTONE_6/mainGame/mainGame.sdk/SDK/SDK_Export/hw_platform_0/system_wrapper.bit" 
+18:53:15.429 INFO  - Processor reset is completed for ps7_cortexa9_0 
+18:53:15.539 INFO  - PS initialization will be done as it is not done before. 
+18:53:15.539 INFO  - Running PS initialization.... 
+18:53:15.726 INFO  - ps7_init is completed. 
+18:53:15.726 INFO  - ps7_post_config is completed. 
+18:53:15.835 INFO  - PS Initialization is complete. 
+18:56:23.926 INFO  - FPGA Cable Disconnected. All active launches will be terminated. 
+19:16:30.166 INFO  - FPGA configured successfully with bitstream "C:/Users/byim/Documents/ENSC_452/MILESTONE_6/mainGame/mainGame.sdk/SDK/SDK_Export/hw_platform_0/system_wrapper.bit" 
+19:16:39.075 INFO  - Processor reset is completed for ps7_cortexa9_0 
+19:16:39.184 INFO  - PS initialization will be done as it is not done before. 
+19:16:39.184 INFO  - Running PS initialization.... 
+19:16:39.372 INFO  - ps7_init is completed. 
+19:16:39.481 INFO  - ps7_post_config is completed. 
+19:16:39.590 INFO  - PS Initialization is complete. 
+19:17:32.916 INFO  - Processor reset is completed for ps7_cortexa9_0 
+19:19:36.008 INFO  - Processor reset is completed for ps7_cortexa9_0 
+19:21:58.600 INFO  - FPGA configured successfully with bitstream "C:/Users/byim/Documents/ENSC_452/MILESTONE_6/mainGame/mainGame.sdk/SDK/SDK_Export/hw_platform_0/system_wrapper.bit" 
+19:22:08.040 INFO  - Processor reset is completed for ps7_cortexa9_0 
+19:23:23.663 INFO  - FPGA Cable Disconnected. All active launches will be terminated. 
+19:36:45.893 INFO  - Saving repository preferences. 
+19:36:45.893 INFO  - Reading in cores from local repositories: 
+		 C:\Users\byim\Documents\ENSC_452\MILESTONE_6\led_ip\led_ip_1.0
+		 C:\Users\byim\Documents\ENSC_452\MILESTONE_6\rannum\managed_ip_project\randNum_1.0 
+19:36:45.924 INFO  - Updating libgen.options on all BSP projects. 
+19:36:45.940 INFO  - Cleaning BSP projects in the workspace. 
+19:36:51.166 INFO  - Saving repository preferences. 
+19:38:37.358 INFO  - Settings changed on project standalone_bsp_3. Triggering a rebuild... 
+19:38:37.733 INFO  - Refreshed build settings on project vga_t2 
+19:39:06.141 ERROR - Checking FPGA configuration failed..Connection to Board Failed
+
+
+    Failed to Open JTAG Cable
+    Cable target is not connected to the host
+ 
+19:39:49.915 INFO  - FPGA configured successfully with bitstream "C:/Users/byim/Documents/ENSC_452/MILESTONE_6/mainGame/mainGame.sdk/SDK/SDK_Export/hw_platform_0/system_wrapper.bit" 
+19:40:02.366 INFO  - Processor reset is completed for ps7_cortexa9_0 
+19:40:02.475 INFO  - PS initialization will be done as it is not done before. 
+19:40:02.475 INFO  - Running PS initialization.... 
+19:40:02.662 INFO  - ps7_init is completed. 
+19:40:02.771 INFO  - ps7_post_config is completed. 
+19:40:02.880 INFO  - PS Initialization is complete. 
+19:41:15.706 INFO  - Processor reset is completed for ps7_cortexa9_0 
+19:43:01.433 INFO  - Processor reset is completed for ps7_cortexa9_0 
+19:47:25.370 INFO  - Processor reset is completed for ps7_cortexa9_0 
+19:49:37.290 INFO  - Processor reset is completed for ps7_cortexa9_0 
+19:50:32.553 INFO  - Processor reset is completed for ps7_cortexa9_0 
+19:52:47.436 INFO  - Processor reset is completed for ps7_cortexa9_0 
+19:53:41.963 INFO  - Processor reset is completed for ps7_cortexa9_0 
+19:55:55.427 INFO  - Processor reset is completed for ps7_cortexa9_0 
+19:57:27.456 INFO  - Processor reset is completed for ps7_cortexa9_0 
+19:58:57.721 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+19:59:00.017 INFO  - Processor reset is completed for ps7_cortexa9_0 
+19:59:46.821 INFO  - Processor reset is completed for ps7_cortexa9_0 
+20:01:00.504 INFO  - Processor reset is completed for ps7_cortexa9_0 
+20:02:22.117 INFO  - FPGA configured successfully with bitstream "C:/Users/byim/Documents/ENSC_452/MILESTONE_6/mainGame/mainGame.sdk/SDK/SDK_Export/hw_platform_0/system_wrapper.bit" 
+20:02:27.999 INFO  - Processor reset is completed for ps7_cortexa9_0 
+20:02:28.109 INFO  - PS initialization will be done as it is not done before. 
+20:02:28.109 INFO  - Running PS initialization.... 
+20:02:28.296 INFO  - ps7_init is completed. 
+20:02:28.405 INFO  - ps7_post_config is completed. 
+20:02:28.514 INFO  - PS Initialization is complete. 
+20:03:52.742 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+20:03:55.693 INFO  - Processor reset is completed for ps7_cortexa9_0 
+20:04:46.941 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+20:04:49.018 INFO  - Processor reset is completed for ps7_cortexa9_0 
+20:08:22.293 INFO  - Processor reset is completed for ps7_cortexa9_0 
+20:11:00.031 INFO  - Processor reset is completed for ps7_cortexa9_0 
+20:12:00.454 INFO  - Processor reset is completed for ps7_cortexa9_0 
+20:13:34.184 INFO  - Processor reset is completed for ps7_cortexa9_0 
+20:14:24.690 INFO  - FPGA configured successfully with bitstream "C:/Users/byim/Documents/ENSC_452/MILESTONE_6/mainGame/mainGame.sdk/SDK/SDK_Export/hw_platform_0/system_wrapper.bit" 
+20:14:29.075 INFO  - Processor reset is completed for ps7_cortexa9_0 
+20:14:53.697 INFO  - FPGA configured successfully with bitstream "C:/Users/byim/Documents/ENSC_452/MILESTONE_6/mainGame/mainGame.sdk/SDK/SDK_Export/hw_platform_0/system_wrapper.bit" 
+20:15:01.034 INFO  - Processor reset is completed for ps7_cortexa9_0 
+20:15:01.144 INFO  - PS initialization will be done as it is not done before. 
+20:15:01.144 INFO  - Running PS initialization.... 
+20:15:01.331 INFO  - ps7_init is completed. 
+20:15:01.440 INFO  - ps7_post_config is completed. 
+20:15:01.549 INFO  - PS Initialization is complete. 
+20:15:29.760 INFO  - Processor reset is completed for ps7_cortexa9_0 
+20:16:55.160 INFO  - Processor reset is completed for ps7_cortexa9_0 
+20:17:20.214 INFO  - Processor reset is completed for ps7_cortexa9_0 
+20:18:46.556 INFO  - Processor reset is completed for ps7_cortexa9_0 
+20:20:25.788 INFO  - Processor reset is completed for ps7_cortexa9_0 
+20:22:24.004 INFO  - Processor reset is completed for ps7_cortexa9_0 
+20:22:38.811 INFO  - Processor reset is completed for ps7_cortexa9_0 
+20:23:04.210 INFO  - Processor reset is completed for ps7_cortexa9_0 
+20:24:31.897 INFO  - Processor reset is completed for ps7_cortexa9_0 
+20:25:46.081 INFO  - Processor reset is completed for ps7_cortexa9_0 
+20:27:09.789 INFO  - Processor reset is completed for ps7_cortexa9_0 
+20:31:50.286 ERROR - Checking FPGA configuration failed..Connection to Board Failed
+
+
+    Failed to Open JTAG Cable
+    Cable target is not connected to the host
+ 
+20:35:43.057 INFO  - FPGA configured successfully with bitstream "C:/Users/byim/Documents/ENSC_452/MILESTONE_6/mainGame/mainGame.sdk/SDK/SDK_Export/hw_platform_0/system_wrapper.bit" 
+20:35:58.268 INFO  - Processor reset is completed for ps7_cortexa9_0 
+20:35:58.378 INFO  - PS initialization will be done as it is not done before. 
+20:35:58.378 INFO  - Running PS initialization.... 
+20:35:58.565 INFO  - ps7_init is completed. 
+20:35:58.674 INFO  - ps7_post_config is completed. 
+20:35:58.783 INFO  - PS Initialization is complete. 
+20:40:06.336 INFO  - FPGA configured successfully with bitstream "C:/Users/byim/Documents/ENSC_452/MILESTONE_6/mainGame/mainGame.sdk/SDK/SDK_Export/hw_platform_0/system_wrapper.bit" 
+20:40:10.331 INFO  - Processor reset is completed for ps7_cortexa9_0 
+20:48:06.369 INFO  - Processor reset is completed for ps7_cortexa9_0 
+20:50:07.565 INFO  - Processor reset is completed for ps7_cortexa9_0 
+20:50:50.187 INFO  - FPGA configured successfully with bitstream "C:/Users/byim/Documents/ENSC_452/MILESTONE_6/mainGame/mainGame.sdk/SDK/SDK_Export/hw_platform_0/system_wrapper.bit" 
+20:50:54.619 INFO  - Processor reset is completed for ps7_cortexa9_0 
+20:50:54.728 INFO  - PS initialization will be done as it is not done before. 
+20:50:54.728 INFO  - Running PS initialization.... 
+20:50:54.915 INFO  - ps7_init is completed. 
+20:50:55.024 INFO  - ps7_post_config is completed. 
+20:50:55.133 INFO  - PS Initialization is complete. 
+20:52:15.425 INFO  - Processor reset is completed for ps7_cortexa9_0 
+20:52:32.120 INFO  - Processor reset is completed for ps7_cortexa9_0 
+20:52:51.076 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+20:53:45.491 INFO  - Processing command line option -hwspec C:/Users/byim/Documents/ENSC_452/MILESTONE_6/mainGame/mainGame.sdk/SDK/SDK_Export/hw/system.xml. 
+20:53:46.661 INFO  - The hardware specification for project 'hw_platform_0' is different from C:/Users/byim/Documents/ENSC_452/MILESTONE_6/mainGame/mainGame.sdk/SDK/SDK_Export/hw/system.xml. 
+20:53:46.770 INFO  - Copied contents of C:/Users/byim/Documents/ENSC_452/MILESTONE_6/mainGame/mainGame.sdk/SDK/SDK_Export/hw/system.xml into \hw_platform_0\system.xml. 
+20:53:46.770 INFO  - Copied contents of C:\Users\byim\Documents\ENSC_452\MILESTONE_6\mainGame\mainGame.sdk\SDK\SDK_Export\hw\system_wrapper.bit into \hw_platform_0\system_wrapper.bit. 
+20:53:46.786 INFO  - Copied contents of C:\Users\byim\Documents\ENSC_452\MILESTONE_6\mainGame\mainGame.sdk\SDK\SDK_Export\hw\ps7_init.c into \hw_platform_0\ps7_init.c. 
+20:53:46.786 INFO  - Copied contents of C:\Users\byim\Documents\ENSC_452\MILESTONE_6\mainGame\mainGame.sdk\SDK\SDK_Export\hw\ps7_init.h into \hw_platform_0\ps7_init.h. 
+20:53:46.786 INFO  - Copied contents of C:\Users\byim\Documents\ENSC_452\MILESTONE_6\mainGame\mainGame.sdk\SDK\SDK_Export\hw\ps7_init.html into \hw_platform_0\ps7_init.html. 
+20:53:46.786 INFO  - Copied contents of C:\Users\byim\Documents\ENSC_452\MILESTONE_6\mainGame\mainGame.sdk\SDK\SDK_Export\hw\ps7_summary.html into \hw_platform_0\ps7_summary.html. 
+20:53:46.786 INFO  - Copied contents of C:\Users\byim\Documents\ENSC_452\MILESTONE_6\mainGame\mainGame.sdk\SDK\SDK_Export\hw\ps7_init.tcl into \hw_platform_0\ps7_init.tcl. 
+20:53:46.895 INFO  - Synchronizing projects in the workspace with the hardware platform specification changes. 
+20:53:48.096 INFO  - Restoring local repository preferences: 
+		 C:\Users\byim\Documents\ENSC_452\MILESTONE_6\led_ip\led_ip_1.0
+		 C:\Users\byim\Documents\ENSC_452\MILESTONE_6\rannum\managed_ip_project\randNum_1.0 
+20:54:08.297 INFO  - Updating hardware inferred compiler options for vga_test. 
+20:54:09.062 INFO  - Updating hardware inferred compiler options for vga_t2. 
+20:54:09.077 INFO  - Clearing existing target manager status. 
+20:54:59.252 INFO  - FPGA configured successfully with bitstream "C:/Users/byim/Documents/ENSC_452/MILESTONE_6/mainGame/mainGame.sdk/SDK/SDK_Export/hw_platform_0/system_wrapper.bit" 
+20:55:14.246 INFO  - Processor reset is completed for ps7_cortexa9_0 
+20:55:14.355 INFO  - PS initialization will be done as it is not done before. 
+20:55:14.355 INFO  - Running PS initialization.... 
+20:55:14.542 INFO  - ps7_init is completed. 
+20:55:14.651 INFO  - ps7_post_config is completed. 
+20:55:14.761 INFO  - PS Initialization is complete. 
+20:57:06.141 INFO  - Processor reset is completed for ps7_cortexa9_0 
+20:58:13.038 INFO  - Processor reset is completed for ps7_cortexa9_0 
+21:01:35.767 INFO  - Processor reset is completed for ps7_cortexa9_0 
+21:03:52.633 INFO  - Processor reset is completed for ps7_cortexa9_0 
+21:06:22.617 INFO  - Processor reset is completed for ps7_cortexa9_0 
+21:08:07.252 INFO  - Processor reset is completed for ps7_cortexa9_0 
+21:09:50.856 INFO  - Time out for XMD transaction is 60000
+If you want to increase the timeout value, goto Windows-> Preferences -> Xilinx SDK -> XMD Startup 
+21:09:50.856 ERROR - Timeout occured while waiting to get reply for command "xstop 64" 
+21:11:38.535 INFO  - FPGA configured successfully with bitstream "C:/Users/byim/Documents/ENSC_452/MILESTONE_6/mainGame/mainGame.sdk/SDK/SDK_Export/hw_platform_0/system_wrapper.bit" 
+21:11:56.695 INFO  - Processor reset is completed for ps7_cortexa9_0 
+21:11:56.804 INFO  - PS initialization will be done as it is not done before. 
+21:11:56.804 INFO  - Running PS initialization.... 
+21:11:56.991 INFO  - ps7_init is completed. 
+21:11:57.101 INFO  - ps7_post_config is completed. 
+21:11:57.210 INFO  - PS Initialization is complete. 
+21:13:11.674 INFO  - Processor reset is completed for ps7_cortexa9_0 
+21:16:32.359 INFO  - Processor reset is completed for ps7_cortexa9_0 
+21:17:16.293 INFO  - Processor reset is completed for ps7_cortexa9_0 
+21:21:20.437 INFO  - Processor reset is completed for ps7_cortexa9_0 
+21:21:37.928 INFO  - Processor reset is completed for ps7_cortexa9_0 
+21:22:06.854 INFO  - Processor reset is completed for ps7_cortexa9_0 
+21:22:19.103 INFO  - Processor reset is completed for ps7_cortexa9_0 
+21:22:58.763 INFO  - Processor reset is completed for ps7_cortexa9_0 
+21:25:12.211 INFO  - Processor reset is completed for ps7_cortexa9_0 
+21:26:14.676 INFO  - Time out for XMD transaction is 60000
+If you want to increase the timeout value, goto Windows-> Preferences -> Xilinx SDK -> XMD Startup 
+21:26:14.676 ERROR - Timeout occured while waiting to get reply for command "xstop 64" 
+21:28:31.103 INFO  - Processor reset is completed for ps7_cortexa9_0 
+21:40:35.549 INFO  - FPGA configured successfully with bitstream "C:/Users/byim/Documents/ENSC_452/MILESTONE_6/mainGame/mainGame.sdk/SDK/SDK_Export/hw_platform_0/system_wrapper.bit" 
+21:40:59.286 INFO  - Processor reset is completed for ps7_cortexa9_0 
+21:40:59.395 INFO  - PS initialization will be done as it is not done before. 
+21:40:59.395 INFO  - Running PS initialization.... 
+21:40:59.582 INFO  - ps7_init is completed. 
+21:40:59.691 INFO  - ps7_post_config is completed. 
+21:40:59.691 INFO  - PS Initialization is complete. 
+21:41:04.046 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+21:41:07.355 INFO  - Processor reset is completed for ps7_cortexa9_0 
+21:41:51.122 INFO  - Processor reset is completed for ps7_cortexa9_0 
+21:42:26.335 INFO  - Processor reset is completed for ps7_cortexa9_0 
+21:43:56.710 INFO  - Processor reset is completed for ps7_cortexa9_0 
+21:44:26.650 INFO  - Processor reset is completed for ps7_cortexa9_0 
+21:45:28.509 INFO  - Processor reset is completed for ps7_cortexa9_0 
+21:52:00.872 INFO  - FPGA configured successfully with bitstream "C:/Users/byim/Documents/ENSC_452/MILESTONE_6/mainGame/mainGame.sdk/SDK/SDK_Export/hw_platform_0/system_wrapper.bit" 
+21:52:34.647 ERROR - No such port: COM4 
+21:52:35.083 INFO  - Processor reset is completed for ps7_cortexa9_0 
+21:52:35.193 INFO  - PS initialization will be done as it is not done before. 
+21:52:35.193 INFO  - Running PS initialization.... 
+21:52:35.380 INFO  - ps7_init is completed. 
+21:52:35.489 INFO  - ps7_post_config is completed. 
+21:52:35.598 INFO  - PS Initialization is complete. 
+21:53:06.289 INFO  - FPGA configured successfully with bitstream "C:/Users/byim/Documents/ENSC_452/MILESTONE_6/mainGame/mainGame.sdk/SDK/SDK_Export/hw_platform_0/system_wrapper.bit" 
+21:53:17.647 INFO  - Processor reset is completed for ps7_cortexa9_0 
+21:53:17.756 INFO  - PS initialization will be done as it is not done before. 
+21:53:17.756 INFO  - Running PS initialization.... 
+21:53:17.943 INFO  - ps7_init is completed. 
+21:53:18.052 INFO  - ps7_post_config is completed. 
+21:53:18.161 INFO  - PS Initialization is complete. 
+21:55:25.685 INFO  - Processor reset is completed for ps7_cortexa9_0 
+21:56:33.682 INFO  - Processor reset is completed for ps7_cortexa9_0 
+21:57:11.189 INFO  - Processor reset is completed for ps7_cortexa9_0 
+21:58:07.009 INFO  - Processor reset is completed for ps7_cortexa9_0 
+21:59:04.825 INFO  - FPGA Cable Disconnected. All active launches will be terminated. 
+22:04:18.665 INFO  - FPGA configured successfully with bitstream "C:/Users/byim/Documents/ENSC_452/MILESTONE_6/mainGame/mainGame.sdk/SDK/SDK_Export/hw_platform_0/system_wrapper.bit" 
+22:05:35.952 INFO  - FPGA configured successfully with bitstream "C:/Users/byim/Documents/ENSC_452/MILESTONE_6/mainGame/mainGame.sdk/SDK/SDK_Export/hw_platform_0/system_wrapper.bit" 
+22:05:47.747 INFO  - Processor reset is completed for ps7_cortexa9_0 
+22:05:47.856 INFO  - PS initialization will be done as it is not done before. 
+22:05:47.856 INFO  - Running PS initialization.... 
+22:05:48.043 INFO  - ps7_init is completed. 
+22:05:48.153 INFO  - ps7_post_config is completed. 
+22:05:48.262 INFO  - PS Initialization is complete. 
+22:08:32.963 INFO  - Processor reset is completed for ps7_cortexa9_0 
+22:09:19.627 INFO  - Processor reset is completed for ps7_cortexa9_0 
+22:09:43.748 INFO  - Processor reset is completed for ps7_cortexa9_0 
+22:10:45.856 INFO  - Processor reset is completed for ps7_cortexa9_0 
+22:11:25.906 INFO  - Processor reset is completed for ps7_cortexa9_0 
+22:13:02.398 INFO  - FPGA configured successfully with bitstream "C:/Users/byim/Documents/ENSC_452/MILESTONE_6/mainGame/mainGame.sdk/SDK/SDK_Export/hw_platform_0/system_wrapper.bit" 
+22:13:30.012 INFO  - Processor reset is completed for ps7_cortexa9_0 
+22:14:38.126 INFO  - Processor reset is completed for ps7_cortexa9_0 
+22:15:37.814 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+22:15:39.672 INFO  - Processor reset is completed for ps7_cortexa9_0 
+22:17:15.946 INFO  - FPGA configured successfully with bitstream "C:/Users/byim/Documents/ENSC_452/MILESTONE_6/mainGame/mainGame.sdk/SDK/SDK_Export/hw_platform_0/system_wrapper.bit" 
+22:17:25.681 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+22:17:33.544 ERROR - Unexpected error while launching program. java.lang.RuntimeException: No Active System
+
+	at com.xilinx.sdk.targetmanager.internal.TM.stop(Unknown Source)
+	at com.xilinx.sdk.targetmanager.internal.CPURunSession.terminate(Unknown Source)
+
+22:18:05.633 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+22:18:24.744 ERROR - Unexpected error while launching program. java.lang.RuntimeException: No Active System
+
+	at com.xilinx.sdk.targetmanager.internal.TM.stop(Unknown Source)
+	at com.xilinx.sdk.targetmanager.internal.CPURunSession.terminate(Unknown Source)
+
+22:18:29.393 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+22:19:03.356 INFO  - Processing command line option -hwspec C:/Users/byim/Documents/ENSC_452/MILESTONE_6/mainGame/mainGame.sdk/SDK/SDK_Export/hw/system.xml. 
+22:19:04.806 INFO  - The hardware specification for project 'hw_platform_0' is different from C:/Users/byim/Documents/ENSC_452/MILESTONE_6/mainGame/mainGame.sdk/SDK/SDK_Export/hw/system.xml. 
+22:19:04.916 INFO  - Copied contents of C:/Users/byim/Documents/ENSC_452/MILESTONE_6/mainGame/mainGame.sdk/SDK/SDK_Export/hw/system.xml into \hw_platform_0\system.xml. 
+22:19:04.931 INFO  - Copied contents of C:\Users\byim\Documents\ENSC_452\MILESTONE_6\mainGame\mainGame.sdk\SDK\SDK_Export\hw\system_wrapper.bit into \hw_platform_0\system_wrapper.bit. 
+22:19:04.947 INFO  - Copied contents of C:\Users\byim\Documents\ENSC_452\MILESTONE_6\mainGame\mainGame.sdk\SDK\SDK_Export\hw\ps7_init.c into \hw_platform_0\ps7_init.c. 
+22:19:04.947 INFO  - Copied contents of C:\Users\byim\Documents\ENSC_452\MILESTONE_6\mainGame\mainGame.sdk\SDK\SDK_Export\hw\ps7_init.h into \hw_platform_0\ps7_init.h. 
+22:19:04.947 INFO  - Copied contents of C:\Users\byim\Documents\ENSC_452\MILESTONE_6\mainGame\mainGame.sdk\SDK\SDK_Export\hw\ps7_init.html into \hw_platform_0\ps7_init.html. 
+22:19:04.947 INFO  - Copied contents of C:\Users\byim\Documents\ENSC_452\MILESTONE_6\mainGame\mainGame.sdk\SDK\SDK_Export\hw\ps7_summary.html into \hw_platform_0\ps7_summary.html. 
+22:19:04.962 INFO  - Copied contents of C:\Users\byim\Documents\ENSC_452\MILESTONE_6\mainGame\mainGame.sdk\SDK\SDK_Export\hw\ps7_init.tcl into \hw_platform_0\ps7_init.tcl. 
+22:19:05.056 INFO  - Synchronizing projects in the workspace with the hardware platform specification changes. 
+22:19:24.447 INFO  - Restoring local repository preferences: 
+		 C:\Users\byim\Documents\ENSC_452\MILESTONE_6\led_ip\led_ip_1.0
+		 C:\Users\byim\Documents\ENSC_452\MILESTONE_6\rannum\managed_ip_project\randNum_1.0 
+22:19:44.540 INFO  - Updating hardware inferred compiler options for vga_test. 
+22:19:45.305 INFO  - Updating hardware inferred compiler options for vga_t2. 
+22:19:45.320 INFO  - Clearing existing target manager status. 
+22:20:32.981 INFO  - Processor reset is completed for ps7_cortexa9_0 
+22:23:46.757 INFO  - Processor reset is completed for ps7_cortexa9_0 
+22:25:36.241 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+22:25:38.427 INFO  - Processor reset is completed for ps7_cortexa9_0 
+22:28:05.264 INFO  - Processor reset is completed for ps7_cortexa9_0 
+22:30:03.205 INFO  - Processor reset is completed for ps7_cortexa9_0 
+22:30:50.134 INFO  - Processor reset is completed for ps7_cortexa9_0 
+22:31:17.531 INFO  - Processor reset is completed for ps7_cortexa9_0 
+22:34:12.864 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+22:34:14.707 INFO  - Processor reset is completed for ps7_cortexa9_0 
+22:34:36.846 INFO  - Processor reset is completed for ps7_cortexa9_0 
+22:34:43.259 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+22:34:45.226 INFO  - Processor reset is completed for ps7_cortexa9_0 
+22:38:04.273 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+22:38:06.069 INFO  - Processor reset is completed for ps7_cortexa9_0 
+22:38:35.851 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+22:38:37.709 INFO  - Processor reset is completed for ps7_cortexa9_0 
+22:45:52.742 ERROR - Unable to disconnect from existing targets java.lang.NullPointerException
+	at com.xilinx.sdk.targetmanager.internal.json.XMDJSONProcess.issueCommand(Unknown Source)
+	at com.xilinx.sdk.targetmanager.internal.TM.disconnectTarget(Unknown Source)
+
+22:45:52.742 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+12:35:02.200 INFO  - Processing command line option -hwspec C:/Users/byim/Documents/ENSC_452/MILESTONE_6/mainGame/mainGame.sdk/SDK/SDK_Export/hw/system.xml. 
+12:35:03.697 INFO  - The hardware specification for project 'hw_platform_0' is different from C:/Users/byim/Documents/ENSC_452/MILESTONE_6/mainGame/mainGame.sdk/SDK/SDK_Export/hw/system.xml. 
+12:35:03.822 INFO  - Copied contents of C:/Users/byim/Documents/ENSC_452/MILESTONE_6/mainGame/mainGame.sdk/SDK/SDK_Export/hw/system.xml into \hw_platform_0\system.xml. 
+12:35:03.838 INFO  - Copied contents of C:\Users\byim\Documents\ENSC_452\MILESTONE_6\mainGame\mainGame.sdk\SDK\SDK_Export\hw\system_wrapper.bit into \hw_platform_0\system_wrapper.bit. 
+12:35:03.838 INFO  - Copied contents of C:\Users\byim\Documents\ENSC_452\MILESTONE_6\mainGame\mainGame.sdk\SDK\SDK_Export\hw\ps7_init.c into \hw_platform_0\ps7_init.c. 
+12:35:03.838 INFO  - Copied contents of C:\Users\byim\Documents\ENSC_452\MILESTONE_6\mainGame\mainGame.sdk\SDK\SDK_Export\hw\ps7_init.h into \hw_platform_0\ps7_init.h. 
+12:35:03.853 INFO  - Copied contents of C:\Users\byim\Documents\ENSC_452\MILESTONE_6\mainGame\mainGame.sdk\SDK\SDK_Export\hw\ps7_init.html into \hw_platform_0\ps7_init.html. 
+12:35:03.853 INFO  - Copied contents of C:\Users\byim\Documents\ENSC_452\MILESTONE_6\mainGame\mainGame.sdk\SDK\SDK_Export\hw\ps7_summary.html into \hw_platform_0\ps7_summary.html. 
+12:35:03.853 INFO  - Copied contents of C:\Users\byim\Documents\ENSC_452\MILESTONE_6\mainGame\mainGame.sdk\SDK\SDK_Export\hw\ps7_init.tcl into \hw_platform_0\ps7_init.tcl. 
+12:35:03.947 INFO  - Synchronizing projects in the workspace with the hardware platform specification changes. 
+12:35:04.868 INFO  - Restoring local repository preferences: 
+		 C:\Users\byim\Documents\ENSC_452\MILESTONE_6\led_ip\led_ip_1.0
+		 C:\Users\byim\Documents\ENSC_452\MILESTONE_6\rannum\managed_ip_project\randNum_1.0 
+12:35:29.688 INFO  - Updating hardware inferred compiler options for vga_test. 
+12:35:30.452 INFO  - Updating hardware inferred compiler options for vga_t2. 
+12:35:30.468 INFO  - Clearing existing target manager status. 
+12:38:58.916 INFO  - FPGA configured successfully with bitstream "C:/Users/byim/Documents/ENSC_452/MILESTONE_6/mainGame/mainGame.sdk/SDK/SDK_Export/hw_platform_0/system_wrapper.bit" 
+12:39:12.458 INFO  - Processor reset is completed for ps7_cortexa9_0 
+12:39:12.567 INFO  - PS initialization will be done as it is not done before. 
+12:39:12.567 INFO  - Running PS initialization.... 
+12:39:12.755 INFO  - ps7_init is completed. 
+12:39:12.864 INFO  - ps7_post_config is completed. 
+12:39:12.973 INFO  - PS Initialization is complete. 
+12:40:25.724 INFO  - Processor reset is completed for ps7_cortexa9_0 
+12:43:21.912 INFO  - Processor reset is completed for ps7_cortexa9_0 
+12:44:56.121 INFO  - FPGA configured successfully with bitstream "C:/Users/byim/Documents/ENSC_452/MILESTONE_6/mainGame/mainGame.sdk/SDK/SDK_Export/hw_platform_0/system_wrapper.bit" 
+12:45:06.449 INFO  - Processor reset is completed for ps7_cortexa9_0 
+12:45:06.558 INFO  - PS initialization will be done as it is not done before. 
+12:45:06.558 INFO  - Running PS initialization.... 
+12:45:06.746 INFO  - ps7_init is completed. 
+12:45:06.855 INFO  - ps7_post_config is completed. 
+12:45:06.964 INFO  - PS Initialization is complete. 
+12:46:58.800 INFO  - Processor reset is completed for ps7_cortexa9_0 
+12:48:12.156 INFO  - Processor reset is completed for ps7_cortexa9_0 
+12:52:15.180 INFO  - Restarting XMD session... 
+12:52:15.211 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+12:52:16.399 INFO  - XMD session has been restarted. 
+12:52:34.008 INFO  - FPGA configured successfully with bitstream "C:/Users/byim/Documents/ENSC_452/MILESTONE_6/mainGame/mainGame.sdk/SDK/SDK_Export/hw_platform_0/system_wrapper.bit" 
+12:52:43.088 INFO  - Processor reset is completed for ps7_cortexa9_0 
+12:53:44.234 INFO  - Restarting XMD session... 
+12:53:44.249 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+12:53:45.421 INFO  - XMD session has been restarted. 
+12:53:50.024 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+12:54:14.628 INFO  - Processing command line option -hwspec C:/Users/byim/Documents/ENSC_452/MILESTONE_6/mainGame/mainGame.sdk/SDK/SDK_Export/hw/system.xml. 
+12:54:15.299 INFO  - The hardware specification for project 'hw_platform_0' is different from C:/Users/byim/Documents/ENSC_452/MILESTONE_6/mainGame/mainGame.sdk/SDK/SDK_Export/hw/system.xml. 
+12:54:15.393 INFO  - Copied contents of C:/Users/byim/Documents/ENSC_452/MILESTONE_6/mainGame/mainGame.sdk/SDK/SDK_Export/hw/system.xml into \hw_platform_0\system.xml. 
+12:54:15.408 INFO  - Copied contents of C:\Users\byim\Documents\ENSC_452\MILESTONE_6\mainGame\mainGame.sdk\SDK\SDK_Export\hw\system_wrapper.bit into \hw_platform_0\system_wrapper.bit. 
+12:54:15.408 INFO  - Copied contents of C:\Users\byim\Documents\ENSC_452\MILESTONE_6\mainGame\mainGame.sdk\SDK\SDK_Export\hw\ps7_init.c into \hw_platform_0\ps7_init.c. 
+12:54:15.424 INFO  - Copied contents of C:\Users\byim\Documents\ENSC_452\MILESTONE_6\mainGame\mainGame.sdk\SDK\SDK_Export\hw\ps7_init.h into \hw_platform_0\ps7_init.h. 
+12:54:15.424 INFO  - Copied contents of C:\Users\byim\Documents\ENSC_452\MILESTONE_6\mainGame\mainGame.sdk\SDK\SDK_Export\hw\ps7_init.html into \hw_platform_0\ps7_init.html. 
+12:54:15.424 INFO  - Copied contents of C:\Users\byim\Documents\ENSC_452\MILESTONE_6\mainGame\mainGame.sdk\SDK\SDK_Export\hw\ps7_summary.html into \hw_platform_0\ps7_summary.html. 
+12:54:15.440 INFO  - Copied contents of C:\Users\byim\Documents\ENSC_452\MILESTONE_6\mainGame\mainGame.sdk\SDK\SDK_Export\hw\ps7_init.tcl into \hw_platform_0\ps7_init.tcl. 
+12:54:15.674 INFO  - Synchronizing projects in the workspace with the hardware platform specification changes. 
+12:54:16.922 INFO  - Restoring local repository preferences: 
+		 C:\Users\byim\Documents\ENSC_452\MILESTONE_6\led_ip\led_ip_1.0
+		 C:\Users\byim\Documents\ENSC_452\MILESTONE_6\rannum\managed_ip_project\randNum_1.0 
+12:54:38.823 INFO  - Updating hardware inferred compiler options for vga_test. 
+12:54:39.587 INFO  - Updating hardware inferred compiler options for vga_t2. 
+12:54:39.603 INFO  - Clearing existing target manager status. 
+12:55:24.645 INFO  - FPGA configured successfully with bitstream "C:/Users/byim/Documents/ENSC_452/MILESTONE_6/mainGame/mainGame.sdk/SDK/SDK_Export/hw_platform_0/system_wrapper.bit" 
+12:55:37.032 INFO  - Processor reset is completed for ps7_cortexa9_0 
+12:55:37.141 INFO  - PS initialization will be done as it is not done before. 
+12:55:37.141 INFO  - Running PS initialization.... 
+12:55:37.329 INFO  - ps7_init is completed. 
+12:55:37.438 INFO  - ps7_post_config is completed. 
+12:55:37.656 INFO  - PS Initialization is complete. 
+12:55:41.417 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+12:55:43.853 INFO  - Processor reset is completed for ps7_cortexa9_0 
+12:56:59.365 INFO  - Processor reset is completed for ps7_cortexa9_0 
+12:57:30.288 INFO  - Processor reset is completed for ps7_cortexa9_0 
+12:59:27.933 INFO  - Processor reset is completed for ps7_cortexa9_0 
+13:01:37.567 INFO  - Processor reset is completed for ps7_cortexa9_0 
+13:02:13.981 INFO  - Processor reset is completed for ps7_cortexa9_0 
+13:02:45.928 INFO  - FPGA configured successfully with bitstream "C:/Users/byim/Documents/ENSC_452/MILESTONE_6/mainGame/mainGame.sdk/SDK/SDK_Export/hw_platform_0/system_wrapper.bit" 
+13:02:52.340 ERROR - No such port: COM4 
+13:02:52.668 INFO  - Processor reset is completed for ps7_cortexa9_0 
+13:02:52.777 INFO  - PS initialization will be done as it is not done before. 
+13:02:52.777 INFO  - Running PS initialization.... 
+13:02:52.964 INFO  - ps7_init is completed. 
+13:02:52.964 INFO  - ps7_post_config is completed. 
+13:02:53.073 INFO  - PS Initialization is complete. 
+13:03:41.600 INFO  - FPGA configured successfully with bitstream "C:/Users/byim/Documents/ENSC_452/MILESTONE_6/mainGame/mainGame.sdk/SDK/SDK_Export/hw_platform_0/system_wrapper.bit" 
+13:04:01.882 INFO  - Processor reset is completed for ps7_cortexa9_0 
+13:04:01.991 INFO  - PS initialization will be done as it is not done before. 
+13:04:01.991 INFO  - Running PS initialization.... 
+13:04:02.178 INFO  - ps7_init is completed. 
+13:04:02.287 INFO  - ps7_post_config is completed. 
+13:04:02.397 INFO  - PS Initialization is complete. 
+13:05:00.526 INFO  - Processor reset is completed for ps7_cortexa9_0 
+13:05:50.669 ERROR - Unexpected error while launching program. java.lang.RuntimeException: Error in Resetting Target
+
+    Could not stop the processor after reset
+
+
+	at com.xilinx.sdk.targetmanager.internal.TM.doProcessorReset(Unknown Source)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(Unknown Source)
+
+13:06:02.950 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+13:06:25.569 INFO  - Processing command line option -hwspec C:/Users/byim/Documents/ENSC_452/MILESTONE_6/mainGame/mainGame.sdk/SDK/SDK_Export/hw/system.xml. 
+13:06:26.708 INFO  - The hardware specification for project 'hw_platform_0' is different from C:/Users/byim/Documents/ENSC_452/MILESTONE_6/mainGame/mainGame.sdk/SDK/SDK_Export/hw/system.xml. 
+13:06:26.817 INFO  - Copied contents of C:/Users/byim/Documents/ENSC_452/MILESTONE_6/mainGame/mainGame.sdk/SDK/SDK_Export/hw/system.xml into \hw_platform_0\system.xml. 
+13:06:26.817 INFO  - Copied contents of C:\Users\byim\Documents\ENSC_452\MILESTONE_6\mainGame\mainGame.sdk\SDK\SDK_Export\hw\system_wrapper.bit into \hw_platform_0\system_wrapper.bit. 
+13:06:26.833 INFO  - Copied contents of C:\Users\byim\Documents\ENSC_452\MILESTONE_6\mainGame\mainGame.sdk\SDK\SDK_Export\hw\ps7_init.c into \hw_platform_0\ps7_init.c. 
+13:06:26.833 INFO  - Copied contents of C:\Users\byim\Documents\ENSC_452\MILESTONE_6\mainGame\mainGame.sdk\SDK\SDK_Export\hw\ps7_init.h into \hw_platform_0\ps7_init.h. 
+13:06:26.833 INFO  - Copied contents of C:\Users\byim\Documents\ENSC_452\MILESTONE_6\mainGame\mainGame.sdk\SDK\SDK_Export\hw\ps7_init.html into \hw_platform_0\ps7_init.html. 
+13:06:26.833 INFO  - Copied contents of C:\Users\byim\Documents\ENSC_452\MILESTONE_6\mainGame\mainGame.sdk\SDK\SDK_Export\hw\ps7_summary.html into \hw_platform_0\ps7_summary.html. 
+13:06:26.848 INFO  - Copied contents of C:\Users\byim\Documents\ENSC_452\MILESTONE_6\mainGame\mainGame.sdk\SDK\SDK_Export\hw\ps7_init.tcl into \hw_platform_0\ps7_init.tcl. 
+13:06:26.942 INFO  - Synchronizing projects in the workspace with the hardware platform specification changes. 
+13:06:45.506 INFO  - Restoring local repository preferences: 
+		 C:\Users\byim\Documents\ENSC_452\MILESTONE_6\led_ip\led_ip_1.0
+		 C:\Users\byim\Documents\ENSC_452\MILESTONE_6\rannum\managed_ip_project\randNum_1.0 
+13:07:05.258 INFO  - Updating hardware inferred compiler options for vga_test. 
+13:07:06.022 INFO  - Updating hardware inferred compiler options for vga_t2. 
+13:07:06.038 INFO  - Clearing existing target manager status. 
+13:08:03.467 INFO  - FPGA configured successfully with bitstream "C:/Users/byim/Documents/ENSC_452/MILESTONE_6/mainGame/mainGame.sdk/SDK/SDK_Export/hw_platform_0/system_wrapper.bit" 
+13:08:13.531 INFO  - Processor reset is completed for ps7_cortexa9_0 
+13:08:13.640 INFO  - PS initialization will be done as it is not done before. 
+13:08:13.640 INFO  - Running PS initialization.... 
+13:08:13.827 INFO  - ps7_init is completed. 
+13:08:13.936 INFO  - ps7_post_config is completed. 
+13:08:14.045 INFO  - PS Initialization is complete. 
+13:08:49.878 ERROR - Unexpected error while launching program. java.lang.RuntimeException: Error in Resetting Target
+
+    Could not stop the processor after reset
+
+
+	at com.xilinx.sdk.targetmanager.internal.TM.doProcessorReset(Unknown Source)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(Unknown Source)
+
+13:08:53.840 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+13:09:18.681 INFO  - Processing command line option -hwspec C:/Users/byim/Documents/ENSC_452/MILESTONE_6/mainGame/mainGame.sdk/SDK/SDK_Export/hw/system.xml. 
+13:09:19.992 INFO  - The hardware specification for project 'hw_platform_0' is different from C:/Users/byim/Documents/ENSC_452/MILESTONE_6/mainGame/mainGame.sdk/SDK/SDK_Export/hw/system.xml. 
+13:09:20.101 INFO  - Copied contents of C:/Users/byim/Documents/ENSC_452/MILESTONE_6/mainGame/mainGame.sdk/SDK/SDK_Export/hw/system.xml into \hw_platform_0\system.xml. 
+13:09:20.116 INFO  - Copied contents of C:\Users\byim\Documents\ENSC_452\MILESTONE_6\mainGame\mainGame.sdk\SDK\SDK_Export\hw\system_wrapper.bit into \hw_platform_0\system_wrapper.bit. 
+13:09:20.116 INFO  - Copied contents of C:\Users\byim\Documents\ENSC_452\MILESTONE_6\mainGame\mainGame.sdk\SDK\SDK_Export\hw\ps7_init.c into \hw_platform_0\ps7_init.c. 
+13:09:20.116 INFO  - Copied contents of C:\Users\byim\Documents\ENSC_452\MILESTONE_6\mainGame\mainGame.sdk\SDK\SDK_Export\hw\ps7_init.h into \hw_platform_0\ps7_init.h. 
+13:09:20.132 INFO  - Copied contents of C:\Users\byim\Documents\ENSC_452\MILESTONE_6\mainGame\mainGame.sdk\SDK\SDK_Export\hw\ps7_init.html into \hw_platform_0\ps7_init.html. 
+13:09:20.132 INFO  - Copied contents of C:\Users\byim\Documents\ENSC_452\MILESTONE_6\mainGame\mainGame.sdk\SDK\SDK_Export\hw\ps7_summary.html into \hw_platform_0\ps7_summary.html. 
+13:09:20.132 INFO  - Copied contents of C:\Users\byim\Documents\ENSC_452\MILESTONE_6\mainGame\mainGame.sdk\SDK\SDK_Export\hw\ps7_init.tcl into \hw_platform_0\ps7_init.tcl. 
+13:09:20.226 INFO  - Synchronizing projects in the workspace with the hardware platform specification changes. 
+13:09:37.979 INFO  - Restoring local repository preferences: 
+		 C:\Users\byim\Documents\ENSC_452\MILESTONE_6\led_ip\led_ip_1.0
+		 C:\Users\byim\Documents\ENSC_452\MILESTONE_6\rannum\managed_ip_project\randNum_1.0 
+13:09:57.370 INFO  - Updating hardware inferred compiler options for vga_test. 
+13:09:58.134 INFO  - Updating hardware inferred compiler options for vga_t2. 
+13:09:58.166 INFO  - Clearing existing target manager status. 
+13:10:48.572 INFO  - FPGA configured successfully with bitstream "C:/Users/byim/Documents/ENSC_452/MILESTONE_6/mainGame/mainGame.sdk/SDK/SDK_Export/hw_platform_0/system_wrapper.bit" 
+13:11:04.002 INFO  - Processor reset is completed for ps7_cortexa9_0 
+13:11:04.111 INFO  - PS initialization will be done as it is not done before. 
+13:11:04.111 INFO  - Running PS initialization.... 
+13:11:04.298 INFO  - ps7_init is completed. 
+13:11:04.408 INFO  - ps7_post_config is completed. 
+13:11:04.517 INFO  - PS Initialization is complete. 
+13:11:50.620 INFO  - FPGA configured successfully with bitstream "C:/Users/byim/Documents/ENSC_452/MILESTONE_6/mainGame/mainGame.sdk/SDK/SDK_Export/hw_platform_0/system_wrapper.bit" 
+13:11:59.810 INFO  - Processor reset is completed for ps7_cortexa9_0 
+13:11:59.919 INFO  - PS initialization will be done as it is not done before. 
+13:11:59.919 INFO  - Running PS initialization.... 
+13:12:00.106 INFO  - ps7_init is completed. 
+13:12:00.216 INFO  - ps7_post_config is completed. 
+13:12:00.325 INFO  - PS Initialization is complete. 
+13:15:23.073 INFO  - Processor reset is completed for ps7_cortexa9_0 
+13:29:32.500 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+13:29:34.171 INFO  - Processor reset is completed for ps7_cortexa9_0 
+13:31:32.098 INFO  - Time out for XMD transaction is 60000
+If you want to increase the timeout value, goto Windows-> Preferences -> Xilinx SDK -> XMD Startup 
+13:31:32.098 ERROR - Timeout occured while waiting to get reply for command "xstop 64" 
+13:36:56.944 INFO  - Processor reset is completed for ps7_cortexa9_0 
+13:38:16.835 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+13:38:18.475 INFO  - Processor reset is completed for ps7_cortexa9_0 
+13:39:49.365 INFO  - Processor reset is completed for ps7_cortexa9_0 
+13:50:32.455 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+14:20:26.805 INFO  - Processing command line option -hwspec C:/Users/byim/Documents/ENSC_452/MILESTONE_6/mainGame/mainGame.sdk/SDK/SDK_Export/hw/system.xml. 
+14:20:27.813 INFO  - The hardware specification for project 'hw_platform_0' is different from C:/Users/byim/Documents/ENSC_452/MILESTONE_6/mainGame/mainGame.sdk/SDK/SDK_Export/hw/system.xml. 
+14:20:27.912 INFO  - Copied contents of C:/Users/byim/Documents/ENSC_452/MILESTONE_6/mainGame/mainGame.sdk/SDK/SDK_Export/hw/system.xml into \hw_platform_0\system.xml. 
+14:20:27.922 INFO  - Copied contents of C:\Users\byim\Documents\ENSC_452\MILESTONE_6\mainGame\mainGame.sdk\SDK\SDK_Export\hw\system_wrapper.bit into \hw_platform_0\system_wrapper.bit. 
+14:20:27.928 INFO  - Copied contents of C:\Users\byim\Documents\ENSC_452\MILESTONE_6\mainGame\mainGame.sdk\SDK\SDK_Export\hw\ps7_init.c into \hw_platform_0\ps7_init.c. 
+14:20:27.931 INFO  - Copied contents of C:\Users\byim\Documents\ENSC_452\MILESTONE_6\mainGame\mainGame.sdk\SDK\SDK_Export\hw\ps7_init.h into \hw_platform_0\ps7_init.h. 
+14:20:27.940 INFO  - Copied contents of C:\Users\byim\Documents\ENSC_452\MILESTONE_6\mainGame\mainGame.sdk\SDK\SDK_Export\hw\ps7_init.html into \hw_platform_0\ps7_init.html. 
+14:20:27.941 INFO  - Copied contents of C:\Users\byim\Documents\ENSC_452\MILESTONE_6\mainGame\mainGame.sdk\SDK\SDK_Export\hw\ps7_summary.html into \hw_platform_0\ps7_summary.html. 
+14:20:27.945 INFO  - Copied contents of C:\Users\byim\Documents\ENSC_452\MILESTONE_6\mainGame\mainGame.sdk\SDK\SDK_Export\hw\ps7_init.tcl into \hw_platform_0\ps7_init.tcl. 
+14:20:28.046 INFO  - Synchronizing projects in the workspace with the hardware platform specification changes. 
+14:20:46.989 INFO  - Restoring local repository preferences: 
+		 C:\Users\byim\Documents\ENSC_452\MILESTONE_6\led_ip\led_ip_1.0
+		 C:\Users\byim\Documents\ENSC_452\MILESTONE_6\rannum\managed_ip_project\randNum_1.0 
+14:21:06.337 INFO  - Updating hardware inferred compiler options for vga_test. 
+14:21:07.089 INFO  - Updating hardware inferred compiler options for vga_t2. 
+14:21:07.109 INFO  - Clearing existing target manager status. 
+14:23:27.508 INFO  - FPGA configured successfully with bitstream "C:/Users/byim/Documents/ENSC_452/MILESTONE_6/mainGame/mainGame.sdk/SDK/SDK_Export/hw_platform_0/system_wrapper.bit" 
+14:23:41.157 INFO  - Processor reset is completed for ps7_cortexa9_0 
+14:38:50.265 INFO  - FPGA configured successfully with bitstream "C:/Users/byim/Documents/ENSC_452/MILESTONE_6/mainGame/mainGame.sdk/SDK/SDK_Export/hw_platform_0/system_wrapper.bit" 
+14:39:15.863 INFO  - Processor reset is completed for ps7_cortexa9_0 
+14:39:15.963 INFO  - PS initialization will be done as it is not done before. 
+14:39:15.963 INFO  - Running PS initialization.... 
+14:39:16.155 INFO  - ps7_init is completed. 
+14:39:16.255 INFO  - ps7_post_config is completed. 
+14:39:16.355 INFO  - PS Initialization is complete. 
+14:43:23.672 INFO  - Processor reset is completed for ps7_cortexa9_0 
+14:44:12.429 INFO  - Processor reset is completed for ps7_cortexa9_0 
+14:49:39.519 INFO  - Processor reset is completed for ps7_cortexa9_0 
+14:51:58.387 INFO  - Processor reset is completed for ps7_cortexa9_0 
+14:55:32.698 INFO  - Processor reset is completed for ps7_cortexa9_0 
+14:57:02.547 INFO  - Processor reset is completed for ps7_cortexa9_0 
+14:59:14.482 INFO  - Processor reset is completed for ps7_cortexa9_0 
+15:01:53.868 INFO  - Processor reset is completed for ps7_cortexa9_0 
+15:03:11.610 INFO  - Processor reset is completed for ps7_cortexa9_0 
+15:06:28.079 INFO  - Processor reset is completed for ps7_cortexa9_0 
+15:08:15.026 INFO  - Processor reset is completed for ps7_cortexa9_0 
+15:09:54.007 INFO  - Processor reset is completed for ps7_cortexa9_0 
+15:10:42.574 INFO  - Processor reset is completed for ps7_cortexa9_0 
+15:11:32.085 INFO  - Processor reset is completed for ps7_cortexa9_0 
+15:12:20.886 INFO  - Processor reset is completed for ps7_cortexa9_0 
+15:12:40.420 INFO  - Processor reset is completed for ps7_cortexa9_0 
+15:13:54.812 INFO  - Processor reset is completed for ps7_cortexa9_0 
+15:14:51.876 INFO  - Processor reset is completed for ps7_cortexa9_0 
+17:01:00.277 INFO  - FPGA configured successfully with bitstream "C:/Users/byim/Documents/ENSC_452/MILESTONE_6/mainGame/mainGame.sdk/SDK/SDK_Export/hw_platform_0/system_wrapper.bit" 
+17:01:10.208 INFO  - Processor reset is completed for ps7_cortexa9_0 
+17:01:10.308 INFO  - PS initialization will be done as it is not done before. 
+17:01:10.308 INFO  - Running PS initialization.... 
+17:01:10.498 INFO  - ps7_init is completed. 
+17:01:10.598 INFO  - ps7_post_config is completed. 
+17:01:10.698 INFO  - PS Initialization is complete. 
+17:01:15.179 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+17:01:17.481 INFO  - Processor reset is completed for ps7_cortexa9_0 
+17:27:53.331 INFO  - Processor reset is completed for ps7_cortexa9_0 
+17:30:32.240 INFO  - Processor reset is completed for ps7_cortexa9_0 
+17:33:19.120 INFO  - Processor reset is completed for ps7_cortexa9_0 
+17:35:53.459 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+17:35:55.318 INFO  - Processor reset is completed for ps7_cortexa9_0 
+17:36:16.956 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+17:36:18.815 INFO  - Processor reset is completed for ps7_cortexa9_0 
+17:38:18.201 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+17:38:20.113 INFO  - Processor reset is completed for ps7_cortexa9_0 
+17:42:02.180 INFO  - Processor reset is completed for ps7_cortexa9_0 
+17:42:41.371 INFO  - Processor reset is completed for ps7_cortexa9_0 
+17:44:13.264 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+17:44:15.232 INFO  - Processor reset is completed for ps7_cortexa9_0 
+20:07:25.324 INFO  - Processor reset is completed for ps7_cortexa9_0 
+20:07:52.801 INFO  - FPGA configured successfully with bitstream "C:/Users/byim/Documents/ENSC_452/MILESTONE_6/mainGame/mainGame.sdk/SDK/SDK_Export/hw_platform_0/system_wrapper.bit" 
+20:08:02.287 INFO  - Processor reset is completed for ps7_cortexa9_0 
+20:08:24.676 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+20:08:58.249 INFO  - Processing command line option -hwspec C:/Users/byim/Documents/ENSC_452/MILESTONE_6/mainGame/mainGame.sdk/SDK/SDK_Export/hw/system.xml. 
+20:08:59.278 INFO  - The hardware specification for project 'hw_platform_0' is different from C:/Users/byim/Documents/ENSC_452/MILESTONE_6/mainGame/mainGame.sdk/SDK/SDK_Export/hw/system.xml. 
+20:08:59.387 INFO  - Copied contents of C:/Users/byim/Documents/ENSC_452/MILESTONE_6/mainGame/mainGame.sdk/SDK/SDK_Export/hw/system.xml into \hw_platform_0\system.xml. 
+20:08:59.403 INFO  - Copied contents of C:\Users\byim\Documents\ENSC_452\MILESTONE_6\mainGame\mainGame.sdk\SDK\SDK_Export\hw\system_wrapper.bit into \hw_platform_0\system_wrapper.bit. 
+20:08:59.403 INFO  - Copied contents of C:\Users\byim\Documents\ENSC_452\MILESTONE_6\mainGame\mainGame.sdk\SDK\SDK_Export\hw\ps7_init.c into \hw_platform_0\ps7_init.c. 
+20:08:59.403 INFO  - Copied contents of C:\Users\byim\Documents\ENSC_452\MILESTONE_6\mainGame\mainGame.sdk\SDK\SDK_Export\hw\ps7_init.h into \hw_platform_0\ps7_init.h. 
+20:08:59.419 INFO  - Copied contents of C:\Users\byim\Documents\ENSC_452\MILESTONE_6\mainGame\mainGame.sdk\SDK\SDK_Export\hw\ps7_init.html into \hw_platform_0\ps7_init.html. 
+20:08:59.419 INFO  - Copied contents of C:\Users\byim\Documents\ENSC_452\MILESTONE_6\mainGame\mainGame.sdk\SDK\SDK_Export\hw\ps7_summary.html into \hw_platform_0\ps7_summary.html. 
+20:08:59.419 INFO  - Copied contents of C:\Users\byim\Documents\ENSC_452\MILESTONE_6\mainGame\mainGame.sdk\SDK\SDK_Export\hw\ps7_init.tcl into \hw_platform_0\ps7_init.tcl. 
+20:08:59.528 INFO  - Synchronizing projects in the workspace with the hardware platform specification changes. 
+20:09:18.092 INFO  - Restoring local repository preferences: 
+		 C:\Users\byim\Documents\ENSC_452\MILESTONE_6\led_ip\led_ip_1.0
+		 C:\Users\byim\Documents\ENSC_452\MILESTONE_6\rannum\managed_ip_project\randNum_1.0 
+20:09:38.201 INFO  - Updating hardware inferred compiler options for vga_test. 
+20:09:38.965 INFO  - Updating hardware inferred compiler options for vga_t2. 
+20:09:38.981 INFO  - Clearing existing target manager status. 
+20:10:31.637 INFO  - FPGA configured successfully with bitstream "C:/Users/byim/Documents/ENSC_452/MILESTONE_6/mainGame/mainGame.sdk/SDK/SDK_Export/hw_platform_0/system_wrapper.bit" 
+20:10:46.552 INFO  - Processor reset is completed for ps7_cortexa9_0 
+20:15:51.188 INFO  - FPGA configured successfully with bitstream "C:/Users/byim/Documents/ENSC_452/MILESTONE_6/mainGame/mainGame.sdk/SDK/SDK_Export/hw_platform_0/system_wrapper.bit" 
+20:16:00.503 INFO  - Processor reset is completed for ps7_cortexa9_0 
+20:16:00.503 INFO  - PS initialization will be done as it is not done before. 
+20:16:00.503 INFO  - Running PS initialization.... 
+20:16:00.690 INFO  - ps7_init is completed. 
+20:16:00.799 INFO  - ps7_post_config is completed. 
+20:16:00.908 INFO  - PS Initialization is complete. 
+20:16:14.342 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+20:17:06.572 INFO  - Processing command line option -hwspec C:/Users/byim/Documents/ENSC_452/MILESTONE_6/mainGame/mainGame.sdk/SDK/SDK_Export/hw/system.xml. 
+20:17:07.540 INFO  - The hardware specification for project 'hw_platform_0' is different from C:/Users/byim/Documents/ENSC_452/MILESTONE_6/mainGame/mainGame.sdk/SDK/SDK_Export/hw/system.xml. 
+20:17:07.649 INFO  - Copied contents of C:/Users/byim/Documents/ENSC_452/MILESTONE_6/mainGame/mainGame.sdk/SDK/SDK_Export/hw/system.xml into \hw_platform_0\system.xml. 
+20:17:07.649 INFO  - Copied contents of C:\Users\byim\Documents\ENSC_452\MILESTONE_6\mainGame\mainGame.sdk\SDK\SDK_Export\hw\system_wrapper.bit into \hw_platform_0\system_wrapper.bit. 
+20:17:07.664 INFO  - Copied contents of C:\Users\byim\Documents\ENSC_452\MILESTONE_6\mainGame\mainGame.sdk\SDK\SDK_Export\hw\ps7_init.c into \hw_platform_0\ps7_init.c. 
+20:17:07.664 INFO  - Copied contents of C:\Users\byim\Documents\ENSC_452\MILESTONE_6\mainGame\mainGame.sdk\SDK\SDK_Export\hw\ps7_init.h into \hw_platform_0\ps7_init.h. 
+20:17:07.680 INFO  - Copied contents of C:\Users\byim\Documents\ENSC_452\MILESTONE_6\mainGame\mainGame.sdk\SDK\SDK_Export\hw\ps7_init.html into \hw_platform_0\ps7_init.html. 
+20:17:07.680 INFO  - Copied contents of C:\Users\byim\Documents\ENSC_452\MILESTONE_6\mainGame\mainGame.sdk\SDK\SDK_Export\hw\ps7_summary.html into \hw_platform_0\ps7_summary.html. 
+20:17:07.680 INFO  - Copied contents of C:\Users\byim\Documents\ENSC_452\MILESTONE_6\mainGame\mainGame.sdk\SDK\SDK_Export\hw\ps7_init.tcl into \hw_platform_0\ps7_init.tcl. 
+20:17:07.774 INFO  - Synchronizing projects in the workspace with the hardware platform specification changes. 
+20:17:25.917 INFO  - Restoring local repository preferences: 
+		 C:\Users\byim\Documents\ENSC_452\MILESTONE_6\led_ip\led_ip_1.0
+		 C:\Users\byim\Documents\ENSC_452\MILESTONE_6\rannum\managed_ip_project\randNum_1.0 
+20:17:45.464 INFO  - Updating hardware inferred compiler options for vga_test. 
+20:17:46.228 INFO  - Updating hardware inferred compiler options for vga_t2. 
+20:17:46.244 INFO  - Clearing existing target manager status. 
+20:18:39.992 INFO  - FPGA configured successfully with bitstream "C:/Users/byim/Documents/ENSC_452/MILESTONE_6/mainGame/mainGame.sdk/SDK/SDK_Export/hw_platform_0/system_wrapper.bit" 
+20:18:55.032 INFO  - Processor reset is completed for ps7_cortexa9_0 
+20:18:55.141 INFO  - PS initialization will be done as it is not done before. 
+20:18:55.141 INFO  - Running PS initialization.... 
+20:18:55.328 INFO  - ps7_init is completed. 
+20:18:55.437 INFO  - ps7_post_config is completed. 
+20:18:55.547 INFO  - PS Initialization is complete. 
+20:21:12.973 INFO  - Processor reset is completed for ps7_cortexa9_0 
+20:22:23.521 INFO  - Processor reset is completed for ps7_cortexa9_0 
+20:43:27.343 INFO  - FPGA configured successfully with bitstream "C:/Users/byim/Documents/ENSC_452/MILESTONE_6/mainGame/mainGame.sdk/SDK/SDK_Export/hw_platform_0/system_wrapper.bit" 
+20:43:42.211 INFO  - Processor reset is completed for ps7_cortexa9_0 
+20:43:42.321 INFO  - PS initialization will be done as it is not done before. 
+20:43:42.321 INFO  - Running PS initialization.... 
+20:43:42.477 INFO  - ps7_init is completed. 
+20:43:42.586 INFO  - ps7_post_config is completed. 
+20:43:42.695 INFO  - PS Initialization is complete. 
+20:44:49.233 INFO  - Processor reset is completed for ps7_cortexa9_0 
+20:46:23.540 INFO  - Processor reset is completed for ps7_cortexa9_0 
+20:47:39.984 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+20:47:41.624 INFO  - Processor reset is completed for ps7_cortexa9_0 
+20:48:43.841 INFO  - Processor reset is completed for ps7_cortexa9_0 
+21:12:51.353 INFO  - Processor reset is completed for ps7_cortexa9_0 
+21:14:19.342 INFO  - Processor reset is completed for ps7_cortexa9_0 
+21:15:24.243 INFO  - Processor reset is completed for ps7_cortexa9_0 
+21:16:31.467 INFO  - Processor reset is completed for ps7_cortexa9_0 
+21:25:29.277 INFO  - Processor reset is completed for ps7_cortexa9_0 
+21:33:20.520 INFO  - Processor reset is completed for ps7_cortexa9_0 
+21:34:29.462 INFO  - Processor reset is completed for ps7_cortexa9_0 
+21:37:25.764 INFO  - Processor reset is completed for ps7_cortexa9_0 
+21:38:21.148 INFO  - Processor reset is completed for ps7_cortexa9_0 
+21:40:05.329 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+21:40:07.406 INFO  - Processor reset is completed for ps7_cortexa9_0 
+21:41:39.014 INFO  - Processor reset is completed for ps7_cortexa9_0 
+21:43:09.436 INFO  - Processor reset is completed for ps7_cortexa9_0 
+21:46:33.149 INFO  - Processor reset is completed for ps7_cortexa9_0 
+21:49:29.730 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+21:49:31.698 INFO  - Processor reset is completed for ps7_cortexa9_0 
+21:51:28.345 INFO  - Processor reset is completed for ps7_cortexa9_0 
+21:52:26.413 INFO  - Processor reset is completed for ps7_cortexa9_0 
+21:55:47.037 INFO  - Processor reset is completed for ps7_cortexa9_0 
+21:57:04.571 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+21:57:06.430 INFO  - Processor reset is completed for ps7_cortexa9_0 
+21:58:41.343 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+21:58:43.513 INFO  - Processor reset is completed for ps7_cortexa9_0 
+22:04:47.192 INFO  - Processor reset is completed for ps7_cortexa9_0 
+22:05:08.226 INFO  - Processor reset is completed for ps7_cortexa9_0 
+22:19:14.236 INFO  - Processor reset is completed for ps7_cortexa9_0 
+22:23:44.140 INFO  - Processor reset is completed for ps7_cortexa9_0 
+22:28:31.532 INFO  - Processor reset is completed for ps7_cortexa9_0 
+22:30:39.351 INFO  - Processor reset is completed for ps7_cortexa9_0 
+22:59:26.799 INFO  - Processor reset is completed for ps7_cortexa9_0 
+23:02:40.231 INFO  - Processor reset is completed for ps7_cortexa9_0 
+23:07:44.917 INFO  - Processor reset is completed for ps7_cortexa9_0 
+23:08:36.729 INFO  - Processor reset is completed for ps7_cortexa9_0 
+23:09:39.086 INFO  - Processor reset is completed for ps7_cortexa9_0 
+23:13:55.871 INFO  - Processor reset is completed for ps7_cortexa9_0 
+23:15:25.951 INFO  - Processor reset is completed for ps7_cortexa9_0 
+23:17:04.187 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+23:17:06.373 INFO  - Processor reset is completed for ps7_cortexa9_0 
+23:18:28.325 INFO  - Processor reset is completed for ps7_cortexa9_0 
+23:20:10.677 INFO  - FPGA configured successfully with bitstream "C:/Users/byim/Documents/ENSC_452/MILESTONE_6/mainGame/mainGame.sdk/SDK/SDK_Export/hw_platform_0/system_wrapper.bit" 
+23:20:21.614 INFO  - Processor reset is completed for ps7_cortexa9_0 
+23:20:21.614 INFO  - PS initialization will be done as it is not done before. 
+23:20:21.614 INFO  - Running PS initialization.... 
+23:20:21.770 INFO  - ps7_init is completed. 
+23:20:21.879 INFO  - ps7_post_config is completed. 
+23:20:21.988 INFO  - PS Initialization is complete. 
+23:22:15.609 INFO  - Processor reset is completed for ps7_cortexa9_0 
+23:23:36.423 INFO  - Processor reset is completed for ps7_cortexa9_0 
+23:24:57.361 INFO  - Processor reset is completed for ps7_cortexa9_0 
+23:27:48.906 INFO  - Processor reset is completed for ps7_cortexa9_0 
+23:29:44.663 INFO  - Processor reset is completed for ps7_cortexa9_0 
+23:30:32.434 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+23:30:34.730 INFO  - Processor reset is completed for ps7_cortexa9_0 
+23:30:52.359 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+23:30:54.654 INFO  - Processor reset is completed for ps7_cortexa9_0 
+23:31:11.535 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+23:31:14.048 INFO  - Processor reset is completed for ps7_cortexa9_0 
+23:31:30.835 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+23:31:32.959 INFO  - Processor reset is completed for ps7_cortexa9_0 
+23:32:31.461 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+23:32:33.210 INFO  - Processor reset is completed for ps7_cortexa9_0 
+23:34:56.857 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+23:34:58.995 INFO  - Processor reset is completed for ps7_cortexa9_0 
+00:06:34.702 INFO  - Processor reset is completed for ps7_cortexa9_0 
+00:07:25.217 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+00:07:27.559 INFO  - Processor reset is completed for ps7_cortexa9_0 
+00:08:53.908 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+00:08:56.640 INFO  - Processor reset is completed for ps7_cortexa9_0 
+00:22:16.482 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+09:23:56.372 INFO  - Processing command line option -hwspec C:/Users/byim/Documents/ENSC_452/MILESTONE_6/mainGame/mainGame.sdk/SDK/SDK_Export/hw/system.xml. 
+09:23:57.995 INFO  - The hardware specification for project 'hw_platform_0' is different from C:/Users/byim/Documents/ENSC_452/MILESTONE_6/mainGame/mainGame.sdk/SDK/SDK_Export/hw/system.xml. 
+09:23:58.119 INFO  - Copied contents of C:/Users/byim/Documents/ENSC_452/MILESTONE_6/mainGame/mainGame.sdk/SDK/SDK_Export/hw/system.xml into \hw_platform_0\system.xml. 
+09:23:58.135 INFO  - Copied contents of C:\Users\byim\Documents\ENSC_452\MILESTONE_6\mainGame\mainGame.sdk\SDK\SDK_Export\hw\system_wrapper.bit into \hw_platform_0\system_wrapper.bit. 
+09:23:58.135 INFO  - Copied contents of C:\Users\byim\Documents\ENSC_452\MILESTONE_6\mainGame\mainGame.sdk\SDK\SDK_Export\hw\ps7_init.c into \hw_platform_0\ps7_init.c. 
+09:23:58.151 INFO  - Copied contents of C:\Users\byim\Documents\ENSC_452\MILESTONE_6\mainGame\mainGame.sdk\SDK\SDK_Export\hw\ps7_init.h into \hw_platform_0\ps7_init.h. 
+09:23:58.151 INFO  - Copied contents of C:\Users\byim\Documents\ENSC_452\MILESTONE_6\mainGame\mainGame.sdk\SDK\SDK_Export\hw\ps7_init.html into \hw_platform_0\ps7_init.html. 
+09:23:58.151 INFO  - Copied contents of C:\Users\byim\Documents\ENSC_452\MILESTONE_6\mainGame\mainGame.sdk\SDK\SDK_Export\hw\ps7_summary.html into \hw_platform_0\ps7_summary.html. 
+09:23:58.166 INFO  - Copied contents of C:\Users\byim\Documents\ENSC_452\MILESTONE_6\mainGame\mainGame.sdk\SDK\SDK_Export\hw\ps7_init.tcl into \hw_platform_0\ps7_init.tcl. 
+09:23:58.260 INFO  - Synchronizing projects in the workspace with the hardware platform specification changes. 
+09:24:20.288 INFO  - Restoring local repository preferences: 
+		 C:\Users\byim\Documents\ENSC_452\MILESTONE_6\led_ip\led_ip_1.0
+		 C:\Users\byim\Documents\ENSC_452\MILESTONE_6\rannum\managed_ip_project\randNum_1.0 
+09:24:39.866 INFO  - Updating hardware inferred compiler options for vga_test. 
+09:24:40.630 INFO  - Updating hardware inferred compiler options for vga_t2. 
+09:24:40.662 INFO  - Clearing existing target manager status. 
+09:26:25.645 INFO  - FPGA configured successfully with bitstream "C:/Users/byim/Documents/ENSC_452/MILESTONE_6/mainGame/mainGame.sdk/SDK/SDK_Export/hw_platform_0/system_wrapper.bit" 
+09:45:00.840 INFO  - Processor reset is completed for ps7_cortexa9_0 
+09:45:00.949 INFO  - PS initialization will be done as it is not done before. 
+09:45:00.949 INFO  - Running PS initialization.... 
+09:45:01.136 INFO  - ps7_init is completed. 
+09:45:01.245 INFO  - ps7_post_config is completed. 
+09:45:01.354 INFO  - PS Initialization is complete. 
+09:45:28.378 INFO  - FPGA configured successfully with bitstream "C:/Users/byim/Documents/ENSC_452/MILESTONE_6/mainGame/mainGame.sdk/SDK/SDK_Export/hw_platform_0/system_wrapper.bit" 
+09:45:57.348 INFO  - Processor reset is completed for ps7_cortexa9_0 
+09:45:57.458 INFO  - PS initialization will be done as it is not done before. 
+09:45:57.458 INFO  - Running PS initialization.... 
+09:45:57.645 INFO  - ps7_init is completed. 
+09:45:57.754 INFO  - ps7_post_config is completed. 
+09:45:57.863 INFO  - PS Initialization is complete. 
+09:46:14.730 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+09:49:35.973 INFO  - Processing command line option -hwspec C:/Users/byim/Documents/ENSC_452/MILESTONE_6/mainGame/mainGame.sdk/SDK/SDK_Export/hw/system.xml. 
+09:49:37.034 INFO  - The hardware specification for project 'hw_platform_0' is different from C:/Users/byim/Documents/ENSC_452/MILESTONE_6/mainGame/mainGame.sdk/SDK/SDK_Export/hw/system.xml. 
+09:49:37.144 INFO  - Copied contents of C:/Users/byim/Documents/ENSC_452/MILESTONE_6/mainGame/mainGame.sdk/SDK/SDK_Export/hw/system.xml into \hw_platform_0\system.xml. 
+09:49:37.144 INFO  - Copied contents of C:\Users\byim\Documents\ENSC_452\MILESTONE_6\mainGame\mainGame.sdk\SDK\SDK_Export\hw\system_wrapper.bit into \hw_platform_0\system_wrapper.bit. 
+09:49:37.159 INFO  - Copied contents of C:\Users\byim\Documents\ENSC_452\MILESTONE_6\mainGame\mainGame.sdk\SDK\SDK_Export\hw\ps7_init.c into \hw_platform_0\ps7_init.c. 
+09:49:37.159 INFO  - Copied contents of C:\Users\byim\Documents\ENSC_452\MILESTONE_6\mainGame\mainGame.sdk\SDK\SDK_Export\hw\ps7_init.h into \hw_platform_0\ps7_init.h. 
+09:49:37.159 INFO  - Copied contents of C:\Users\byim\Documents\ENSC_452\MILESTONE_6\mainGame\mainGame.sdk\SDK\SDK_Export\hw\ps7_init.html into \hw_platform_0\ps7_init.html. 
+09:49:37.175 INFO  - Copied contents of C:\Users\byim\Documents\ENSC_452\MILESTONE_6\mainGame\mainGame.sdk\SDK\SDK_Export\hw\ps7_summary.html into \hw_platform_0\ps7_summary.html. 
+09:49:37.175 INFO  - Copied contents of C:\Users\byim\Documents\ENSC_452\MILESTONE_6\mainGame\mainGame.sdk\SDK\SDK_Export\hw\ps7_init.tcl into \hw_platform_0\ps7_init.tcl. 
+09:49:37.268 INFO  - Synchronizing projects in the workspace with the hardware platform specification changes. 
+09:49:55.287 INFO  - Restoring local repository preferences: 
+		 C:\Users\byim\Documents\ENSC_452\MILESTONE_6\led_ip\led_ip_1.0
+		 C:\Users\byim\Documents\ENSC_452\MILESTONE_6\rannum\managed_ip_project\randNum_1.0 
+09:50:14.709 INFO  - Updating hardware inferred compiler options for vga_test. 
+09:50:15.473 INFO  - Updating hardware inferred compiler options for vga_t2. 
+09:50:15.489 INFO  - Clearing existing target manager status. 
+09:51:02.349 INFO  - FPGA configured successfully with bitstream "C:/Users/byim/Documents/ENSC_452/MILESTONE_6/mainGame/mainGame.sdk/SDK/SDK_Export/hw_platform_0/system_wrapper.bit" 
+09:51:15.470 INFO  - Processor reset is completed for ps7_cortexa9_0 
+09:51:15.579 INFO  - PS initialization will be done as it is not done before. 
+09:51:15.579 INFO  - Running PS initialization.... 
+09:51:15.766 INFO  - ps7_init is completed. 
+09:51:15.875 INFO  - ps7_post_config is completed. 
+09:51:15.985 INFO  - PS Initialization is complete. 
+09:55:34.681 INFO  - Processor reset is completed for ps7_cortexa9_0 
+09:57:38.642 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+09:57:40.610 INFO  - Processor reset is completed for ps7_cortexa9_0 
+09:58:00.142 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+09:58:02.110 INFO  - Processor reset is completed for ps7_cortexa9_0 
+09:59:29.163 INFO  - Processor reset is completed for ps7_cortexa9_0 
+10:00:55.324 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+10:01:02.206 INFO  - Processor reset is completed for ps7_cortexa9_0 
+10:01:15.250 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+10:01:39.150 INFO  - Processing command line option -hwspec C:/Users/byim/Documents/ENSC_452/MILESTONE_6/mainGame/mainGame.sdk/SDK/SDK_Export/hw/system.xml. 
+10:01:40.492 INFO  - The hardware specification for project 'hw_platform_0' is different from C:/Users/byim/Documents/ENSC_452/MILESTONE_6/mainGame/mainGame.sdk/SDK/SDK_Export/hw/system.xml. 
+10:01:40.601 INFO  - Copied contents of C:/Users/byim/Documents/ENSC_452/MILESTONE_6/mainGame/mainGame.sdk/SDK/SDK_Export/hw/system.xml into \hw_platform_0\system.xml. 
+10:01:40.617 INFO  - Copied contents of C:\Users\byim\Documents\ENSC_452\MILESTONE_6\mainGame\mainGame.sdk\SDK\SDK_Export\hw\system_wrapper.bit into \hw_platform_0\system_wrapper.bit. 
+10:01:40.617 INFO  - Copied contents of C:\Users\byim\Documents\ENSC_452\MILESTONE_6\mainGame\mainGame.sdk\SDK\SDK_Export\hw\ps7_init.c into \hw_platform_0\ps7_init.c. 
+10:01:40.617 INFO  - Copied contents of C:\Users\byim\Documents\ENSC_452\MILESTONE_6\mainGame\mainGame.sdk\SDK\SDK_Export\hw\ps7_init.h into \hw_platform_0\ps7_init.h. 
+10:01:40.632 INFO  - Copied contents of C:\Users\byim\Documents\ENSC_452\MILESTONE_6\mainGame\mainGame.sdk\SDK\SDK_Export\hw\ps7_init.html into \hw_platform_0\ps7_init.html. 
+10:01:40.632 INFO  - Copied contents of C:\Users\byim\Documents\ENSC_452\MILESTONE_6\mainGame\mainGame.sdk\SDK\SDK_Export\hw\ps7_summary.html into \hw_platform_0\ps7_summary.html. 
+10:01:40.632 INFO  - Copied contents of C:\Users\byim\Documents\ENSC_452\MILESTONE_6\mainGame\mainGame.sdk\SDK\SDK_Export\hw\ps7_init.tcl into \hw_platform_0\ps7_init.tcl. 
+10:01:40.726 INFO  - Synchronizing projects in the workspace with the hardware platform specification changes. 
+10:01:58.404 INFO  - Restoring local repository preferences: 
+		 C:\Users\byim\Documents\ENSC_452\MILESTONE_6\led_ip\led_ip_1.0
+		 C:\Users\byim\Documents\ENSC_452\MILESTONE_6\rannum\managed_ip_project\randNum_1.0 
+10:02:17.857 INFO  - Updating hardware inferred compiler options for vga_test. 
+10:02:18.622 INFO  - Updating hardware inferred compiler options for vga_t2. 
+10:02:18.653 INFO  - Clearing existing target manager status. 
+10:03:37.094 ERROR - Unexpected error while launching program. java.lang.RuntimeException: Error in Resetting Target
+
+    Could not stop the processor after reset
+
+
+	at com.xilinx.sdk.targetmanager.internal.TM.doProcessorReset(Unknown Source)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(Unknown Source)
+
+10:04:01.424 INFO  - FPGA configured successfully with bitstream "C:/Users/byim/Documents/ENSC_452/MILESTONE_6/mainGame/mainGame.sdk/SDK/SDK_Export/hw_platform_0/system_wrapper.bit" 
+10:04:11.050 ERROR - No such port: COM4 
+10:04:11.486 INFO  - Processor reset is completed for ps7_cortexa9_0 
+10:04:11.596 INFO  - PS initialization will be done as it is not done before. 
+10:04:11.596 INFO  - Running PS initialization.... 
+10:04:11.783 INFO  - ps7_init is completed. 
+10:04:11.892 INFO  - ps7_post_config is completed. 
+10:04:12.001 INFO  - PS Initialization is complete. 
+10:06:42.485 ERROR - No such port: COM4 
+10:06:42.921 INFO  - Processor reset is completed for ps7_cortexa9_0 
+10:20:48.059 ERROR - No such port: COM4 
+10:20:48.496 INFO  - Processor reset is completed for ps7_cortexa9_0 
+10:21:29.698 ERROR - No such port: COM4 
+10:21:30.135 INFO  - Processor reset is completed for ps7_cortexa9_0 
+10:22:33.473 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+10:22:35.112 ERROR - No such port: COM4 
+10:22:35.549 INFO  - Processor reset is completed for ps7_cortexa9_0 
+10:25:17.185 ERROR - No such port: COM4 
+10:25:17.622 INFO  - Processor reset is completed for ps7_cortexa9_0 
+10:25:53.444 ERROR - No such port: COM4 
+10:25:53.771 INFO  - Processor reset is completed for ps7_cortexa9_0 
+10:27:01.572 ERROR - No such port: COM4 
+10:27:02.009 INFO  - Processor reset is completed for ps7_cortexa9_0 
+10:29:59.281 ERROR - No such port: COM4 
+10:29:59.718 INFO  - Processor reset is completed for ps7_cortexa9_0 
+10:30:38.097 ERROR - No such port: COM4 
+10:30:38.533 INFO  - Processor reset is completed for ps7_cortexa9_0 
+10:31:10.048 ERROR - No such port: COM4 
+10:31:10.485 INFO  - Processor reset is completed for ps7_cortexa9_0 
+10:31:23.543 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+10:31:25.182 ERROR - No such port: COM4 
+10:31:25.619 INFO  - Processor reset is completed for ps7_cortexa9_0 
+10:32:14.761 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+10:32:16.509 ERROR - No such port: COM4 
+10:32:16.946 INFO  - Processor reset is completed for ps7_cortexa9_0 
+10:33:04.001 ERROR - No such port: COM4 
+10:33:04.437 INFO  - Processor reset is completed for ps7_cortexa9_0 
+10:37:46.399 ERROR - No such port: COM4 
+10:37:46.836 INFO  - Processor reset is completed for ps7_cortexa9_0 
+10:38:49.707 ERROR - No such port: COM4 
+10:38:50.144 INFO  - Processor reset is completed for ps7_cortexa9_0 
+10:39:33.046 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+10:39:35.231 ERROR - No such port: COM4 
+10:39:35.668 INFO  - Processor reset is completed for ps7_cortexa9_0 
+10:40:26.371 ERROR - No such port: COM4 
+10:40:26.807 INFO  - Processor reset is completed for ps7_cortexa9_0 
+10:41:28.303 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+10:41:31.471 ERROR - No such port: COM4 
+10:41:31.907 INFO  - Processor reset is completed for ps7_cortexa9_0 
+10:44:44.729 ERROR - No such port: COM4 
+10:44:45.166 INFO  - Processor reset is completed for ps7_cortexa9_0 
+10:46:42.746 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+10:46:44.167 ERROR - No such port: COM4 
+10:46:44.604 INFO  - Processor reset is completed for ps7_cortexa9_0 
+10:47:57.224 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+10:47:58.754 ERROR - No such port: COM4 
+10:47:59.191 INFO  - Processor reset is completed for ps7_cortexa9_0 
+10:50:51.400 ERROR - No such port: COM4 
+10:50:51.837 INFO  - Processor reset is completed for ps7_cortexa9_0 
+10:56:36.049 INFO  - Processor reset is completed for ps7_cortexa9_0 
+10:56:42.604 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+10:56:44.203 INFO  - Processor reset is completed for ps7_cortexa9_0 
+10:57:38.991 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+10:57:40.490 INFO  - Processor reset is completed for ps7_cortexa9_0 
+10:57:46.139 INFO  - Processor reset is completed for ps7_cortexa9_1 
+10:57:58.301 INFO  - Processor reset is completed for ps7_cortexa9_1 
+10:58:38.783 INFO  - ps7_cortexa9_1 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+10:58:40.284 INFO  - Processor reset is completed for ps7_cortexa9_1 
+10:59:24.357 ERROR - Unable to disconnect from existing targets java.lang.NullPointerException
+	at com.xilinx.sdk.targetmanager.internal.json.XMDJSONProcess.issueCommand(Unknown Source)
+	at com.xilinx.sdk.targetmanager.internal.TM.disconnectTarget(Unknown Source)
+
+10:59:24.357 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+11:02:31.012 INFO  - Processing command line option -hwspec C:/Users/byim/Documents/ENSC_452/MILESTONE_6/mainGame/mainGame.sdk/SDK/SDK_Export/hw/system.xml. 
+11:02:31.142 INFO  - The hardware specification for project 'hw_platform_0' is different from C:/Users/byim/Documents/ENSC_452/MILESTONE_6/mainGame/mainGame.sdk/SDK/SDK_Export/hw/system.xml. 
+11:02:31.322 INFO  - Copied contents of C:/Users/byim/Documents/ENSC_452/MILESTONE_6/mainGame/mainGame.sdk/SDK/SDK_Export/hw/system.xml into \hw_platform_0\system.xml. 
+11:02:31.332 INFO  - Copied contents of C:\Users\byim\Documents\ENSC_452\MILESTONE_6\mainGame\mainGame.sdk\SDK\SDK_Export\hw\system_wrapper.bit into \hw_platform_0\system_wrapper.bit. 
+11:02:31.332 INFO  - Copied contents of C:\Users\byim\Documents\ENSC_452\MILESTONE_6\mainGame\mainGame.sdk\SDK\SDK_Export\hw\ps7_init.c into \hw_platform_0\ps7_init.c. 
+11:02:31.332 INFO  - Copied contents of C:\Users\byim\Documents\ENSC_452\MILESTONE_6\mainGame\mainGame.sdk\SDK\SDK_Export\hw\ps7_init.h into \hw_platform_0\ps7_init.h. 
+11:02:31.342 INFO  - Copied contents of C:\Users\byim\Documents\ENSC_452\MILESTONE_6\mainGame\mainGame.sdk\SDK\SDK_Export\hw\ps7_init.html into \hw_platform_0\ps7_init.html. 
+11:02:31.352 INFO  - Copied contents of C:\Users\byim\Documents\ENSC_452\MILESTONE_6\mainGame\mainGame.sdk\SDK\SDK_Export\hw\ps7_summary.html into \hw_platform_0\ps7_summary.html. 
+11:02:31.352 INFO  - Copied contents of C:\Users\byim\Documents\ENSC_452\MILESTONE_6\mainGame\mainGame.sdk\SDK\SDK_Export\hw\ps7_init.tcl into \hw_platform_0\ps7_init.tcl. 
+11:02:31.442 INFO  - Synchronizing projects in the workspace with the hardware platform specification changes. 
+11:02:54.962 INFO  - Updating hardware inferred compiler options for vga_test. 
+11:02:55.712 INFO  - Updating hardware inferred compiler options for AudioApp. 
+11:02:56.462 INFO  - Updating hardware inferred compiler options for vga_t2. 
+11:02:56.472 INFO  - Clearing existing target manager status. 
+11:05:19.276 INFO  - Processor reset is completed for ps7_cortexa9_1 
+11:05:46.903 INFO  - FPGA configured successfully with bitstream "C:/Users/byim/Documents/ENSC_452/MILESTONE_6/mainGame/mainGame.sdk/SDK/SDK_Export/hw_platform_0/system_wrapper.bit" 
+11:06:07.514 INFO  - Processor reset is completed for ps7_cortexa9_1 
+11:06:07.614 INFO  - PS initialization will be done as it is not done before. 
+11:06:07.614 INFO  - Running PS initialization.... 
+11:06:07.804 INFO  - ps7_init is completed. 
+11:06:07.904 INFO  - ps7_post_config is completed. 
+11:06:07.904 INFO  - PS Initialization is complete. 
+11:06:16.506 INFO  - Processor reset is completed for ps7_cortexa9_0 
+11:10:51.368 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+11:10:53.067 INFO  - Processor reset is completed for ps7_cortexa9_0 
+11:11:27.919 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+11:11:30.120 INFO  - Processor reset is completed for ps7_cortexa9_0 
+11:12:46.471 INFO  - FPGA Cable Disconnected. All active launches will be terminated. 
+11:12:46.472 WARN  - Terminating existing sessions on processor ps7_cortexa9_0 
+11:13:02.647 INFO  - FPGA configured successfully with bitstream "C:/Users/byim/Documents/ENSC_452/MILESTONE_6/mainGame/mainGame.sdk/SDK/SDK_Export/hw_platform_0/system_wrapper.bit" 
+11:15:18.800 INFO  - Processor reset is completed for ps7_cortexa9_1 
+11:15:18.900 INFO  - PS initialization will be done as it is not done before. 
+11:15:18.900 INFO  - Running PS initialization.... 
+11:15:19.090 INFO  - ps7_init is completed. 
+11:15:19.190 INFO  - ps7_post_config is completed. 
+11:15:19.290 INFO  - PS Initialization is complete. 
+11:15:28.793 INFO  - Processor reset is completed for ps7_cortexa9_0 
+11:15:39.545 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+11:15:40.957 INFO  - Processor reset is completed for ps7_cortexa9_0 
+11:34:09.616 INFO  - Processor reset is completed for ps7_cortexa9_0 
+12:03:59.040 INFO  - Processor reset is completed for ps7_cortexa9_0 
+12:09:32.339 INFO  - Processor reset is completed for ps7_cortexa9_0 
+12:10:47.585 INFO  - Processor reset is completed for ps7_cortexa9_0 
+12:13:01.561 INFO  - Processor reset is completed for ps7_cortexa9_0 
+12:16:06.277 INFO  - Processor reset is completed for ps7_cortexa9_0 
+12:16:12.399 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+12:16:15.001 INFO  - Processor reset is completed for ps7_cortexa9_0 
+13:27:50.176 INFO  - FPGA configured successfully with bitstream "C:/Users/byim/Documents/ENSC_452/MILESTONE_6/mainGame/mainGame.sdk/SDK/SDK_Export/hw_platform_0/system_wrapper.bit" 
+13:28:13.842 INFO  - Processor reset is completed for ps7_cortexa9_1 
+13:28:13.952 INFO  - PS initialization will be done as it is not done before. 
+13:28:13.952 INFO  - Running PS initialization.... 
+13:28:14.139 INFO  - ps7_init is completed. 
+13:28:14.248 INFO  - ps7_post_config is completed. 
+13:28:14.357 INFO  - PS Initialization is complete. 
+13:28:54.599 INFO  - Processor reset is completed for ps7_cortexa9_0 
+13:30:15.483 INFO  - FPGA Cable Disconnected. All active launches will be terminated. 
+13:32:45.340 INFO  - FPGA configured successfully with bitstream "C:/Users/byim/Documents/ENSC_452/MILESTONE_6/mainGame/mainGame.sdk/SDK/SDK_Export/hw_platform_0/system_wrapper.bit" 
+13:33:06.951 INFO  - Processor reset is completed for ps7_cortexa9_1 
+13:33:07.051 INFO  - PS initialization will be done as it is not done before. 
+13:33:07.051 INFO  - Running PS initialization.... 
+13:33:07.241 INFO  - ps7_init is completed. 
+13:33:07.251 INFO  - ps7_post_config is completed. 
+13:33:07.351 INFO  - PS Initialization is complete. 
+13:33:32.454 INFO  - Processor reset is completed for ps7_cortexa9_0 
+13:34:39.537 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+13:34:41.809 INFO  - Processor reset is completed for ps7_cortexa9_0 
+13:49:43.362 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+13:49:45.564 INFO  - Processor reset is completed for ps7_cortexa9_0 
+13:50:25.878 INFO  - Processor reset is completed for ps7_cortexa9_0 
+13:50:56.462 INFO  - Processor reset is completed for ps7_cortexa9_0 
+13:52:29.667 INFO  - Processor reset is completed for ps7_cortexa9_0 
+13:52:58.830 INFO  - Processor reset is completed for ps7_cortexa9_0 
+14:04:03.540 INFO  - FPGA configured successfully with bitstream "C:/Users/byim/Documents/ENSC_452/MILESTONE_6/mainGame/mainGame.sdk/SDK/SDK_Export/hw_platform_0/system_wrapper.bit" 
+14:04:14.582 INFO  - Processor reset is completed for ps7_cortexa9_1 
+14:04:14.682 INFO  - PS initialization will be done as it is not done before. 
+14:04:14.682 INFO  - Running PS initialization.... 
+14:04:14.872 INFO  - ps7_init is completed. 
+14:04:14.972 INFO  - ps7_post_config is completed. 
+14:04:15.072 INFO  - PS Initialization is complete. 
+14:04:31.184 INFO  - Processor reset is completed for ps7_cortexa9_0 
+14:40:25.084 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+14:40:26.996 INFO  - Processor reset is completed for ps7_cortexa9_0 
+14:41:05.002 INFO  - FPGA configured successfully with bitstream "C:/Users/byim/Documents/ENSC_452/MILESTONE_6/mainGame/mainGame.sdk/SDK/SDK_Export/hw_platform_0/system_wrapper.bit" 
+14:41:18.663 INFO  - Processor reset is completed for ps7_cortexa9_0 
+14:41:18.763 INFO  - PS initialization will be done as it is not done before. 
+14:41:18.763 INFO  - Running PS initialization.... 
+14:41:18.953 INFO  - ps7_init is completed. 
+14:41:19.053 INFO  - ps7_post_config is completed. 
+14:41:19.153 INFO  - PS Initialization is complete. 
+14:41:32.045 ERROR - Port COM4 is already in use. 
+14:41:32.395 INFO  - Processor reset is completed for ps7_cortexa9_1 
+14:41:50.197 ERROR - Unable to disconnect from existing targets java.lang.NullPointerException
+	at com.xilinx.sdk.targetmanager.internal.json.XMDJSONProcess.issueCommand(Unknown Source)
+	at com.xilinx.sdk.targetmanager.internal.TM.disconnectTarget(Unknown Source)
+
+14:41:50.197 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+14:42:24.929 INFO  - Processing command line option -hwspec C:/Users/byim/Documents/ENSC_452/MILESTONE_6/mainGame/mainGame.sdk/SDK/SDK_Export/hw/system.xml. 
+14:42:25.879 INFO  - The hardware specification for project 'hw_platform_0' is different from C:/Users/byim/Documents/ENSC_452/MILESTONE_6/mainGame/mainGame.sdk/SDK/SDK_Export/hw/system.xml. 
+14:42:25.979 INFO  - Copied contents of C:/Users/byim/Documents/ENSC_452/MILESTONE_6/mainGame/mainGame.sdk/SDK/SDK_Export/hw/system.xml into \hw_platform_0\system.xml. 
+14:42:25.989 INFO  - Copied contents of C:\Users\byim\Documents\ENSC_452\MILESTONE_6\mainGame\mainGame.sdk\SDK\SDK_Export\hw\system_wrapper.bit into \hw_platform_0\system_wrapper.bit. 
+14:42:25.989 INFO  - Copied contents of C:\Users\byim\Documents\ENSC_452\MILESTONE_6\mainGame\mainGame.sdk\SDK\SDK_Export\hw\ps7_init.c into \hw_platform_0\ps7_init.c. 
+14:42:25.999 INFO  - Copied contents of C:\Users\byim\Documents\ENSC_452\MILESTONE_6\mainGame\mainGame.sdk\SDK\SDK_Export\hw\ps7_init.h into \hw_platform_0\ps7_init.h. 
+14:42:25.999 INFO  - Copied contents of C:\Users\byim\Documents\ENSC_452\MILESTONE_6\mainGame\mainGame.sdk\SDK\SDK_Export\hw\ps7_init.html into \hw_platform_0\ps7_init.html. 
+14:42:26.009 INFO  - Copied contents of C:\Users\byim\Documents\ENSC_452\MILESTONE_6\mainGame\mainGame.sdk\SDK\SDK_Export\hw\ps7_summary.html into \hw_platform_0\ps7_summary.html. 
+14:42:26.009 INFO  - Copied contents of C:\Users\byim\Documents\ENSC_452\MILESTONE_6\mainGame\mainGame.sdk\SDK\SDK_Export\hw\ps7_init.tcl into \hw_platform_0\ps7_init.tcl. 
+14:42:26.149 INFO  - Synchronizing projects in the workspace with the hardware platform specification changes. 
+14:42:27.340 INFO  - Restoring local repository preferences: 
+		 C:\Users\byim\Documents\ENSC_452\MILESTONE_6\led_ip\led_ip_1.0
+		 C:\Users\byim\Documents\ENSC_452\MILESTONE_6\rannum\managed_ip_project\randNum_1.0 
+14:42:47.950 INFO  - Updating hardware inferred compiler options for vga_test. 
+14:42:48.700 INFO  - Updating hardware inferred compiler options for AudioApp. 
+14:42:49.450 INFO  - Updating hardware inferred compiler options for vga_t2. 
+14:42:49.630 INFO  - Clearing existing target manager status. 
+14:43:35.616 INFO  - FPGA configured successfully with bitstream "C:/Users/byim/Documents/ENSC_452/MILESTONE_6/mainGame/mainGame.sdk/SDK/SDK_Export/hw_platform_0/system_wrapper.bit" 
+14:43:49.707 INFO  - Processor reset is completed for ps7_cortexa9_1 
+14:43:49.807 INFO  - PS initialization will be done as it is not done before. 
+14:43:49.807 INFO  - Running PS initialization.... 
+14:43:49.997 INFO  - ps7_init is completed. 
+14:43:50.097 INFO  - ps7_post_config is completed. 
+14:43:50.197 INFO  - PS Initialization is complete. 
+14:43:58.858 ERROR - Port COM4 is already in use. 
+14:43:59.208 INFO  - Processor reset is completed for ps7_cortexa9_0 
+15:31:42.945 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+15:31:47.506 ERROR - Port COM4 is already in use. 
+15:31:47.846 INFO  - Processor reset is completed for ps7_cortexa9_0 
+15:48:29.514 INFO  - FPGA configured successfully with bitstream "C:/Users/byim/Documents/ENSC_452/MILESTONE_6/mainGame/mainGame.sdk/SDK/SDK_Export/hw_platform_0/system_wrapper.bit" 
+15:48:42.675 INFO  - Processor reset is completed for ps7_cortexa9_0 
+15:48:42.775 INFO  - PS initialization will be done as it is not done before. 
+15:48:42.775 INFO  - Running PS initialization.... 
+15:48:42.965 INFO  - ps7_init is completed. 
+15:48:43.065 INFO  - ps7_post_config is completed. 
+15:48:43.165 INFO  - PS Initialization is complete. 
+15:52:24.693 INFO  - Processor reset is completed for ps7_cortexa9_1 
+15:52:49.857 INFO  - Processor reset is completed for ps7_cortexa9_0 
+15:55:06.365 INFO  - FPGA configured successfully with bitstream "C:/Users/byim/Documents/ENSC_452/MILESTONE_6/mainGame/mainGame.sdk/SDK/SDK_Export/hw_platform_0/system_wrapper.bit" 
+15:55:47.018 INFO  - Processor reset is completed for ps7_cortexa9_0 
+15:55:47.118 INFO  - PS initialization will be done as it is not done before. 
+15:55:47.118 INFO  - Running PS initialization.... 
+15:55:47.298 INFO  - ps7_init is completed. 
+15:55:47.398 INFO  - ps7_post_config is completed. 
+15:55:47.498 INFO  - PS Initialization is complete. 
+16:57:15.983 INFO  - Processor reset is completed for ps7_cortexa9_0 
+18:03:18.119 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  

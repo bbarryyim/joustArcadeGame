@@ -1,0 +1,50 @@
+#-----------------------------------------------------------
+# Vivado v2013.3 (64-bit)
+# SW Build 329390 on Wed Oct 16 18:37:02 MDT 2013
+# IP Build 192953 on Wed Oct 16 08:44:02 MDT 2013
+# Start of session at: Fri Apr 04 09:19:43 2014
+# Process ID: 4828
+# Log file: C:/Users/byim/Documents/ENSC_452/MILESTONE_6/mainGame/vivado.log
+# Journal file: C:/Users/byim/Documents/ENSC_452/MILESTONE_6/mainGame\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:\Users\byim\Documents\ENSC_452\MILESTONE_6\mainGame\mainGame.xpr}
+open_run impl_1
+open_bd_design {C:/Users/byim/Documents/ENSC_452/MILESTONE_6/mainGame/mainGame.srcs/sources_1/bd/system/system.bd}
+export_hardware [get_files C:/Users/byim/Documents/ENSC_452/MILESTONE_6/mainGame/mainGame.srcs/sources_1/bd/system/system.bd] [get_runs impl_1] -bitstream
+launch_sdk -bit C:/Users/byim/Documents/ENSC_452/MILESTONE_6/mainGame/mainGame.sdk/SDK/SDK_Export/hw/system_wrapper.bit -workspace C:/Users/byim/Documents/ENSC_452/MILESTONE_6/mainGame/mainGame.sdk/SDK/SDK_Export -hwspec C:/Users/byim/Documents/ENSC_452/MILESTONE_6/mainGame/mainGame.sdk/SDK/SDK_Export/hw/system.xml
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream
+wait_on_run impl_1
+export_hardware [get_files C:/Users/byim/Documents/ENSC_452/MILESTONE_6/mainGame/mainGame.srcs/sources_1/bd/system/system.bd] [get_runs impl_1] -bitstream
+launch_sdk -bit C:/Users/byim/Documents/ENSC_452/MILESTONE_6/mainGame/mainGame.sdk/SDK/SDK_Export/hw/system_wrapper.bit -workspace C:/Users/byim/Documents/ENSC_452/MILESTONE_6/mainGame/mainGame.sdk/SDK/SDK_Export -hwspec C:/Users/byim/Documents/ENSC_452/MILESTONE_6/mainGame/mainGame.sdk/SDK/SDK_Export/hw/system.xml
+export_hardware [get_files C:/Users/byim/Documents/ENSC_452/MILESTONE_6/mainGame/mainGame.srcs/sources_1/bd/system/system.bd] [get_runs impl_1] -bitstream
+launch_sdk -bit C:/Users/byim/Documents/ENSC_452/MILESTONE_6/mainGame/mainGame.sdk/SDK/SDK_Export/hw/system_wrapper.bit -workspace C:/Users/byim/Documents/ENSC_452/MILESTONE_6/mainGame/mainGame.sdk/SDK/SDK_Export -hwspec C:/Users/byim/Documents/ENSC_452/MILESTONE_6/mainGame/mainGame.sdk/SDK/SDK_Export/hw/system.xml
+export_hardware [get_files C:/Users/byim/Documents/ENSC_452/MILESTONE_6/mainGame/mainGame.srcs/sources_1/bd/system/system.bd] [get_runs impl_1] -bitstream
+launch_sdk -bit C:/Users/byim/Documents/ENSC_452/MILESTONE_6/mainGame/mainGame.sdk/SDK/SDK_Export/hw/system_wrapper.bit -workspace C:/Users/byim/Documents/ENSC_452/MILESTONE_6/mainGame/mainGame.sdk/SDK/SDK_Export -hwspec C:/Users/byim/Documents/ENSC_452/MILESTONE_6/mainGame/mainGame.sdk/SDK/SDK_Export/hw/system.xml
+export_hardware [get_files C:/Users/byim/Documents/ENSC_452/MILESTONE_6/mainGame/mainGame.srcs/sources_1/bd/system/system.bd] [get_runs impl_1] -bitstream
+launch_sdk -bit C:/Users/byim/Documents/ENSC_452/MILESTONE_6/mainGame/mainGame.sdk/SDK/SDK_Export/hw/system_wrapper.bit -workspace C:/Users/byim/Documents/ENSC_452/MILESTONE_6/mainGame/mainGame.sdk/SDK/SDK_Export -hwspec C:/Users/byim/Documents/ENSC_452/MILESTONE_6/mainGame/mainGame.sdk/SDK/SDK_Export/hw/system.xml
+set_property location {0.5 32 414} [get_bd_cells proc_sys_reset]
+set_property location {3.5 1721 119} [get_bd_cells axi_gpio_0]
+set_property location {4 1725 201} [get_bd_cells btns_5bit]
+set_property location {4 1745 318} [get_bd_cells led_ip_0]
+set_property location {4 1724 446} [get_bd_cells sw_8bits]
+set_property location {3 1285 206} [get_bd_cells processing_system7_0]
+set_property location {2 859 650} [get_bd_cells axi_mem_intercon]
+set_property location {3 1367 495} [get_bd_cells zed_audio_ctrl_0]
+set_property location {3 1354 807} [get_bd_cells SVGA_core_0]
+set_property location {3 1353 1311} [get_bd_cells joystk2_0]
+set_property location {1.5 436 403} [get_bd_cells proc_sys_reset]
+set_property location {3 1138 1466} [get_bd_cells randNum_0]
+set_property location {3 1157 879} [get_bd_cells SVGA_core_0]
+set_property location {3 1142 414} [get_bd_cells zed_audio_ctrl_0]
+set_property location {3 1135 462} [get_bd_cells zed_audio_ctrl_0]
+set_property location {3 1182 261} [get_bd_cells processing_system7_0]
+set_property location {3 1185 844} [get_bd_cells SVGA_core_0]
+set_property location {3 1132 1309} [get_bd_cells joystk2_0]
+set_property location {3 1142 1453} [get_bd_cells randNum_0]
+set_property location {3 1145 786} [get_bd_cells SVGA_core_0]
+export_hardware [get_files C:/Users/byim/Documents/ENSC_452/MILESTONE_6/mainGame/mainGame.srcs/sources_1/bd/system/system.bd] [get_runs impl_1] -bitstream
+launch_sdk -bit C:/Users/byim/Documents/ENSC_452/MILESTONE_6/mainGame/mainGame.sdk/SDK/SDK_Export/hw/system_wrapper.bit -workspace C:/Users/byim/Documents/ENSC_452/MILESTONE_6/mainGame/mainGame.sdk/SDK/SDK_Export -hwspec C:/Users/byim/Documents/ENSC_452/MILESTONE_6/mainGame/mainGame.sdk/SDK/SDK_Export/hw/system.xml
+report_utilization -name utilization_1
+report_utilization -file C:/Users/byim/Documents/ENSC_452/mainGame_resources.txt -name utilization_2

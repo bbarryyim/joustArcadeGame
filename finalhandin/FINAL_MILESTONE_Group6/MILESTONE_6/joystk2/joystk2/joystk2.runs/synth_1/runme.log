@@ -1,0 +1,426 @@
+
+*** Running vivado
+    with args -log joystk2.rds -m64 -mode batch -messageDb vivado.pb -source joystk2.tcl
+
+
+****** Vivado v2013.3 (64-bit)
+  **** SW Build 329390 on Wed Oct 16 18:37:02 MDT 2013
+  **** IP Build 192953 on Wed Oct 16 08:44:02 MDT 2013
+    ** Copyright 1986-1999, 2001-2013 Xilinx, Inc. All Rights Reserved.
+
+INFO: [Common 17-78] Attempting to get a license: Implementation
+INFO: [Common 17-81] Feature available: Implementation
+INFO: [Device 21-36] Loading parts and site information from C:/Xilinx/Vivado/2013.3/data/parts/arch.xml
+Parsing RTL primitives file [C:/Xilinx/Vivado/2013.3/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+Finished parsing RTL primitives file [C:/Xilinx/Vivado/2013.3/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+source joystk2.tcl
+# set_param gui.test TreeTableDev
+# set_msg_config -id {HDL 9-1061} -limit 100000
+# set_msg_config -id {HDL 9-1654} -limit 100000
+# create_project -in_memory -part xc7z020clg484-1
+# set_property target_language VHDL [current_project]
+# set_property board em.avnet.com:zynq:zed:d [current_project]
+# set_param project.compositeFile.enableAutoGeneration 0
+# set_property ip_repo_paths c:/Users/byim/Documents/ENSC_452/Milestone3/joystk2/joystk2 [current_fileset]
+# read_vhdl {
+#   C:/Users/byim/Documents/ENSC_452/Milestone3/joystk2/joystk2/joystk2.srcs/sources_1/imports/Desktop/spiMode0.vhd
+#   C:/Users/byim/Documents/ENSC_452/Milestone3/joystk2/joystk2/joystk2.srcs/sources_1/imports/Desktop/spiCtrl.vhd
+#   C:/Users/byim/Documents/ENSC_452/Milestone3/joystk2/joystk2/joystk2.srcs/sources_1/imports/Desktop/ClkDiv_66_67kHz.vhd
+#   C:/Users/byim/Documents/ENSC_452/Milestone3/joystk2/joystk2/joystk2.srcs/sources_1/imports/Desktop/ClkDiv_5Hz.vhd
+#   C:/Users/byim/Documents/ENSC_452/Milestone3/joystk2/joystk2/joystk2.srcs/sources_1/imports/Desktop/joystk2.vhd
+# }
+# set_param synth.vivado.isSynthRun true
+# set_property webtalk.parent_dir C:/Users/byim/Documents/ENSC_452/Milestone3/joystk2/joystk2/joystk2.data/wt [current_project]
+# set_property parent.project_dir C:/Users/byim/Documents/ENSC_452/Milestone3/joystk2/joystk2 [current_project]
+# synth_design -top joystk2 -part xc7z020clg484-1
+Command: synth_design -top joystk2 -part xc7z020clg484-1
+
+Starting synthesis...
+
+INFO: [Common 17-347] Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+Starting Synthesize : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 228.078 ; gain = 81.363
+INFO: [Synth 8-638] synthesizing module 'joystk2' [C:/Users/byim/Documents/ENSC_452/Milestone3/joystk2/joystk2/joystk2.srcs/sources_1/imports/Desktop/joystk2.vhd:67]
+	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S_AXI_ADDR_WIDTH bound to: 4 - type: integer 
+INFO: [Synth 8-3491] module 'spiCtrl' declared at 'C:/Users/byim/Documents/ENSC_452/Milestone3/joystk2/joystk2/joystk2.srcs/sources_1/imports/Desktop/spiCtrl.vhd:31' bound to instance 'SPI_Ctrl' of component 'spiCtrl' [C:/Users/byim/Documents/ENSC_452/Milestone3/joystk2/joystk2/joystk2.srcs/sources_1/imports/Desktop/joystk2.vhd:152]
+INFO: [Synth 8-638] synthesizing module 'spiCtrl' [C:/Users/byim/Documents/ENSC_452/Milestone3/joystk2/joystk2/joystk2.srcs/sources_1/imports/Desktop/spiCtrl.vhd:44]
+INFO: [Synth 8-256] done synthesizing module 'spiCtrl' (1#1) [C:/Users/byim/Documents/ENSC_452/Milestone3/joystk2/joystk2/joystk2.srcs/sources_1/imports/Desktop/spiCtrl.vhd:44]
+INFO: [Synth 8-3491] module 'spiMode0' declared at 'C:/Users/byim/Documents/ENSC_452/Milestone3/joystk2/joystk2/joystk2.srcs/sources_1/imports/Desktop/spiMode0.vhd:43' bound to instance 'SPI_Int' of component 'spiMode0' [C:/Users/byim/Documents/ENSC_452/Milestone3/joystk2/joystk2/joystk2.srcs/sources_1/imports/Desktop/joystk2.vhd:165]
+INFO: [Synth 8-638] synthesizing module 'spiMode0' [C:/Users/byim/Documents/ENSC_452/Milestone3/joystk2/joystk2/joystk2.srcs/sources_1/imports/Desktop/spiMode0.vhd:55]
+INFO: [Synth 8-226] default block is never used [C:/Users/byim/Documents/ENSC_452/Milestone3/joystk2/joystk2/joystk2.srcs/sources_1/imports/Desktop/spiMode0.vhd:219]
+INFO: [Synth 8-256] done synthesizing module 'spiMode0' (2#1) [C:/Users/byim/Documents/ENSC_452/Milestone3/joystk2/joystk2/joystk2.srcs/sources_1/imports/Desktop/spiMode0.vhd:55]
+INFO: [Synth 8-3491] module 'ClkDiv_66_67kHz' declared at 'C:/Users/byim/Documents/ENSC_452/Milestone3/joystk2/joystk2/joystk2.srcs/sources_1/imports/Desktop/ClkDiv_66_67kHz.vhd:24' bound to instance 'SerialClock' of component 'ClkDiv_66_67kHz' [C:/Users/byim/Documents/ENSC_452/Milestone3/joystk2/joystk2/joystk2.srcs/sources_1/imports/Desktop/joystk2.vhd:177]
+INFO: [Synth 8-638] synthesizing module 'ClkDiv_66_67kHz' [C:/Users/byim/Documents/ENSC_452/Milestone3/joystk2/joystk2/joystk2.srcs/sources_1/imports/Desktop/ClkDiv_66_67kHz.vhd:30]
+INFO: [Synth 8-256] done synthesizing module 'ClkDiv_66_67kHz' (3#1) [C:/Users/byim/Documents/ENSC_452/Milestone3/joystk2/joystk2/joystk2.srcs/sources_1/imports/Desktop/ClkDiv_66_67kHz.vhd:30]
+INFO: [Synth 8-3491] module 'ClkDiv_5Hz' declared at 'C:/Users/byim/Documents/ENSC_452/Milestone3/joystk2/joystk2/joystk2.srcs/sources_1/imports/Desktop/ClkDiv_5Hz.vhd:24' bound to instance 'genSndRec' of component 'ClkDiv_5Hz' [C:/Users/byim/Documents/ENSC_452/Milestone3/joystk2/joystk2/joystk2.srcs/sources_1/imports/Desktop/joystk2.vhd:182]
+INFO: [Synth 8-638] synthesizing module 'ClkDiv_5Hz' [C:/Users/byim/Documents/ENSC_452/Milestone3/joystk2/joystk2/joystk2.srcs/sources_1/imports/Desktop/ClkDiv_5Hz.vhd:30]
+INFO: [Synth 8-256] done synthesizing module 'ClkDiv_5Hz' (4#1) [C:/Users/byim/Documents/ENSC_452/Milestone3/joystk2/joystk2/joystk2.srcs/sources_1/imports/Desktop/ClkDiv_5Hz.vhd:30]
+INFO: [Synth 8-226] default block is never used [C:/Users/byim/Documents/ENSC_452/Milestone3/joystk2/joystk2/joystk2.srcs/sources_1/imports/Desktop/joystk2.vhd:413]
+INFO: [Synth 8-256] done synthesizing module 'joystk2' (5#1) [C:/Users/byim/Documents/ENSC_452/Milestone3/joystk2/joystk2/joystk2.srcs/sources_1/imports/Desktop/joystk2.vhd:67]
+WARNING: [Synth 8-3331] design joystk2 has unconnected port S_AXI_AWPROT[2]
+WARNING: [Synth 8-3331] design joystk2 has unconnected port S_AXI_AWPROT[1]
+WARNING: [Synth 8-3331] design joystk2 has unconnected port S_AXI_AWPROT[0]
+WARNING: [Synth 8-3331] design joystk2 has unconnected port S_AXI_ARPROT[2]
+WARNING: [Synth 8-3331] design joystk2 has unconnected port S_AXI_ARPROT[1]
+WARNING: [Synth 8-3331] design joystk2 has unconnected port S_AXI_ARPROT[0]
+Finished Synthesize : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 261.250 ; gain = 114.535
+Start RTL Optimization : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 261.250 ; gain = 114.535
+---------------------------------------------------------------------------------
+Finished RTL Optimization : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 261.250 ; gain = 114.535
+---------------------------------------------------------------------------------
+
+INFO: [Synth 8-802] inferred FSM for state register 'STATE_reg' in module 'spiCtrl'
+INFO: [Synth 8-3354] encoded FSM with state register 'STATE_reg' using encoding 'one-hot' in module 'spiCtrl'
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z020clg484-1
+Loading clock regions from C:/Xilinx/Vivado/2013.3/data\parts/xilinx/zynq/zynq/xc7z020/ClockRegion.xml
+Loading clock buffers from C:/Xilinx/Vivado/2013.3/data\parts/xilinx/zynq/zynq/xc7z020/ClockBuffers.xml
+Loading clock placement rules from C:/Xilinx/Vivado/2013.3/data/parts/xilinx/zynq/ClockPlacerRules.xml
+Loading package pin functions from C:/Xilinx/Vivado/2013.3/data\parts/xilinx/zynq/PinFunctions.xml...
+Loading package from C:/Xilinx/Vivado/2013.3/data\parts/xilinx/zynq/zynq/xc7z020/clg484/Package.xml
+Loading io standards from C:/Xilinx/Vivado/2013.3/data\./parts/xilinx/zynq/IOStandards.xml
+Part Resources:
+DSPs: 220 (col length:60)
+BRAMs: 280 (col length: RAMB8 0 RAMB16 0 RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 553.398 ; gain = 406.684
+---------------------------------------------------------------------------------
+
+No constraint files found.
+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     24 Bit       Adders := 1     
+	   2 Input     10 Bit       Adders := 1     
+	   2 Input      4 Bit       Adders := 1     
+	   2 Input      3 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 2     
+	               24 Bit    Registers := 1     
+	               10 Bit    Registers := 3     
+	                8 Bit    Registers := 1     
+	                4 Bit    Registers := 2     
+	                3 Bit    Registers := 1     
+	                2 Bit    Registers := 2     
+	                1 Bit    Registers := 7     
++---Muxes : 
+	   6 Input     40 Bit        Muxes := 1     
+	   2 Input     32 Bit        Muxes := 1     
+	   4 Input     32 Bit        Muxes := 1     
+	   2 Input     24 Bit        Muxes := 1     
+	   2 Input     10 Bit        Muxes := 1     
+	   4 Input      8 Bit        Muxes := 1     
+	   6 Input      8 Bit        Muxes := 1     
+	   5 Input      6 Bit        Muxes := 1     
+	   2 Input      6 Bit        Muxes := 5     
+	   4 Input      4 Bit        Muxes := 1     
+	   6 Input      3 Bit        Muxes := 2     
+	   2 Input      2 Bit        Muxes := 1     
+	   4 Input      2 Bit        Muxes := 1     
+	   6 Input      1 Bit        Muxes := 5     
+	   4 Input      1 Bit        Muxes := 4     
+	   2 Input      1 Bit        Muxes := 8     
+
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module joystk2 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 2     
+	               10 Bit    Registers := 2     
+	                4 Bit    Registers := 2     
+	                2 Bit    Registers := 2     
+	                1 Bit    Registers := 5     
++---Muxes : 
+	   4 Input     32 Bit        Muxes := 1     
+	   2 Input     32 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 7     
+Module spiCtrl 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      3 Bit       Adders := 1     
++---Registers : 
+	                3 Bit    Registers := 1     
++---Muxes : 
+	   6 Input     40 Bit        Muxes := 1     
+	   6 Input      8 Bit        Muxes := 1     
+	   2 Input      6 Bit        Muxes := 5     
+	   5 Input      6 Bit        Muxes := 1     
+	   6 Input      3 Bit        Muxes := 2     
+	   6 Input      1 Bit        Muxes := 5     
+Module ClkDiv_66_67kHz 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     10 Bit       Adders := 1     
++---Registers : 
+	               10 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     10 Bit        Muxes := 1     
+Module ClkDiv_5Hz 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     24 Bit       Adders := 1     
++---Registers : 
+	               24 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     24 Bit        Muxes := 1     
+Module spiMode0 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      4 Bit       Adders := 1     
++---Registers : 
+	                8 Bit    Registers := 1     
++---Muxes : 
+	   4 Input      8 Bit        Muxes := 1     
+	   4 Input      4 Bit        Muxes := 1     
+	   4 Input      2 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+	   4 Input      1 Bit        Muxes := 4     
+
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------
+Start Cross Boundary Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-3332] Sequential element (\SPI_Ctrl/DOUT_reg[31] ) is unused and will be removed from module joystk2.
+WARNING: [Synth 8-3332] Sequential element (\SPI_Ctrl/DOUT_reg[30] ) is unused and will be removed from module joystk2.
+WARNING: [Synth 8-3332] Sequential element (\SPI_Ctrl/DOUT_reg[29] ) is unused and will be removed from module joystk2.
+WARNING: [Synth 8-3332] Sequential element (\SPI_Ctrl/DOUT_reg[28] ) is unused and will be removed from module joystk2.
+WARNING: [Synth 8-3332] Sequential element (\SPI_Ctrl/DOUT_reg[27] ) is unused and will be removed from module joystk2.
+WARNING: [Synth 8-3332] Sequential element (\SPI_Ctrl/DOUT_reg[26] ) is unused and will be removed from module joystk2.
+WARNING: [Synth 8-3332] Sequential element (\SPI_Ctrl/DOUT_reg[15] ) is unused and will be removed from module joystk2.
+WARNING: [Synth 8-3332] Sequential element (\SPI_Ctrl/DOUT_reg[14] ) is unused and will be removed from module joystk2.
+WARNING: [Synth 8-3332] Sequential element (\SPI_Ctrl/DOUT_reg[13] ) is unused and will be removed from module joystk2.
+WARNING: [Synth 8-3332] Sequential element (\SPI_Ctrl/DOUT_reg[12] ) is unused and will be removed from module joystk2.
+WARNING: [Synth 8-3332] Sequential element (\SPI_Ctrl/DOUT_reg[11] ) is unused and will be removed from module joystk2.
+WARNING: [Synth 8-3332] Sequential element (\SPI_Ctrl/DOUT_reg[10] ) is unused and will be removed from module joystk2.
+WARNING: [Synth 8-3332] Sequential element (\SPI_Ctrl/DOUT_reg[7] ) is unused and will be removed from module joystk2.
+WARNING: [Synth 8-3332] Sequential element (\SPI_Ctrl/DOUT_reg[6] ) is unused and will be removed from module joystk2.
+WARNING: [Synth 8-3332] Sequential element (\SPI_Ctrl/DOUT_reg[5] ) is unused and will be removed from module joystk2.
+WARNING: [Synth 8-3332] Sequential element (\SPI_Ctrl/DOUT_reg[4] ) is unused and will be removed from module joystk2.
+WARNING: [Synth 8-3332] Sequential element (\SPI_Ctrl/DOUT_reg[3] ) is unused and will be removed from module joystk2.
+WARNING: [Synth 8-3332] Sequential element (\SPI_Ctrl/DOUT_reg[2] ) is unused and will be removed from module joystk2.
+WARNING: [Synth 8-3332] Sequential element (\SPI_Ctrl/DOUT_reg[1] ) is unused and will be removed from module joystk2.
+WARNING: [Synth 8-3332] Sequential element (\SPI_Ctrl/DOUT_reg[0] ) is unused and will be removed from module joystk2.
+WARNING: [Synth 8-3332] Sequential element (\axi_araddr_reg[1] ) is unused and will be removed from module joystk2.
+WARNING: [Synth 8-3332] Sequential element (\axi_araddr_reg[0] ) is unused and will be removed from module joystk2.
+WARNING: [Synth 8-3332] Sequential element (\axi_awaddr_reg[1] ) is unused and will be removed from module joystk2.
+WARNING: [Synth 8-3332] Sequential element (\axi_awaddr_reg[0] ) is unused and will be removed from module joystk2.
+WARNING: [Synth 8-3332] Sequential element (\axi_awaddr_reg[1] ) is unused and will be removed from module joystk2.
+WARNING: [Synth 8-3332] Sequential element (\axi_awaddr_reg[0] ) is unused and will be removed from module joystk2.
+WARNING: [Synth 8-3332] Sequential element (\axi_araddr_reg[1] ) is unused and will be removed from module joystk2.
+WARNING: [Synth 8-3332] Sequential element (\axi_araddr_reg[0] ) is unused and will be removed from module joystk2.
+WARNING: [Synth 8-3331] design joystk2 has unconnected port S_AXI_AWADDR[1]
+WARNING: [Synth 8-3331] design joystk2 has unconnected port S_AXI_AWADDR[0]
+WARNING: [Synth 8-3331] design joystk2 has unconnected port S_AXI_AWPROT[2]
+WARNING: [Synth 8-3331] design joystk2 has unconnected port S_AXI_AWPROT[1]
+WARNING: [Synth 8-3331] design joystk2 has unconnected port S_AXI_AWPROT[0]
+WARNING: [Synth 8-3331] design joystk2 has unconnected port S_AXI_ARADDR[1]
+WARNING: [Synth 8-3331] design joystk2 has unconnected port S_AXI_ARADDR[0]
+WARNING: [Synth 8-3331] design joystk2 has unconnected port S_AXI_ARPROT[2]
+WARNING: [Synth 8-3331] design joystk2 has unconnected port S_AXI_ARPROT[1]
+WARNING: [Synth 8-3331] design joystk2 has unconnected port S_AXI_ARPROT[0]
+---------------------------------------------------------------------------------
+Finished Cross Boundary Optimization : Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 553.523 ; gain = 406.809
+---------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------
+Start RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------
+Start Area Optimization
+---------------------------------------------------------------------------------
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/\SPI_Ctrl/FSM_onehot_STATE_reg[5] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\SPI_Ctrl/sndData_reg[7] )
+WARNING: [Synth 8-3332] Sequential element (\SPI_Ctrl/FSM_onehot_STATE_reg[5] ) is unused and will be removed from module joystk2.
+WARNING: [Synth 8-3332] Sequential element (\SPI_Ctrl/sndData_reg[7] ) is unused and will be removed from module joystk2.
+WARNING: [Synth 8-3332] Sequential element (\SPI_Ctrl/sndData_reg[6] ) is unused and will be removed from module joystk2.
+WARNING: [Synth 8-3332] Sequential element (\SPI_Ctrl/sndData_reg[5] ) is unused and will be removed from module joystk2.
+WARNING: [Synth 8-3332] Sequential element (\SPI_Ctrl/sndData_reg[4] ) is unused and will be removed from module joystk2.
+WARNING: [Synth 8-3332] Sequential element (\SPI_Ctrl/sndData_reg[3] ) is unused and will be removed from module joystk2.
+WARNING: [Synth 8-3332] Sequential element (\SPI_Ctrl/sndData_reg[2] ) is unused and will be removed from module joystk2.
+WARNING: [Synth 8-3332] Sequential element (\SPI_Ctrl/sndData_reg[1] ) is unused and will be removed from module joystk2.
+WARNING: [Synth 8-3332] Sequential element (\SPI_Ctrl/sndData_reg[0] ) is unused and will be removed from module joystk2.
+WARNING: [Synth 8-3332] Sequential element (\SPI_Int/wSR_reg[7] ) is unused and will be removed from module joystk2.
+WARNING: [Synth 8-3332] Sequential element (\SPI_Int/wSR_reg[6] ) is unused and will be removed from module joystk2.
+WARNING: [Synth 8-3332] Sequential element (\SPI_Int/wSR_reg[5] ) is unused and will be removed from module joystk2.
+WARNING: [Synth 8-3332] Sequential element (\SPI_Int/wSR_reg[4] ) is unused and will be removed from module joystk2.
+WARNING: [Synth 8-3332] Sequential element (\SPI_Int/wSR_reg[3] ) is unused and will be removed from module joystk2.
+WARNING: [Synth 8-3332] Sequential element (\SPI_Int/wSR_reg[2] ) is unused and will be removed from module joystk2.
+WARNING: [Synth 8-3332] Sequential element (\SPI_Int/wSR_reg[1] ) is unused and will be removed from module joystk2.
+WARNING: [Synth 8-3332] Sequential element (\SPI_Int/wSR_reg[0] ) is unused and will be removed from module joystk2.
+WARNING: [Synth 8-3332] Sequential element (\axi_bresp_reg[1] ) is unused and will be removed from module joystk2.
+WARNING: [Synth 8-3332] Sequential element (\axi_bresp_reg[0] ) is unused and will be removed from module joystk2.
+WARNING: [Synth 8-3332] Sequential element (\axi_rresp_reg[1] ) is unused and will be removed from module joystk2.
+WARNING: [Synth 8-3332] Sequential element (\axi_rresp_reg[0] ) is unused and will be removed from module joystk2.
+No constraint files found.
+---------------------------------------------------------------------------------
+Finished Area Optimization : Time (s): cpu = 00:00:18 ; elapsed = 00:00:18 . Memory (MB): peak = 584.844 ; gain = 438.129
+---------------------------------------------------------------------------------
+
+
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:18 ; elapsed = 00:00:18 . Memory (MB): peak = 584.844 ; gain = 438.129
+---------------------------------------------------------------------------------
+
+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:18 ; elapsed = 00:00:18 . Memory (MB): peak = 584.844 ; gain = 438.129
+---------------------------------------------------------------------------------
+
+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 584.844 ; gain = 438.129
+---------------------------------------------------------------------------------
+
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 584.844 ; gain = 438.129
+---------------------------------------------------------------------------------
+
+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 584.844 ; gain = 438.129
+---------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------
+Start RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     3|
+|2     |CARRY4 |     6|
+|3     |INV    |     2|
+|4     |LUT1   |    24|
+|5     |LUT2   |     6|
+|6     |LUT3   |    50|
+|7     |LUT4   |    48|
+|8     |LUT5   |    45|
+|9     |LUT6   |    50|
+|10    |FDCE   |   120|
+|11    |FDPE   |     2|
+|12    |FDRE   |    91|
+|13    |FDSE   |     2|
+|14    |IBUF   |    50|
+|15    |OBUF   |    44|
++------+-------+------+
+
+Report Instance Areas: 
++------+--------------+----------------+------+
+|      |Instance      |Module          |Cells |
++------+--------------+----------------+------+
+|1     |top           |                |   543|
+|2     |  SPI_Int     |spiMode0        |    28|
+|3     |  SerialClock |ClkDiv_66_67kHz |    26|
+|4     |  SPI_Ctrl    |spiCtrl         |   126|
+|5     |  genSndRec   |ClkDiv_5Hz      |    83|
++------+--------------+----------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 584.844 ; gain = 438.129
+---------------------------------------------------------------------------------
+
+Synthesis finished with 0 errors, 0 critical warnings and 65 warnings.
+Synthesis Optimization Complete : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 584.844 ; gain = 438.129
+INFO: [Netlist 29-17] Analyzing 50 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Opt 31-140] Inserted 0 IBUFs to IO ports without IO buffers.
+INFO: [Opt 31-141] Inserted 0 OBUFs to IO ports without IO buffers.
+INFO: [Opt 31-138] Pushed 78 inverter(s).
+INFO: [Common 17-78] Attempting to get a license: Internal_bitstream
+WARNING: [Common 17-301] Failed to get a license: Internal_bitstream
+INFO: [Memdata 28-143] Successfully populated the BRAM INIT strings from the following elf files: 
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+31 Infos, 66 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:27 ; elapsed = 00:00:28 . Memory (MB): peak = 875.934 ; gain = 691.289
+# write_checkpoint joystk2.dcp
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+# report_utilization -file joystk2_utilization_synth.rpt -pb joystk2_utilization_synth.pb
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.016 . Memory (MB): peak = 875.934 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Fri Mar 28 14:58:00 2014...

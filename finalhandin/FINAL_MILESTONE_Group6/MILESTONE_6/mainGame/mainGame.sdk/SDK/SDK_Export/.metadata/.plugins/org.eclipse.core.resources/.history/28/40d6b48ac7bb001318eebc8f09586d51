@@ -1,0 +1,46 @@
+/*
+ * sprites.h
+ *
+ *  Created on: 2014-03-26
+ *      Author: jcleong
+ */
+
+#ifndef SPRITES_H_
+#define SPRITES_H_
+
+//volatile u32  *VGA = (u32*) 0x11000000;
+
+void playerSprite2(int y_offset, int dir);
+u32	spriteZero[100];
+u32	spriteOne[100];
+u32	spriteTwo[100];
+u32	spriteThree[100];
+u32	spriteFour[100];
+u32	spriteFive[100];
+u32	spriteSix[100];
+u32	spriteSeven[100];
+u32	spriteEight[100];
+u32	spriteNine[100];
+
+u32 spriteG[400];
+u32 spriteA[400];
+u32 spriteM[400];
+u32 spriteE[400];
+u32 spriteO[400];
+u32 spriteV[400];
+u32 spriteR[400];
+u32 spriteN[400];
+u32 spriteP[400];
+u32 spriteS[400];
+u32 spriteU[400];
+u32 spriteT[400];
+u32 spriteL[400];
+u32 spriteI[400];
+u32 spriteEy[400];
+u32 spriteVy[400];
+
+u32 eggSprite[100];
+u32 lifeSprite[100];
+u32 enemySprite[225];
+
+#endif /* SPRITES_H_ */

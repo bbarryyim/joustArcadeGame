@@ -1,0 +1,305 @@
+
+*** Running vivado
+    with args -log randNum_v1_0.rds -m64 -mode batch -messageDb vivado.pb -source randNum_v1_0.tcl
+
+
+****** Vivado v2013.3 (64-bit)
+  **** SW Build 329390 on Wed Oct 16 18:37:02 MDT 2013
+  **** IP Build 192953 on Wed Oct 16 08:44:02 MDT 2013
+    ** Copyright 1986-1999, 2001-2013 Xilinx, Inc. All Rights Reserved.
+
+INFO: [Common 17-78] Attempting to get a license: Implementation
+INFO: [Common 17-81] Feature available: Implementation
+INFO: [Device 21-36] Loading parts and site information from C:/Xilinx/Vivado/2013.3/data/parts/arch.xml
+Parsing RTL primitives file [C:/Xilinx/Vivado/2013.3/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+Finished parsing RTL primitives file [C:/Xilinx/Vivado/2013.3/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+source randNum_v1_0.tcl
+# set_param gui.test TreeTableDev
+# set_msg_config -id {HDL 9-1061} -limit 100000
+# set_msg_config -id {HDL 9-1654} -limit 100000
+# create_project -in_memory -part xc7z020clg484-1
+# set_property target_language Verilog [current_project]
+# set_param project.compositeFile.enableAutoGeneration 0
+# set_property ip_repo_paths C:/Users/byim/Documents/ENSC_452/Milestone2/rannum/managed_ip_project/randNum_1.0 [current_fileset]
+# read_vhdl {
+#   C:/Users/byim/Documents/ENSC_452/Milestone2/rannum/managed_ip_project/randNum_1.0/hdl/randNum_v1_0_S_AXI.vhd
+#   C:/Users/byim/Documents/ENSC_452/Milestone2/rannum/managed_ip_project/randNum_1.0/hdl/randNum_v1_0.vhd
+# }
+# set_param synth.vivado.isSynthRun true
+# set_property webtalk.parent_dir C:/Users/byim/Documents/ENSC_452/Milestone2/rannum/managed_ip_project/edit_randNum_v1_0.data/wt [current_project]
+# set_property parent.project_dir C:/Users/byim/Documents/ENSC_452/Milestone2/rannum/managed_ip_project [current_project]
+# synth_design -top randNum_v1_0 -part xc7z020clg484-1
+Command: synth_design -top randNum_v1_0 -part xc7z020clg484-1
+
+Starting synthesis...
+
+INFO: [Common 17-347] Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+Starting Synthesize : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 228.047 ; gain = 81.336
+INFO: [Synth 8-638] synthesizing module 'randNum_v1_0' [C:/Users/byim/Documents/ENSC_452/Milestone2/rannum/managed_ip_project/randNum_1.0/hdl/randNum_v1_0.vhd:50]
+	Parameter width bound to: 32 - type: integer 
+	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S_AXI_ADDR_WIDTH bound to: 4 - type: integer 
+	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S_AXI_ADDR_WIDTH bound to: 4 - type: integer 
+INFO: [Synth 8-3491] module 'randNum_v1_0_S_AXI' declared at 'C:/Users/byim/Documents/ENSC_452/Milestone2/rannum/managed_ip_project/randNum_1.0/hdl/randNum_v1_0_S_AXI.vhd:6' bound to instance 'randNum_v1_0_S_AXI_inst' of component 'randNum_v1_0_S_AXI' [C:/Users/byim/Documents/ENSC_452/Milestone2/rannum/managed_ip_project/randNum_1.0/hdl/randNum_v1_0.vhd:86]
+INFO: [Synth 8-638] synthesizing module 'randNum_v1_0_S_AXI' [C:/Users/byim/Documents/ENSC_452/Milestone2/rannum/managed_ip_project/randNum_1.0/hdl/randNum_v1_0_S_AXI.vhd:87]
+	Parameter width bound to: 32 - type: integer 
+	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S_AXI_ADDR_WIDTH bound to: 4 - type: integer 
+INFO: [Synth 8-226] default block is never used [C:/Users/byim/Documents/ENSC_452/Milestone2/rannum/managed_ip_project/randNum_1.0/hdl/randNum_v1_0_S_AXI.vhd:352]
+INFO: [Synth 8-256] done synthesizing module 'randNum_v1_0_S_AXI' (1#1) [C:/Users/byim/Documents/ENSC_452/Milestone2/rannum/managed_ip_project/randNum_1.0/hdl/randNum_v1_0_S_AXI.vhd:87]
+INFO: [Synth 8-256] done synthesizing module 'randNum_v1_0' (2#1) [C:/Users/byim/Documents/ENSC_452/Milestone2/rannum/managed_ip_project/randNum_1.0/hdl/randNum_v1_0.vhd:50]
+Finished Synthesize : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 261.301 ; gain = 114.590
+Start RTL Optimization : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 261.301 ; gain = 114.590
+---------------------------------------------------------------------------------
+Finished RTL Optimization : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 261.301 ; gain = 114.590
+---------------------------------------------------------------------------------
+
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z020clg484-1
+Loading clock regions from C:/Xilinx/Vivado/2013.3/data\parts/xilinx/zynq/zynq/xc7z020/ClockRegion.xml
+Loading clock buffers from C:/Xilinx/Vivado/2013.3/data\parts/xilinx/zynq/zynq/xc7z020/ClockBuffers.xml
+Loading clock placement rules from C:/Xilinx/Vivado/2013.3/data/parts/xilinx/zynq/ClockPlacerRules.xml
+Loading package pin functions from C:/Xilinx/Vivado/2013.3/data\parts/xilinx/zynq/PinFunctions.xml...
+Loading package from C:/Xilinx/Vivado/2013.3/data\parts/xilinx/zynq/zynq/xc7z020/clg484/Package.xml
+Loading io standards from C:/Xilinx/Vivado/2013.3/data\./parts/xilinx/zynq/IOStandards.xml
+Part Resources:
+DSPs: 220 (col length:60)
+BRAMs: 280 (col length: RAMB8 0 RAMB16 0 RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:19 ; elapsed = 00:00:19 . Memory (MB): peak = 551.402 ; gain = 404.691
+---------------------------------------------------------------------------------
+
+No constraint files found.
+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 1     
++---Registers : 
+	               32 Bit    Registers := 2     
+	                8 Bit    Registers := 1     
+	                4 Bit    Registers := 2     
+	                2 Bit    Registers := 2     
+	                1 Bit    Registers := 5     
++---Muxes : 
+	   4 Input     32 Bit        Muxes := 1     
+	   2 Input     32 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 7     
+
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module randNum_v1_0 
+Detailed RTL Component Info : 
+Module randNum_v1_0_S_AXI 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 1     
++---Registers : 
+	               32 Bit    Registers := 2     
+	                8 Bit    Registers := 1     
+	                4 Bit    Registers := 2     
+	                2 Bit    Registers := 2     
+	                1 Bit    Registers := 5     
++---Muxes : 
+	   4 Input     32 Bit        Muxes := 1     
+	   2 Input     32 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 7     
+
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------
+Start Cross Boundary Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-3332] Sequential element (\randNum_v1_0_S_AXI_inst/axi_araddr_reg[1] ) is unused and will be removed from module randNum_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\randNum_v1_0_S_AXI_inst/axi_araddr_reg[0] ) is unused and will be removed from module randNum_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\randNum_v1_0_S_AXI_inst/axi_awaddr_reg[1] ) is unused and will be removed from module randNum_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\randNum_v1_0_S_AXI_inst/axi_awaddr_reg[0] ) is unused and will be removed from module randNum_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\randNum_v1_0_S_AXI_inst/axi_awaddr_reg[1] ) is unused and will be removed from module randNum_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\randNum_v1_0_S_AXI_inst/axi_awaddr_reg[0] ) is unused and will be removed from module randNum_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\randNum_v1_0_S_AXI_inst/axi_araddr_reg[1] ) is unused and will be removed from module randNum_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\randNum_v1_0_S_AXI_inst/axi_araddr_reg[0] ) is unused and will be removed from module randNum_v1_0.
+WARNING: [Synth 8-3331] design randNum_v1_0 has unconnected port s_axi_awaddr[1]
+WARNING: [Synth 8-3331] design randNum_v1_0 has unconnected port s_axi_awaddr[0]
+WARNING: [Synth 8-3331] design randNum_v1_0 has unconnected port s_axi_awprot[2]
+WARNING: [Synth 8-3331] design randNum_v1_0 has unconnected port s_axi_awprot[1]
+WARNING: [Synth 8-3331] design randNum_v1_0 has unconnected port s_axi_awprot[0]
+WARNING: [Synth 8-3331] design randNum_v1_0 has unconnected port s_axi_araddr[1]
+WARNING: [Synth 8-3331] design randNum_v1_0 has unconnected port s_axi_araddr[0]
+WARNING: [Synth 8-3331] design randNum_v1_0 has unconnected port s_axi_arprot[2]
+WARNING: [Synth 8-3331] design randNum_v1_0 has unconnected port s_axi_arprot[1]
+WARNING: [Synth 8-3331] design randNum_v1_0 has unconnected port s_axi_arprot[0]
+---------------------------------------------------------------------------------
+Finished Cross Boundary Optimization : Time (s): cpu = 00:00:19 ; elapsed = 00:00:19 . Memory (MB): peak = 551.426 ; gain = 404.715
+---------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------
+Start RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------
+Start Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-3332] Sequential element (\randNum_v1_0_S_AXI_inst/axi_bresp_reg[1] ) is unused and will be removed from module randNum_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\randNum_v1_0_S_AXI_inst/axi_bresp_reg[0] ) is unused and will be removed from module randNum_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\randNum_v1_0_S_AXI_inst/axi_rresp_reg[1] ) is unused and will be removed from module randNum_v1_0.
+WARNING: [Synth 8-3332] Sequential element (\randNum_v1_0_S_AXI_inst/axi_rresp_reg[0] ) is unused and will be removed from module randNum_v1_0.
+No constraint files found.
+---------------------------------------------------------------------------------
+Finished Area Optimization : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 582.867 ; gain = 436.156
+---------------------------------------------------------------------------------
+
+
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 582.867 ; gain = 436.156
+---------------------------------------------------------------------------------
+
+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 582.867 ; gain = 436.156
+---------------------------------------------------------------------------------
+
+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 582.867 ; gain = 436.156
+---------------------------------------------------------------------------------
+
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 582.867 ; gain = 436.156
+---------------------------------------------------------------------------------
+
+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 582.867 ; gain = 436.156
+---------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------
+Start RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----+------+
+|      |Cell |Count |
++------+-----+------+
+|1     |BUFG |     1|
+|2     |LUT1 |     1|
+|3     |LUT2 |     2|
+|4     |LUT3 |     2|
+|5     |LUT4 |    14|
+|6     |LUT5 |     3|
+|7     |LUT6 |    64|
+|8     |FDRE |    79|
+|9     |FDSE |     2|
+|10    |IBUF |    47|
+|11    |OBUF |    41|
++------+-----+------+
+
+Report Instance Areas: 
++------+--------------------------+-------------------+------+
+|      |Instance                  |Module             |Cells |
++------+--------------------------+-------------------+------+
+|1     |top                       |                   |   256|
+|2     |  randNum_v1_0_S_AXI_inst |randNum_v1_0_S_AXI |   167|
++------+--------------------------+-------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:20 ; elapsed = 00:00:20 . Memory (MB): peak = 582.867 ; gain = 436.156
+---------------------------------------------------------------------------------
+
+Synthesis finished with 0 errors, 0 critical warnings and 22 warnings.
+Synthesis Optimization Complete : Time (s): cpu = 00:00:20 ; elapsed = 00:00:20 . Memory (MB): peak = 582.867 ; gain = 436.156
+INFO: [Netlist 29-17] Analyzing 47 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Opt 31-140] Inserted 0 IBUFs to IO ports without IO buffers.
+INFO: [Opt 31-141] Inserted 0 OBUFs to IO ports without IO buffers.
+INFO: [Opt 31-138] Pushed 0 inverter(s).
+INFO: [Common 17-78] Attempting to get a license: Internal_bitstream
+WARNING: [Common 17-301] Failed to get a license: Internal_bitstream
+INFO: [Memdata 28-143] Successfully populated the BRAM INIT strings from the following elf files: 
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+17 Infos, 23 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:28 ; elapsed = 00:00:29 . Memory (MB): peak = 873.805 ; gain = 689.215
+# write_checkpoint randNum_v1_0.dcp
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+# report_utilization -file randNum_v1_0_utilization_synth.rpt -pb randNum_v1_0_utilization_synth.pb
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.031 . Memory (MB): peak = 873.805 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Thu Apr 03 13:48:04 2014...

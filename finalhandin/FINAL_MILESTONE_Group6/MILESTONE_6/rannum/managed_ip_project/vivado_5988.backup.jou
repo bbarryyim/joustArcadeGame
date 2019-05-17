@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2013.3 (64-bit)
+# SW Build 329390 on Wed Oct 16 18:37:02 MDT 2013
+# IP Build 192953 on Wed Oct 16 08:44:02 MDT 2013
+# Start of session at: Thu Apr 03 13:31:53 2014
+# Process ID: 2940
+# Log file: C:/Users/byim/Documents/ENSC_452/Milestone2/rannum/managed_ip_project/vivado.log
+# Journal file: C:/Users/byim/Documents/ENSC_452/Milestone2/rannum/managed_ip_project\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:\Users\byim\Documents\ENSC_452\Milestone2\rannum\managed_ip_project\edit_randNum_v1_0.xpr}
+reset_run synth_1
+launch_runs synth_1
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1
+wait_on_run synth_1
+save_project_as project_2 C:/Users/byim/Documents/ENSC_452/Milestone2/randNumgen -force

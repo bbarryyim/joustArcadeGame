@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# Vivado v2013.3 (64-bit)
+# SW Build 329390 on Wed Oct 16 18:37:02 MDT 2013
+# IP Build 192953 on Wed Oct 16 08:44:02 MDT 2013
+# Start of session at: Fri Mar 28 14:57:31 2014
+# Process ID: 3892
+# Log file: C:/Users/byim/Documents/ENSC_452/Milestone3/joystk2/joystk2/joystk2.runs/synth_1/joystk2.rds
+# Journal file: C:/Users/byim/Documents/ENSC_452/Milestone3/joystk2/joystk2/joystk2.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source joystk2.tcl

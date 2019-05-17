@@ -1,0 +1,20 @@
+#-----------------------------------------------------------
+# Vivado v2013.3 (64-bit)
+# SW Build 329390 on Wed Oct 16 18:37:02 MDT 2013
+# IP Build 192953 on Wed Oct 16 08:44:02 MDT 2013
+# Start of session at: Thu Feb 27 15:40:44 2014
+# Process ID: 7668
+# Log file: C:/Users/byim/Documents/ENSC_452/Milestone2/rannum/managed_ip_project/vivado.log
+# Journal file: C:/Users/byim/Documents/ENSC_452/Milestone2/rannum/managed_ip_project\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:\Users\byim\Documents\ENSC_452\Milestone2\rannum\managed_ip_project\edit_randNum_v1_0.xpr}
+reset_run synth_1
+launch_runs synth_1
+wait_on_run synth_1
+ipx::open_core -upgrade true {C:/Users/byim/Documents/ENSC_452/Milestone2/rannum/managed_ip_project/randNum_1.0/component.xml}
+ipx::remove_all_port [ipx::current_core]
+ipx::add_ports_from_hdl [ipx::current_core] -top_level_hdl_file {C:/Users/byim/Documents/ENSC_452/Milestone2/rannum/managed_ip_project/randNum_1.0/hdl/randNum_v1_0.vhd} -top_module_name {randNum_v1_0}
+ipx::save_core [ipx::current_core]
+update_ip_catalog -rebuild -repo_path c:/Users/byim/Documents/ENSC_452/Milestone2/rannum/managed_ip_project/randNum_1.0
+ipx::unload_core {xilinx.com:user:randNum:1.0}
